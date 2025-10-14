@@ -99,8 +99,8 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Intro Section */}
-      <section className="py-12 bg-white">
+      {/* Intro Section - Removed top padding */}
+      <section className="pb-12 bg-white">
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <div className="space-y-4 font-body text-lg text-brand-black/90 leading-relaxed">
             <p>
@@ -176,7 +176,8 @@ export default function HomePage() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="font-body text-brand-black/80">
-                  Practise from the comfort of home, or wherever you are, with live online classes that bring Iyengar Yoga to you. Some experience and basic equipment is helpful. Private classes available.
+                  Practise from the comfort of home, or wherever you are, with live online classes that bring Iyengar
+                  Yoga to you. Some experience and basic equipment is helpful. Private classes available.
                 </p>
                 <p className="font-body text-sm text-brand-black/70">
                   Join from anywhere with personalised instruction, real-time feedback, and connection to a global yoga
