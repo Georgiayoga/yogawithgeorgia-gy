@@ -1,0 +1,51 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Yoga with Georgia",
+  "image": "https://yogawithgeorgia.com/path-to-logo.png",
+  "@id": "https://yogawithgeorgia.com",
+  "url": "https://yogawithgeorgia.com",
+  "telephone": "+351933675722",
+  "email": "info@yogawithgeorgia.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Portugal",
+    "addressCountry": "PT"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "38.7169",
+    "longitude": "-9.1390"
+  },
+  "sameAs": [
+    "https://www.instagram.com/yourprofile",
+    "https://www.facebook.com/yourprofile"
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "Georgia Marnham",
+    "description": "Certified Iyengar Yoga teacher with over 25 years of international teaching experience.",
+    "image": "https://yogawithgeorgia.com/path-to-georgia-photo.jpg"
+  },
+  "description": "Iyengar Yoga with Georgia Marnham — certified teacher offering studio classes in Portugal, live online classes, and yoga retreats across Europe.",
+  "knowsAbout": ["Iyengar Yoga", "Yoga Retreats", "Yoga Workshops", "Online Yoga Classes", "Yoga Alignment"],
+  "offers": [
+    {
+      "@type": "Offer",
+      "name": "Studio Yoga Classes in Portugal",
+      "url": "https://yogawithgeorgia.com/studio-classes"
+    },
+    {
+      "@type": "Offer",
+      "name": "Online Iyengar Yoga Classes",
+      "url": "https://yogawithgeorgia.com/online-classes"
+    },
+    {
+      "@type": "Offer",
+      "name": "Yoga Retreats & Workshops",
+      "url": "https://yogawithgeorgia.com/retreats"
+    }
+  ]
+}
+</script>

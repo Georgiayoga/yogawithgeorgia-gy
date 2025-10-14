@@ -1,0 +1,22 @@
+Please add accordion-style FAQ sections at the bottom of the following pages:
+Studio Classes in Portugal
+Online Classes
+Retreats & Workshops
+Each FAQ should be styled as a collapsible accordion so that only the questions are visible initially, and the answers expand when clicked. Use the site’s warm, professional design style for consistency.
+Include FAQ schema (JSON-LD) so that Google can display these questions and answers in search results.
+Content for each page:
+Studio Classes in Portugal
+Do I need to bring my own props for studio classes? → Props are provided at the studio, but you are welcome to bring your own if you prefer. Iyengar Yoga makes use of belts, blocks, and bolsters to support alignment.
+Are beginners welcome in studio classes? → Yes, beginners are very welcome. Classes are tailored to all levels, and Georgia provides individual adjustments to suit your needs.
+Where are the studio classes held in Portugal? → Classes take place in [insert studio location here]. Full details are provided once you book.
+Can I join a single class or do I need to book a block? → You can purchase single credits or blocks of credits through Momence, making it flexible to suit your schedule.
+Online Classes
+What platform do you use for online yoga classes? → Online classes are held live via Zoom. A link will be sent to you when you register.
+Can I access recordings if I miss a live class? → Yes, many online classes are recorded so you can practise at a time that works for you.
+Do I need special equipment for online classes? → Ideally, you should have a yoga mat and some basic props such as a belt and blocks. Alternatives from home can be suggested if needed.
+Are online classes suitable for beginners? → Yes, online classes are designed for all levels. Georgia provides clear demonstrations and guidance throughout.
+Retreats & Workshops
+Are retreats suitable for beginners? → Yes. Retreats welcome students of all levels, and classes are structured so beginners and experienced practitioners can benefit.
+What is included in the retreat price? → Retreats usually include daily yoga classes, accommodation, and meals. Full details are listed in the retreat description.
+Where are the retreats held? → Retreats are hosted in Portugal and occasionally in other European destinations. Each retreat page provides the specific location.
+How do I book a retreat or workshop? → Retreats and workshops can be booked directly by contacting Georgia, as these are managed outside the Momence booking system.

@@ -1,0 +1,60 @@
+Please update the Testimonials page as follows:
+
+Remove placeholders
+
+Delete all fake/dummy testimonials currently on the page.
+
+Do not change the page URL, header, or existing styling framework.
+
+Import real testimonials from https://yogabahia.com/reviews/
+
+Copy the student testimonials from that page (verbatim, light fixes for obvious typos only).
+
+Curate 21 testimonials (to fit rows of 3 cleanly). If fewer than 21 are suitable, use 18; if more are strong, cap at 21.
+
+For each testimonial, capture: review text, reviewer name, and country/nationality if present.
+
+No generic/filler names; use only real names from the Yogabahia page.
+
+Layout & behaviour
+
+Display in a 3-column grid on desktop (7 rows for 21 items), 1 column on mobile.
+
+Each item is a testimonial card:
+
+Top line: Reviewer name, country (if available), and ★★★★★.
+
+Below: show the first 2–3 lines (approx. 160–220 chars) as a preview.
+
+Add a “Read more” toggle that expands to reveal the full text (accordion style), then “Show less” to collapse.
+
+Keep the card style consistent with the site (rounded corners, subtle border, soft shadow).
+
+Stars should use the brand accent colour (gold).
+
+Styling tokens (use existing theme if already set)
+
+Text: var(--brand-black); secondary/meta: var(--brand-taupe)
+
+Borders/dividers: var(--brand-gray)
+
+Stars/accents: var(--brand-gold)
+
+Card: 1px border, 16px radius, soft shadow on hover (small lift).
+
+Accessibility & polish
+
+“Read more” control must be keyboard accessible and announce expanded/collapsed state (aria-expanded, aria-controls).
+
+Maintain high contrast for text.
+
+Do not truncate mid-word; add an ellipsis… only at natural breaks.
+
+(Optional) Structured data
+
+If review schema already exists, keep it valid.
+
+Otherwise, you may omit schema for now (content accuracy takes priority); we can add/validate JSON-LD after the content swap.
+
+Deliverable:
+A Testimonials page that shows only real student reviews from Yogabahia (no placeholders), in a clean 3-column grid with preview + “Read more,” using exactly 21 items where possible.

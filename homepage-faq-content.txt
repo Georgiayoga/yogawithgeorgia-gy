@@ -1,0 +1,12 @@
+Please add a FAQ section with accordion-style collapsible questions and answers at the bottom of the homepage, just above the footer.
+Section title: FAQs
+Style: clean and minimal to match the site’s professional design.
+Functionality: questions collapsed by default, answers expand on click.
+SEO: include FAQ schema (JSON-LD) so Google can display these in search results.
+Content:
+FAQs for Homepage
+What is Iyengar Yoga? → Iyengar Yoga is a precise method of yoga that uses props to support alignment, improve flexibility, and build strength.
+Who is Georgia Marnham? → Georgia Marnham is a certified Level 3 Iyengar Yoga teacher with over 25 years of international teaching experience and more than 35 years of practice.
+Do I need experience to join? → No, beginners are welcome. Georgia teaches both beginners and experienced students with individual feedback and adjustments.
+Can I join online classes if I don’t live in Portugal? → Yes, online classes are available worldwide via Zoom.
+How do I book a class? → You can book studio or online classes directly through Georgia’s Momence profile [insert link to https://momence.com/u/georgia-marnham-TXk2rZ].

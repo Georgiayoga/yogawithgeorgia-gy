@@ -1,0 +1,17 @@
+Please update the Mailing List Signup Page so that the three signup forms (Studio Classes, Online Classes, Retreats & Workshops) are more compact, while still easy to read and fill in.
+Form Layout Adjustments:
+Reduce vertical spacing and padding around each input field and label.
+Use smaller font size for labels (but keep them legible).
+Place each input field directly beneath its label with minimal space.
+Shrink the overall form height so all three signup sections can be viewed on one screen without much scrolling.
+Keep a small amount of whitespace between the three forms so they are clearly differentiated.
+Branding:
+For each signup form block, add:
+YogaBahia logo (provided separately) in the top-left corner of the form section.
+Iyengar Certification Mark logo (provided separately) in the top-right corner of the form section.
+Both logos should be small but crisp, aligned to the corners, and not disrupt the form flow.
+Forms should remain center-aligned under the logos.
+Styling Notes:
+Inputs: white background, thin grey border (#CDCDCB), rounded corners.
+Buttons: orange (#ED991A) with white text; hover → golden yellow (#F6D207) with black text. Rounded corners.
+Section heading and description remain above the logos + form.

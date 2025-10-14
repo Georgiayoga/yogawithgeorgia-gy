@@ -1,0 +1,26 @@
+Please add FAQ sections with accordion-style collapsible questions and answers to the following service pages:
+Classes in Portugal (Studio classes page)
+Online Classes with Georgia
+Retreats and Workshops
+Each FAQ block should:
+Appear towards the bottom of the page, above the footer.
+Be styled clean and minimal to match the site’s design.
+Use accordion functionality (collapsed by default, expand on click).
+Include FAQ schema (JSON-LD) so Google can index the Q&A for SEO.
+Section title: FAQs
+Content for Each Page
+1. Classes in Portugal (Studio Classes page)
+Where are the studio classes held? → Studio classes take place in Portugal. Full details, including directions and schedule, are available upon booking.
+What level are the classes? → Georgia teaches both beginners and experienced practitioners, adapting the class to meet each student’s needs.
+Do I need to bring props? → Props are provided at the studio, but you’re welcome to bring your own mat if you prefer.
+How do I book a class? → Studio classes can be booked directly through Georgia’s Momence profile [insert Momence link].
+2. Online Classes with Georgia (Online Classes page)
+How do I join an online class? → Online classes are hosted live on Zoom. After booking, you’ll receive a secure Zoom link.
+Do I need experience to join online classes? → No, beginners are welcome. Georgia adapts her teaching to support all levels.
+What equipment do I need at home? → Ideally, a yoga mat and a few props (belt, blocks, or household alternatives). Georgia can guide you on substitutions.
+How do I book an online class? → Online classes can be booked directly through Georgia’s Momence profile [insert Momence link].
+3. Retreats and Workshops (Retreats page)
+Where are the retreats held? → Retreats are hosted in Portugal and occasionally in other international locations. Each retreat page includes venue details.
+What do retreats include? → Retreats typically include daily yoga classes, accommodation, meals, and opportunities for rest and reflection.
+Do I need to be an experienced yogi? → No, retreats are suitable for all levels, from beginners to teachers in training.
+How do I book a retreat or workshop? → Retreats and workshops are booked directly through Georgia, with details available on the Retreats and Workshops page.

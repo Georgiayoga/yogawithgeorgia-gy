@@ -1,0 +1,14 @@
+Please update the homepage with the following SEO enhancements:
+1. Meta Title:
+Yoga with Georgia | Iyengar Yoga Classes in Portugal & Online | Retreats & Workshops
+2. Meta Description:
+Join Iyengar Yoga with Georgia Marnham, a certified teacher with over 25 years of international teaching experience. Offering studio classes in Portugal, live online classes, and yoga retreats across Europe.
+3. Keywords:
+Iyengar Yoga Portugal, Iyengar Yoga online, Georgia Marnham yoga, Iyengar retreats Europe, Iyengar teacher Portugal, yoga classes Portugal, yoga with Georgia
+4. Structure & readability check:
+Ensure headings and subheadings follow a proper H1, H2, H3 hierarchy for SEO.
+The homepage hero section (with the main tagline and image of Georgia) should contain the H1.
+Key sections like Studio Classes, Online Classes, and Retreats should each have H2 headings.
+Keep paragraphs short and scannable.
+5. Alt Text for Images:
+Add SEO-friendly alt text for all homepage images. Example: “Georgia Marnham teaching Iyengar Yoga class in Portugal”, “Iyengar Yoga props for alignment and support”.
