@@ -78,17 +78,20 @@ export default function HomePage() {
             width={1200}
             height={800}
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/40" />
+          {/* Dark overlay that covers entire image */}
+          <div className="absolute inset-0 w-full h-full bg-gradient-to-b from-black/50 via-black/30 to-black/50" />
 
           {/* Text Overlay - Top Area */}
-          <div className="absolute top-0 left-0 right-0 pt-16 pb-8 px-4">
-            <div className="container mx-auto text-center text-black">
-              <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl mb-4">Iyengar Yoga with Georgia</h1>
-              <p className="font-body text-xl md:text-2xl mb-8">Precise · Supportive · Transformative</p>
+          <div className="absolute top-0 left-0 right-0 pt-16 pb-8 px-4 z-10">
+            <div className="container mx-auto text-center text-white">
+              <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl mb-4 drop-shadow-lg">
+                Iyengar Yoga with Georgia
+              </h1>
+              <p className="font-body text-xl md:text-2xl mb-8 drop-shadow-md">Precise · Supportive · Transformative</p>
               <Button
                 asChild
                 size="lg"
-                className="bg-brand-orange hover:bg-brand-gold text-white text-lg px-8 py-3 transition-colors"
+                className="bg-brand-orange hover:bg-brand-gold text-white text-lg px-8 py-3 transition-colors shadow-lg"
               >
                 <Link href="https://momence.com/u/georgia-marnham-TXk2rZ" target="_blank" rel="noopener noreferrer">
                   Book a Class
