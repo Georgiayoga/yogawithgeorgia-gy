@@ -64,24 +64,26 @@ export default function HomePage() {
   return (
     <div>
       {/* Full-Bleed Hero Image with Text Overlay */}
-      <section className="relative w-full">
+      <section className="relative w-full overflow-hidden">
         <div
           className="w-full min-h-[60vh] sm:min-h-[70vh] lg:min-h-[85vh] max-h-[520px] sm:max-h-[720px] lg:max-h-[900px] relative"
           style={{ marginLeft: "calc(-50vw + 50%)", marginRight: "calc(-50vw + 50%)", width: "100vw" }}
         >
-          <img
-            src="/georgia-coastal-path.jpg"
-            alt="Georgia Marnham teaching Iyengar Yoga in Portugal"
-            className="w-full h-full object-cover"
-            style={{ objectPosition: "50% 35%" }}
-            loading="eager"
-            width={1200}
-            height={800}
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-black/10" />
+          <div className="absolute inset-0 w-full h-full">
+            <img
+              src="/georgia-coastal-path.jpg"
+              alt="Georgia Marnham teaching Iyengar Yoga in Portugal"
+              className="w-full h-full object-cover"
+              style={{ objectPosition: "50% 35%" }}
+              loading="eager"
+              width={1200}
+              height={800}
+            />
+            <div className="absolute inset-0 w-full h-full bg-black/10" />
+          </div>
 
           {/* Text Overlay - Top Area */}
-          <div className="absolute top-0 left-0 right-0 pt-16 pb-8 px-4">
+          <div className="absolute top-0 left-0 right-0 pt-16 pb-8 px-4 z-10">
             <div className="container mx-auto text-center text-black">
               <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl mb-4">Iyengar Yoga with Georgia</h1>
               <p className="font-body text-xl md:text-2xl mb-8">Precise · Supportive · Transformative</p>
