@@ -78,7 +78,7 @@ export default function HomePage() {
             width={1200}
             height={800}
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-black/10" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/40" />
 
           {/* Text Overlay - Top Area */}
           <div className="absolute top-0 left-0 right-0 pt-16 pb-8 px-4">
@@ -176,7 +176,8 @@ export default function HomePage() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="font-body text-brand-black/80">
-                  Practise from the comfort of home, or wherever you are, with live online classes that bring Iyengar Yoga to you. Some experience and basic equipment is helpful. Private classes available.
+                  Practise from the comfort of home, or wherever you are, with live online classes that bring Iyengar
+                  Yoga to you. Some experience and basic equipment is helpful. Private classes available.
                 </p>
                 <p className="font-body text-sm text-brand-black/70">
                   Join from anywhere with personalised instruction, real-time feedback, and connection to a global yoga

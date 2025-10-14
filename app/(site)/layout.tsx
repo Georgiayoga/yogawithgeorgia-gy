@@ -28,6 +28,26 @@ function LoadingFallback() {
   )
 }
 
+function HeaderFallback() {
+  return (
+    <header className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur">
+      <div className="container flex h-16 items-center">
+        <div className="h-8 w-32 bg-gray-200 rounded animate-pulse" />
+      </div>
+    </header>
+  )
+}
+
+function FooterFallback() {
+  return (
+    <footer className="border-t bg-white">
+      <div className="container py-8">
+        <div className="h-20 bg-gray-200 rounded animate-pulse" />
+      </div>
+    </footer>
+  )
+}
+
 export default function SiteLayout({ children }: { children: React.ReactNode }) {
   const jsonLd = {
     "@context": "https://schema.org",
@@ -167,34 +187,34 @@ export default function SiteLayout({ children }: { children: React.ReactNode }) 
   }
 
   return (
-    <html lang="en">
-      <head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
-          }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(faqSchema).replace(/</g, "\\u003c"),
-          }}
-        />
-      </head>
-      <body className={cn("min-h-dvh bg-white text-brand-black antialiased", headingFont.variable, bodyFont.variable)}>
-        <a
-          href="#content"
-          className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:bg-white focus:px-3 focus:py-1 focus:ring focus:z-50"
-        >
-          Skip to content
-        </a>
+    <div className={cn("min-h-dvh bg-white text-brand-black antialiased", headingFont.variable, bodyFont.variable)}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(faqSchema).replace(/</g, "\\u003c"),
+        }}
+      />
+      <a
+        href="#content"
+        className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:bg-white focus:px-3 focus:py-1 focus:ring focus:z-50"
+      >
+        Skip to content
+      </a>
+      <Suspense fallback={<HeaderFallback />}>
         <SiteHeader />
-        <main id="content" className="flex-1">
-          <Suspense fallback={<LoadingFallback />}>{children}</Suspense>
-        </main>
+      </Suspense>
+      <main id="content" className="flex-1">
+        <Suspense fallback={<LoadingFallback />}>{children}</Suspense>
+      </main>
+      <Suspense fallback={<FooterFallback />}>
         <SiteFooter />
-      </body>
-    </html>
+      </Suspense>
+    </div>
   )
 }
