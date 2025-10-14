@@ -4,7 +4,6 @@ import { Playfair_Display, Source_Sans_3 } from "next/font/google"
 import { cn } from "@/lib/utils"
 import SiteHeader from "@/components/site-header"
 import SiteFooter from "@/components/site-footer"
-import { Suspense } from "react"
 
 const headingFont = Playfair_Display({ subsets: ["latin"], variable: "--font-heading" })
 const bodyFont = Source_Sans_3({ subsets: ["latin"], variable: "--font-body" })
@@ -15,37 +14,6 @@ export const metadata: Metadata = {
     "Join Iyengar Yoga with Georgia Marnham, a certified teacher with over 25 years of international teaching experience. Offering studio classes in Portugal, live online classes, and yoga retreats across Europe.",
   keywords:
     "Iyengar Yoga Portugal, Iyengar Yoga online, Georgia Marnham yoga, Iyengar retreats Europe, Iyengar teacher Portugal, yoga classes Portugal, yoga with Georgia",
-}
-
-function LoadingFallback() {
-  return (
-    <div className="min-h-screen flex items-center justify-center">
-      <div className="text-center">
-        <div className="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-brand-orange"></div>
-        <p className="mt-4 text-brand-black/60 font-body">Loading...</p>
-      </div>
-    </div>
-  )
-}
-
-function HeaderFallback() {
-  return (
-    <header className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur">
-      <div className="container flex h-16 items-center">
-        <div className="h-8 w-32 bg-gray-200 rounded animate-pulse" />
-      </div>
-    </header>
-  )
-}
-
-function FooterFallback() {
-  return (
-    <footer className="border-t bg-white">
-      <div className="container py-8">
-        <div className="h-20 bg-gray-200 rounded animate-pulse" />
-      </div>
-    </footer>
-  )
 }
 
 export default function SiteLayout({ children }: { children: React.ReactNode }) {
@@ -187,34 +155,34 @@ export default function SiteLayout({ children }: { children: React.ReactNode }) 
   }
 
   return (
-    <div className={cn("min-h-dvh bg-white text-brand-black antialiased", headingFont.variable, bodyFont.variable)}>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
-        }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(faqSchema).replace(/</g, "\\u003c"),
-        }}
-      />
-      <a
-        href="#content"
-        className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:bg-white focus:px-3 focus:py-1 focus:ring focus:z-50"
-      >
-        Skip to content
-      </a>
-      <Suspense fallback={<HeaderFallback />}>
+    <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(faqSchema).replace(/</g, "\\u003c"),
+          }}
+        />
+      </head>
+      <body className={cn("min-h-dvh bg-white text-brand-black antialiased", headingFont.variable, bodyFont.variable)}>
+        <a
+          href="#content"
+          className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:bg-white focus:px-3 focus:py-1 focus:ring"
+        >
+          Skip to content
+        </a>
         <SiteHeader />
-      </Suspense>
-      <main id="content" className="flex-1">
-        <Suspense fallback={<LoadingFallback />}>{children}</Suspense>
-      </main>
-      <Suspense fallback={<FooterFallback />}>
+        <main id="content" className="flex-1">
+          {children}
+        </main>
         <SiteFooter />
-      </Suspense>
-    </div>
+      </body>
+    </html>
   )
 }

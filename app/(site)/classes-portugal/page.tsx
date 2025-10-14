@@ -336,9 +336,7 @@ export default function ClassesPortugalPage() {
                     </AccordionTrigger>
                     <AccordionContent className="font-body text-brand-black/80 leading-relaxed pb-6 pt-2">
                       <p className="mb-3">
-                        Studio classes can be booked and paid for directly through Georgia&apos;s Momence profile. The
-                        booking system is simple and secure, and you&apos;ll receive immediate confirmation. Private
-                        class requests are through the contact page.
+                        {"Studio classes can be booked and paid for directly through Georgia\'s Momence profile. The booking system is simple and secure, and you\'ll receive immediate confirmation.\n Private class request are through the contact page."}
                       </p>
                       <Button asChild size="sm" className="bg-brand-orange hover:bg-brand-gold text-white">
                         <Link

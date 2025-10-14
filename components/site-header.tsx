@@ -9,7 +9,6 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigge
 import { useState } from "react"
 
 const mainLinks = [
-  { href: "/", label: "Home" },
   { href: "/classes-portugal", label: "Classes in Portugal" },
   { href: "/online", label: "Online with Georgia" },
   { href: "/retreats", label: "Retreats & Workshops" },
@@ -23,7 +22,6 @@ const aboutLinks = [
 ]
 
 const allLinks = [
-  { href: "/", label: "Home" },
   { href: "/about", label: "About Georgia" },
   { href: "/about-bks-iyengar", label: "About B.K.S. Iyengar" },
   { href: "/classes-portugal", label: "Classes in Portugal" },
@@ -51,16 +49,6 @@ export default function SiteHeader() {
         </Link>
 
         <nav className="hidden lg:flex items-center gap-6">
-          {mainLinks.map((l) => (
-            <Link
-              key={l.href}
-              href={l.href}
-              className="text-sm font-body text-brand-black/80 hover:text-brand-black hover:underline underline-offset-8 decoration-brand-gold transition-colors"
-            >
-              {l.label}
-            </Link>
-          ))}
-
           <DropdownMenu>
             <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-body text-brand-black/80 hover:text-brand-black transition-colors">
               About
@@ -79,6 +67,16 @@ export default function SiteHeader() {
               ))}
             </DropdownMenuContent>
           </DropdownMenu>
+
+          {mainLinks.map((l) => (
+            <Link
+              key={l.href}
+              href={l.href}
+              className="text-sm font-body text-brand-black/80 hover:text-brand-black hover:underline underline-offset-8 decoration-brand-gold transition-colors"
+            >
+              {l.label}
+            </Link>
+          ))}
 
           <Button asChild className="bg-brand-orange hover:bg-brand-gold text-white shadow-sm transition-colors">
             <Link href="https://momence.com/u/georgia-marnham-TXk2rZ" target="_blank" rel="noopener noreferrer">

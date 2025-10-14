@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
+import { MapPin, Package, Users, Calendar, HelpCircle, ChevronRight } from "lucide-react"
 
 export const metadata = {
   title: "Retreats & Workshops | Yoga with Georgia",
@@ -70,7 +70,7 @@ export default function RetreatsPage() {
             </header>
 
             <section className="mb-16">
-              <h2 className="font-heading text-3xl text-brand-black text-center mb-8">Upcoming Retreats</h2>
+              <h2 className="font-heading text-3xl text-brand-black text-center mb-8">Retreats in 2026  </h2>
               <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
                 {/* Morocco Retreat Card */}
                 <Card className="border-brand-warm-gray overflow-hidden">
@@ -114,8 +114,7 @@ export default function RetreatsPage() {
                   </CardHeader>
                   <CardContent className="space-y-4">
                     <p className="font-body text-brand-black/80 text-sm">
-                      Considered one of the world's best yoga centres, Ulpotha, is based on a traditional Sri Lankan
-                      farming village which is run by the local Buddhist community. "It is Heaven on Earth".
+                      Considered one of the world&#39;s best yoga centres, Ulpotha, is an Ayurvedic retreat centre, based on a traditional Sri Lankan farming village which is run by the local Buddhist community. &quot;It is Heaven on Earth&quot;.
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
                       <Link href="/sri-lanka-retreat">View Details</Link>
@@ -139,8 +138,7 @@ export default function RetreatsPage() {
                   </CardHeader>
                   <CardContent className="space-y-4">
                     <p className="font-body text-brand-black/80 text-sm">
-                      Come to the lovely Casa Cales, nestled in the hills outside Loulé and 15 minutes from the
-                      coastline of fabulous beaches, sandy coves and islands.
+                      {"Come to the lovely Casa Cales, nestled in the hills outside Loulé and just 15 minutes from the coastline of fabulous beaches, sandy coves, and islands. A family home converted to peaceful retreat centre surrounded by nature."}
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
                       <Link href="/portugal-retreat">View Details</Link>
@@ -164,8 +162,7 @@ export default function RetreatsPage() {
                   </CardHeader>
                   <CardContent className="space-y-4">
                     <p className="font-body text-brand-black/80 text-sm">
-                      Returning to the much-loved Casa Cales outside the lively market-town of Loulé and close to
-                      stunning beaches, for another week of yoga, rest, and exploration.
+                      {"Join us once again at the much-loved Casa Cales near the market town of Loulé, surrounded by the beauty of the Algarve coast, for a rejuvenating week of yoga and relaxation. The perfect end-of-summer getaway."}
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
                       <Link href="/portugal-september-retreat">View Details</Link>
@@ -256,49 +253,111 @@ export default function RetreatsPage() {
             </section>
 
             {/* FAQ Section */}
-            <section className="mb-12">
-              <h2 className="font-heading text-3xl text-brand-black text-center mb-8">Frequently Asked Questions</h2>
-              <div className="max-w-3xl mx-auto">
-                <Accordion type="single" collapsible className="space-y-4">
-                  <AccordionItem value="locations" className="border border-brand-warm-gray rounded-lg px-6">
-                    <AccordionTrigger className="font-body text-lg text-brand-black hover:text-brand-orange transition-colors">
-                      Where are the retreats held?
-                    </AccordionTrigger>
-                    <AccordionContent className="font-body text-brand-black/80 leading-relaxed">
-                      Retreats are hosted in Portugal and occasionally in other international locations. Each retreat
-                      page includes venue details.
-                    </AccordionContent>
-                  </AccordionItem>
+            <section className="mb-12 bg-gradient-to-br from-brand-warm-gray/20 via-brand-orange/5 to-brand-gold/10 rounded-3xl p-8 md:p-12">
+              <div className="max-w-4xl mx-auto">
+                <div className="text-center mb-10">
+                  <div className="inline-block bg-white rounded-2xl p-4 shadow-lg mb-6">
+                    <HelpCircle className="h-10 w-10 text-brand-orange" strokeWidth={2} />
+                  </div>
+                  <h2 className="font-heading text-3xl md:text-4xl text-brand-black mb-4">
+                    Questions About Our Retreats?
+                  </h2>
+                  <p className="text-brand-black/70 text-lg max-w-2xl mx-auto">
+                    Find answers to the most common questions about joining a yoga retreat with Georgia
+                  </p>
+                </div>
 
-                  <AccordionItem value="included" className="border border-brand-warm-gray rounded-lg px-6">
-                    <AccordionTrigger className="font-body text-lg text-brand-black hover:text-brand-orange transition-colors">
-                      What do retreats include?
-                    </AccordionTrigger>
-                    <AccordionContent className="font-body text-brand-black/80 leading-relaxed">
-                      Retreats typically include daily yoga classes, accommodation, meals, and opportunities for rest
-                      and reflection.
-                    </AccordionContent>
-                  </AccordionItem>
+                <div className="grid md:grid-cols-2 gap-6">
+                  {/* FAQ Card 1 - MapPin */}
+                  <div className="bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transition-all duration-300 border border-brand-warm-gray/20 hover:border-brand-orange/30 group">
+                    <div className="flex items-start gap-4 mb-4">
+                      <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-br from-brand-orange/10 to-brand-orange/20 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                        <MapPin className="h-6 w-6 text-brand-orange" strokeWidth={2.5} />
+                      </div>
+                      <div className="flex-1">
+                        <h3 className="font-heading text-xl text-brand-black mb-2 group-hover:text-brand-orange transition-colors">
+                          Where are the retreats held?
+                        </h3>
+                        <p className="text-brand-black/70 leading-relaxed text-sm">
+                          Retreats take place in stunning locations including Portugal, Sri Lanka, Greece and Morocco. Each venue is carefully selected for its natural beauty, peaceful atmosphere, and excellent facilities.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
 
-                  <AccordionItem value="experience" className="border border-brand-warm-gray rounded-lg px-6">
-                    <AccordionTrigger className="font-body text-lg text-brand-black hover:text-brand-orange transition-colors">
-                      Do I need to be an experienced yogi?
-                    </AccordionTrigger>
-                    <AccordionContent className="font-body text-brand-black/80 leading-relaxed">
-                      No, retreats are suitable for all levels, from beginners to teachers in training.
-                    </AccordionContent>
-                  </AccordionItem>
+                  {/* FAQ Card 2 - Package */}
+                  <div className="bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transition-all duration-300 border border-brand-warm-gray/20 hover:border-brand-orange/30 group">
+                    <div className="flex items-start gap-4 mb-4">
+                      <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-br from-brand-orange/10 to-brand-orange/20 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                        <Package className="h-6 w-6 text-brand-orange" strokeWidth={2.5} />
+                      </div>
+                      <div className="flex-1">
+                        <h3 className="font-heading text-xl text-brand-black mb-2 group-hover:text-brand-orange transition-colors">
+                          What's included?
+                        </h3>
+                        <p className="text-brand-black/70 leading-relaxed text-sm">
+                          All retreats include daily yoga classes (morning and afternoon), accommodation, vegetarian
+                          meals, and free time for rest and exploration. Some retreats also feature excursions and
+                          cultural activities.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
 
-                  <AccordionItem value="booking" className="border border-brand-warm-gray rounded-lg px-6">
-                    <AccordionTrigger className="font-body text-lg text-brand-black hover:text-brand-orange transition-colors">
-                      How do I book a retreat or workshop?
-                    </AccordionTrigger>
-                    <AccordionContent className="font-body text-brand-black/80 leading-relaxed">
-                      Retreats and workshops are booked directly through Georgia, with details available on the Retreats
-                      and Workshops page.
-                    </AccordionContent>
-                  </AccordionItem>
-                </Accordion>
+                  {/* FAQ Card 3 - Users */}
+                  <div className="bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transition-all duration-300 border border-brand-warm-gray/20 hover:border-brand-orange/30 group">
+                    <div className="flex items-start gap-4 mb-4">
+                      <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-br from-brand-orange/10 to-brand-orange/20 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                        <Users className="h-6 w-6 text-brand-orange" strokeWidth={2.5} />
+                      </div>
+                      <div className="flex-1">
+                        <h3 className="font-heading text-xl text-brand-black mb-2 group-hover:text-brand-orange transition-colors">
+                          Do I need experience?
+                        </h3>
+                        <p className="text-brand-black/70 leading-relaxed text-sm">
+                          No prior experience necessary! Our retreats welcome everyone from complete beginners to
+                          experienced practitioners. Georgia provides clear guidance and offers modifications to suit
+                          all levels.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* FAQ Card 4 - Calendar */}
+                  <div className="bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transition-all duration-300 border border-brand-warm-gray/20 hover:border-brand-orange/30 group">
+                    <div className="flex items-start gap-4 mb-4">
+                      <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-br from-brand-orange/10 to-brand-orange/20 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                        <Calendar className="h-6 w-6 text-brand-orange" strokeWidth={2.5} />
+                      </div>
+                      <div className="flex-1">
+                        <h3 className="font-heading text-xl text-brand-black mb-2 group-hover:text-brand-orange transition-colors">
+                          How do I book?
+                        </h3>
+                        <p className="text-brand-black/70 leading-relaxed text-sm mb-4">
+                          Booking is simple! Click &quot;View Details&quot; on any retreat above, or contact Georgia directly to discuss which retreat would be best for you.
+                        </p>
+                        <Button
+                          asChild
+                          className="bg-brand-orange hover:bg-brand-gold text-white transition-colors text-sm px-4 py-2 h-auto"
+                        >
+                          <Link href="/contact" className="inline-flex items-center gap-2">
+                            Get in Touch
+                            <ChevronRight className="h-4 w-4" />
+                          </Link>
+                        </Button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Additional Info Banner */}
+                <div className="mt-8 bg-white/60 backdrop-blur-sm rounded-2xl p-6 border border-brand-orange/20">
+                  <p className="text-center text-brand-black/80 leading-relaxed">
+                    <span className="font-semibold text-brand-black">Still have questions?</span> Georgia is happy to
+                    discuss any aspect of the retreats with you. Each retreat page also includes detailed information
+                    about the venue, schedule, and pricing.
+                  </p>
+                </div>
               </div>
             </section>
 

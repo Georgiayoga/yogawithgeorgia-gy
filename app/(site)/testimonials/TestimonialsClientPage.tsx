@@ -467,12 +467,7 @@ export default function TestimonialsClientPage() {
                 Over 25 years of teaching <strong>Iyengar yoga </strong> and worldwide has created a community of
                 dedicated students. Here are their authentic experiences.
               </p>
-              <div className="flex items-center justify-center gap-2 mt-6">
-                <StarRating rating={5} />
-                <span className="font-body text-brand-black/70 ml-2">
-                  Based on {testimonials.length} authentic reviews
-                </span>
-              </div>
+              
             </header>
 
             {/* Testimonials Grid */}
@@ -541,8 +536,8 @@ export default function TestimonialsClientPage() {
                 </div>
                 <div className="mt-6 text-center">
                   <p className="font-body text-sm text-brand-black/60">
-                    <strong>Studio classes in Portugal</strong> • <strong>Online classes worldwide</strong> •{" "}
-                    <strong>Yoga retreats</strong>
+                    <strong>Studio classes in Portugal</strong> • <strong>Online classes</strong> •{" "}
+                    <strong>Yoga retreats worldwide </strong>
                   </p>
                 </div>
               </div>

@@ -2,6 +2,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
+import { Video, Users, Package, Calendar, HelpCircle } from "lucide-react"
 
 export const metadata = {
   title: "Online with Georgia | Yoga with Georgia",
@@ -65,7 +66,7 @@ export default function OnlinePage() {
               <p className="font-body text-lg text-brand-black/80 max-w-2xl mx-auto">
                 Enjoy the convenience of practising Iyengar Yoga from home with Georgia's live Zoom classes. Each
                 session combines clear, supportive teaching with precise guidance — and class recordings are available
-                so you can practise whenever it suits you.
+                so you can practise whenever it suits you. Private online classes also available.
               </p>
             </header>
 
@@ -115,58 +116,114 @@ export default function OnlinePage() {
               </div>
             </div>
 
-            {/* FAQ Section */}
+            {/* FAQ Section - Redesigned */}
             <section className="mb-12">
-              <h2 className="font-heading text-3xl text-brand-black text-center mb-8">Frequently Asked Questions</h2>
+              <div className="text-center mb-10">
+                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-brand-orange/10 mb-4">
+                  <HelpCircle className="w-8 h-8 text-brand-orange" />
+                </div>
+                <h2 className="font-heading text-3xl md:text-4xl text-brand-black mb-3">Frequently Asked Questions</h2>
+                <p className="font-body text-brand-black/70 max-w-2xl mx-auto">
+                  Everything you need to know about joining online classes with Georgia
+                </p>
+              </div>
+
               <div className="max-w-3xl mx-auto">
                 <Accordion type="single" collapsible className="space-y-4">
-                  <AccordionItem value="join" className="border border-brand-warm-gray rounded-lg px-6">
-                    <AccordionTrigger className="font-body text-lg text-brand-black hover:text-brand-orange transition-colors">
-                      How do I join an online class?
+                  {/* Join FAQ */}
+                  <AccordionItem
+                    value="join"
+                    className="border-2 border-brand-warm-gray/30 rounded-2xl px-6 overflow-hidden hover:border-brand-orange/50 transition-all duration-300 bg-white shadow-sm hover:shadow-md"
+                  >
+                    <AccordionTrigger className="font-body text-lg text-brand-black hover:text-brand-orange transition-colors py-5 hover:no-underline">
+                      <div className="flex items-center gap-3">
+                        <div className="w-10 h-10 rounded-full bg-brand-orange/10 flex items-center justify-center flex-shrink-0">
+                          <Video className="w-5 h-5 text-brand-orange" />
+                        </div>
+                        <span className="text-left">How do I join an online class?</span>
+                      </div>
                     </AccordionTrigger>
-                    <AccordionContent className="font-body text-brand-black/80 leading-relaxed">
-                      Online classes are hosted live on Zoom. After booking, you'll receive a secure Zoom link.
+                    <AccordionContent className="font-body text-brand-black/80 leading-relaxed pb-6 pt-2">
+                      Online classes are hosted live on Zoom. After booking, you'll receive a secure Zoom link via
+                      email. Simply click the link at the scheduled class time to join. Make sure you have the Zoom app
+                      installed on your device beforehand for the best experience.
                     </AccordionContent>
                   </AccordionItem>
 
-                  <AccordionItem value="experience" className="border border-brand-warm-gray rounded-lg px-6">
-                    <AccordionTrigger className="font-body text-lg text-brand-black hover:text-brand-orange transition-colors">
-                      Do I need experience to join online classes?
+                  {/* Experience FAQ */}
+                  <AccordionItem
+                    value="experience"
+                    className="border-2 border-brand-warm-gray/30 rounded-2xl px-6 overflow-hidden hover:border-brand-orange/50 transition-all duration-300 bg-white shadow-sm hover:shadow-md"
+                  >
+                    <AccordionTrigger className="font-body text-lg text-brand-black hover:text-brand-orange transition-colors py-5 hover:no-underline">
+                      <div className="flex items-center gap-3">
+                        <div className="w-10 h-10 rounded-full bg-brand-gold/10 flex items-center justify-center flex-shrink-0">
+                          <Users className="w-5 h-5 text-brand-orange" />
+                        </div>
+                        <span className="text-left">Do I need experience to join online classes?</span>
+                      </div>
                     </AccordionTrigger>
-                    <AccordionContent className="font-body text-brand-black/80 leading-relaxed">
-                      No, beginners are welcome. Georgia adapts her teaching to support all levels.
+                    <AccordionContent className="font-body text-brand-black/80 leading-relaxed pb-6 pt-2">
+                      No, beginners are welcome. Georgia adapts her teaching to support all levels, providing clear
+                      instructions and modifications throughout the class. Whether you're completely new to yoga or have
+                      years of experience, you'll find a supportive and accessible practice.
                     </AccordionContent>
                   </AccordionItem>
 
-                  <AccordionItem value="equipment" className="border border-brand-warm-gray rounded-lg px-6">
-                    <AccordionTrigger className="font-body text-lg text-brand-black hover:text-brand-orange transition-colors">
-                      What equipment do I need at home?
+                  {/* Equipment FAQ */}
+                  <AccordionItem
+                    value="equipment"
+                    className="border-2 border-brand-warm-gray/30 rounded-2xl px-6 overflow-hidden hover:border-brand-orange/50 transition-all duration-300 bg-white shadow-sm hover:shadow-md"
+                  >
+                    <AccordionTrigger className="font-body text-lg text-brand-black hover:text-brand-orange transition-colors py-5 hover:no-underline">
+                      <div className="flex items-center gap-3">
+                        <div className="w-10 h-10 rounded-full bg-brand-orange/10 flex items-center justify-center flex-shrink-0">
+                          <Package className="w-5 h-5 text-brand-orange" />
+                        </div>
+                        <span className="text-left">What equipment do I need at home?</span>
+                      </div>
                     </AccordionTrigger>
-                    <AccordionContent className="font-body text-brand-black/80 leading-relaxed">
+                    <AccordionContent className="font-body text-brand-black/80 leading-relaxed pb-6 pt-2">
                       Ideally, a yoga mat and a few props (belt, blocks, or household alternatives). Georgia can guide
-                      you on substitutions.
+                      you on substitutions — for example, books can replace blocks, and a belt or scarf can work as a
+                      yoga strap. A quiet space where you can move freely is also helpful.
                     </AccordionContent>
                   </AccordionItem>
 
-                  <AccordionItem value="booking" className="border border-brand-warm-gray rounded-lg px-6">
-                    <AccordionTrigger className="font-body text-lg text-brand-black hover:text-brand-orange transition-colors">
-                      How do I book an online class?
+                  {/* Booking FAQ */}
+                  <AccordionItem
+                    value="booking"
+                    className="border-2 border-brand-warm-gray/30 rounded-2xl px-6 overflow-hidden hover:border-brand-orange/50 transition-all duration-300 bg-white shadow-sm hover:shadow-md"
+                  >
+                    <AccordionTrigger className="font-body text-lg text-brand-black hover:text-brand-orange transition-colors py-5 hover:no-underline">
+                      <div className="flex items-center gap-3">
+                        <div className="w-10 h-10 rounded-full bg-brand-gold/10 flex items-center justify-center flex-shrink-0">
+                          <Calendar className="w-5 h-5 text-brand-orange" />
+                        </div>
+                        <span className="text-left">How do I book an online class?</span>
+                      </div>
                     </AccordionTrigger>
-                    <AccordionContent className="font-body text-brand-black/80 leading-relaxed">
-                      Online classes can be booked directly through Georgia's{" "}
-                      <Link
-                        href="https://momence.com/u/georgia-marnham-TXk2rZ"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-brand-orange hover:text-brand-gold underline underline-offset-4 transition-colors"
-                      >
-                        Momence profile
-                      </Link>
-                      .
+                    <AccordionContent className="font-body text-brand-black/80 leading-relaxed pb-6 pt-2">
+                      <p className="mb-3">
+                        Online classes can be booked directly through Georgia's Momence profile. The booking system is
+                        simple and secure, and you'll receive immediate confirmation along with your Zoom link and class
+                        details.
+                      </p>
+                      <Button asChild size="sm" className="bg-brand-orange hover:bg-brand-gold text-white">
+                        <Link
+                          href="https://momence.com/u/georgia-marnham-TXk2rZ"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Book Now on Momence
+                        </Link>
+                      </Button>
                     </AccordionContent>
                   </AccordionItem>
                 </Accordion>
               </div>
+
+              <div className="h-12" />
             </section>
 
             <div className="text-center">
