@@ -2,6 +2,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
+import { MapPin, Users, Euro, Calendar, HelpCircle, Package } from "lucide-react"
 
 export const metadata = {
   title: "Classes in Portugal | Yoga with Georgia",
@@ -72,7 +73,7 @@ export default function ClassesPortugalPage() {
               <h1 className="font-heading text-4xl md:text-5xl text-brand-black mb-6">Classes in Portugal</h1>
               <p className="font-body text-lg text-brand-black/80 max-w-2xl mx-auto">
                 Georgia teaches group and private Iyengar yoga classes in Colares, near Sintra. Classes are suitable for
-                beginners and general levels, with close attention to each student&#39;s needs.
+                beginners and general levels, with close attention to each student&apos;s needs.
               </p>
             </header>
 
@@ -171,16 +172,34 @@ export default function ClassesPortugalPage() {
               </p>
             </div>
 
-            {/* FAQ Section */}
+            {/* FAQ Section - Redesigned */}
             <section className="mb-12">
-              <h2 className="font-heading text-3xl text-brand-black text-center mb-8">Frequently Asked Questions</h2>
+              <div className="text-center mb-10">
+                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-brand-orange/10 mb-4">
+                  <HelpCircle className="w-8 h-8 text-brand-orange" />
+                </div>
+                <h2 className="font-heading text-3xl md:text-4xl text-brand-black mb-3">Frequently Asked Questions</h2>
+                <p className="font-body text-brand-black/70 max-w-2xl mx-auto">
+                  Everything you need to know about joining our classes in Portugal
+                </p>
+              </div>
+
               <div className="max-w-3xl mx-auto">
                 <Accordion type="single" collapsible className="space-y-4">
-                  <AccordionItem value="pricing" className="border border-brand-warm-gray rounded-lg px-6">
-                    <AccordionTrigger className="font-body text-lg text-brand-black hover:text-brand-orange transition-colors">
-                      How are the classes priced?
+                  {/* Pricing FAQ */}
+                  <AccordionItem
+                    value="pricing"
+                    className="border-2 border-brand-warm-gray/30 rounded-2xl px-6 overflow-hidden hover:border-brand-orange/50 transition-all duration-300 bg-white shadow-sm hover:shadow-md"
+                  >
+                    <AccordionTrigger className="font-body text-lg text-brand-black hover:text-brand-orange transition-colors py-5 hover:no-underline">
+                      <div className="flex items-center gap-3">
+                        <div className="w-10 h-10 rounded-full bg-brand-orange/10 flex items-center justify-center flex-shrink-0">
+                          <Euro className="w-5 h-5 text-brand-orange" />
+                        </div>
+                        <span className="text-left">How are the classes priced?</span>
+                      </div>
                     </AccordionTrigger>
-                    <AccordionContent className="font-body text-brand-black/80 leading-relaxed space-y-4">
+                    <AccordionContent className="font-body text-brand-black/80 leading-relaxed space-y-4 pb-6 pt-2">
                       <p>
                         There are three pricing options, and you simply choose the one that fits your current financial
                         situation — no questions asked. The aim is to keep classes open to everyone while also allowing
@@ -189,121 +208,173 @@ export default function ClassesPortugalPage() {
                       </p>
 
                       <div className="space-y-4">
-                        <div>
-                          <p className="font-medium text-brand-black mb-2">✨ Supporter</p>
-                          <p>
+                        <div className="bg-gradient-to-r from-brand-orange/5 to-brand-gold/5 rounded-xl p-4 border-l-4 border-brand-orange">
+                          <p className="font-medium text-brand-black mb-2 flex items-center gap-2">
+                            <span className="text-xl">✨</span> Supporter
+                          </p>
+                          <p className="text-sm">
                             For those who are financially comfortable and wish to contribute more. This tier supports
                             not just the studio and other students, but also contributes more to my livelihood — helping
                             ensure I can continue to offer these classes in a dedicated and sustainable way.
                           </p>
                         </div>
 
-                        <div>
-                          <p className="font-medium text-brand-black mb-2">🌿 Sustainer</p>
-                          <p>
+                        <div className="bg-gradient-to-r from-brand-warm-gray/10 to-brand-warm-gray/5 rounded-xl p-4 border-l-4 border-brand-earth">
+                          <p className="font-medium text-brand-black mb-2 flex items-center gap-2">
+                            <span className="text-xl">🌿</span> Sustainer
+                          </p>
+                          <p className="text-sm">
                             This is the standard rate that helps cover the essential running costs of the studio and
-                            classes. If this tier works for you financially, it's a supportive and valued choice. If
-                            you're in a position to give a little more, please consider choosing the Supporter rate to
-                            help make the classes sustainable for the long term.
+                            classes. If this tier works for you financially, it&apos;s a supportive and valued choice.
+                            If you&apos;re in a position to give a little more, please consider choosing the Supporter
+                            rate to help make the classes sustainable for the long term.
                           </p>
                         </div>
 
-                        <div>
-                          <p className="font-medium text-brand-black mb-2">💛 Supported</p>
-                          <p>
+                        <div className="bg-gradient-to-r from-brand-gold/5 to-brand-gold/10 rounded-xl p-4 border-l-4 border-brand-gold">
+                          <p className="font-medium text-brand-black mb-2 flex items-center gap-2">
+                            <span className="text-xl">💛</span> Supported
+                          </p>
+                          <p className="text-sm">
                             For those with limited income — students, those between work, low income earners or anyone
                             going through a financially challenging time. This rate helps keep yoga accessible for all.
                           </p>
                         </div>
                       </div>
 
-                      <div>
-                        <p className="font-medium text-brand-black mb-3">Here's how it works:</p>
+                      <div className="bg-brand-warm-gray/5 rounded-xl p-5 mt-4">
+                        <p className="font-medium text-brand-black mb-4">Here&apos;s how it works:</p>
 
-                        <div className="space-y-3">
-                          <div>
-                            <p className="font-medium text-brand-black">4-class packs:</p>
-                            <ul className="list-disc list-inside ml-4 space-y-1">
-                              <li>€60 – Supporter</li>
-                              <li>€50 – Sustainer</li>
-                              <li>€40 – Supported</li>
-                            </ul>
+                        <div className="grid md:grid-cols-3 gap-4">
+                          <div className="text-center p-3 bg-white rounded-lg shadow-sm">
+                            <p className="font-semibold text-brand-black text-lg mb-2">4-class packs</p>
+                            <div className="space-y-1 text-sm">
+                              <p className="text-brand-orange font-medium">€60 – Supporter</p>
+                              <p className="text-brand-earth">€50 – Sustainer</p>
+                              <p className="text-brand-black/70">€40 – Supported</p>
+                            </div>
                           </div>
 
-                          <div>
-                            <p className="font-medium text-brand-black">8-class packs:</p>
-                            <ul className="list-disc list-inside ml-4 space-y-1">
-                              <li>€80 – Supporter</li>
-                              <li>€70 – Sustainer</li>
-                              <li>€60 – Supported</li>
-                            </ul>
+                          <div className="text-center p-3 bg-white rounded-lg shadow-sm">
+                            <p className="font-semibold text-brand-black text-lg mb-2">8-class packs</p>
+                            <div className="space-y-1 text-sm">
+                              <p className="text-brand-orange font-medium">€80 – Supporter</p>
+                              <p className="text-brand-earth">€70 – Sustainer</p>
+                              <p className="text-brand-black/70">€60 – Supported</p>
+                            </div>
                           </div>
 
-                          <div>
-                            <p className="font-medium text-brand-black">Drop-in classes:</p>
-                            <ul className="list-disc list-inside ml-4 space-y-1">
-                              <li>€20 – Supporter</li>
-                              <li>€17.50 – Sustainer</li>
-                              <li>€15 – Supported</li>
-                            </ul>
+                          <div className="text-center p-3 bg-white rounded-lg shadow-sm">
+                            <p className="font-semibold text-brand-black text-lg mb-2">Drop-in</p>
+                            <div className="space-y-1 text-sm">
+                              <p className="text-brand-orange font-medium">€20 – Supporter</p>
+                              <p className="text-brand-earth">€17.50 – Sustainer</p>
+                              <p className="text-brand-black/70">€15 – Supported</p>
+                            </div>
                           </div>
                         </div>
                       </div>
 
-                      <p className="font-medium text-brand-black">
-                        You're always welcome, no matter what rate you choose.
+                      <p className="font-medium text-brand-black text-center pt-2">
+                        You&apos;re always welcome, no matter what rate you choose.
                       </p>
                     </AccordionContent>
                   </AccordionItem>
 
-                  <AccordionItem value="level" className="border border-brand-warm-gray rounded-lg px-6">
-                    <AccordionTrigger className="font-body text-lg text-brand-black hover:text-brand-orange transition-colors">
-                      What level are the classes?
+                  {/* Level FAQ */}
+                  <AccordionItem
+                    value="level"
+                    className="border-2 border-brand-warm-gray/30 rounded-2xl px-6 overflow-hidden hover:border-brand-orange/50 transition-all duration-300 bg-white shadow-sm hover:shadow-md"
+                  >
+                    <AccordionTrigger className="font-body text-lg text-brand-black hover:text-brand-orange transition-colors py-5 hover:no-underline">
+                      <div className="flex items-center gap-3">
+                        <div className="w-10 h-10 rounded-full bg-brand-gold/10 flex items-center justify-center flex-shrink-0">
+                          <Users className="w-5 h-5 text-brand-orange" />
+                        </div>
+                        <span className="text-left">What level are the classes?</span>
+                      </div>
                     </AccordionTrigger>
-                    <AccordionContent className="font-body text-brand-black/80 leading-relaxed">
+                    <AccordionContent className="font-body text-brand-black/80 leading-relaxed pb-6 pt-2">
                       Georgia teaches both beginners and experienced practitioners, adapting the class to meet each
-                      student's needs.
+                      student&apos;s needs. Whether you&apos;re completely new to yoga or have years of experience,
+                      you&apos;ll find a supportive and challenging practice.
                     </AccordionContent>
                   </AccordionItem>
 
-                  <AccordionItem value="props" className="border border-brand-warm-gray rounded-lg px-6">
-                    <AccordionTrigger className="font-body text-lg text-brand-black hover:text-brand-orange transition-colors">
-                      Can I have private classes?<br><br>
+                  {/* Props FAQ */}
+                  <AccordionItem
+                    value="props"
+                    className="border-2 border-brand-warm-gray/30 rounded-2xl px-6 overflow-hidden hover:border-brand-orange/50 transition-all duration-300 bg-white shadow-sm hover:shadow-md"
+                  >
+                    <AccordionTrigger className="font-body text-lg text-brand-black hover:text-brand-orange transition-colors py-5 hover:no-underline">
+                      <div className="flex items-center gap-3">
+                        <div className="w-10 h-10 rounded-full bg-brand-orange/10 flex items-center justify-center flex-shrink-0">
+                          <Package className="w-5 h-5 text-brand-orange" />
+                        </div>
+                        <span className="text-left">Do I need to bring props?</span>
+                      </div>
                     </AccordionTrigger>
-                    <AccordionContent className="font-body text-brand-black/80 leading-relaxed">
-                      Props are provided at the studio, but you're welcome to bring your own mat if you prefer.
+                    <AccordionContent className="font-body text-brand-black/80 leading-relaxed pb-6 pt-2">
+                      Props are provided at the studio, but you&apos;re welcome to bring your own mat if you prefer. The
+                      studio is fully equipped with blocks, belts, bolsters, blankets, and other props you may need for
+                      your practice.
                     </AccordionContent>
                   </AccordionItem>
 
-                  <AccordionItem value="booking" className="border border-brand-warm-gray rounded-lg px-6">
-                    <AccordionTrigger className="font-body text-lg text-brand-black hover:text-brand-orange transition-colors">
-                      How do I book a class?
+                  {/* Booking FAQ */}
+                  <AccordionItem
+                    value="booking"
+                    className="border-2 border-brand-warm-gray/30 rounded-2xl px-6 overflow-hidden hover:border-brand-orange/50 transition-all duration-300 bg-white shadow-sm hover:shadow-md"
+                  >
+                    <AccordionTrigger className="font-body text-lg text-brand-black hover:text-brand-orange transition-colors py-5 hover:no-underline">
+                      <div className="flex items-center gap-3">
+                        <div className="w-10 h-10 rounded-full bg-brand-gold/10 flex items-center justify-center flex-shrink-0">
+                          <Calendar className="w-5 h-5 text-brand-orange" />
+                        </div>
+                        <span className="text-left">How do I book a class?</span>
+                      </div>
                     </AccordionTrigger>
-                    <AccordionContent className="font-body text-brand-black/80 leading-relaxed">
-                      Studio classes can be booked and paid for directly through Georgia's{" "}
-                      <Link
-                        href="https://momence.com/u/georgia-marnham-TXk2rZ"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-brand-orange hover:text-brand-gold underline underline-offset-4 transition-colors"
-                      >
-                        Momence profile
-                      </Link>
-                      .
+                    <AccordionContent className="font-body text-brand-black/80 leading-relaxed pb-6 pt-2">
+                      <p className="mb-3">
+                        Studio classes can be booked and paid for directly through Georgia&apos;s Momence profile. The
+                        booking system is simple and secure, and you&apos;ll receive immediate confirmation. Private
+                        class requests are through the contact page.
+                      </p>
+                      <Button asChild size="sm" className="bg-brand-orange hover:bg-brand-gold text-white">
+                        <Link
+                          href="https://momence.com/u/georgia-marnham-TXk2rZ"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Book Now on Momence
+                        </Link>
+                      </Button>
                     </AccordionContent>
                   </AccordionItem>
 
-                  <AccordionItem value="location" className="border border-brand-warm-gray rounded-lg px-6">
-                    <AccordionTrigger className="font-body text-lg text-brand-black hover:text-brand-orange transition-colors">
-                      Where is the location?
+                  {/* Location FAQ */}
+                  <AccordionItem
+                    value="location"
+                    className="border-2 border-brand-warm-gray/30 rounded-2xl px-6 overflow-hidden hover:border-brand-orange/50 transition-all duration-300 bg-white shadow-sm hover:shadow-md"
+                  >
+                    <AccordionTrigger className="font-body text-lg text-brand-black hover:text-brand-orange transition-colors py-5 hover:no-underline">
+                      <div className="flex items-center gap-3">
+                        <div className="w-10 h-10 rounded-full bg-brand-orange/10 flex items-center justify-center flex-shrink-0">
+                          <MapPin className="w-5 h-5 text-brand-orange" />
+                        </div>
+                        <span className="text-left">Where is the location?</span>
+                      </div>
                     </AccordionTrigger>
-                    <AccordionContent className="font-body text-brand-black/80 leading-relaxed">
+                    <AccordionContent className="font-body text-brand-black/80 leading-relaxed pb-6 pt-2">
                       After booking for your first time, you will be sent the specific location of the studio and
-                      arrival details.
+                      arrival details. The studio is located in the peaceful area of Covão, Colares, near Sintra – a
+                      tranquil setting perfect for your yoga practice.
                     </AccordionContent>
                   </AccordionItem>
                 </Accordion>
               </div>
+
+              <div className="h-12" />
             </section>
 
             <div className="text-center">
