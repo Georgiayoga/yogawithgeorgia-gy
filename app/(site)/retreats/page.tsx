@@ -83,7 +83,7 @@ export default function RetreatsPage() {
                     <CardTitle className="font-heading text-xl text-brand-black">Morocco Retreat</CardTitle>
                     <div className="font-body text-sm text-brand-black/70">
                       <p>Atlas Mountains, Morocco</p>
-                      <p>February 2026</p>
+                      <p>February 15–21, 2026</p>
                     </div>
                   </CardHeader>
                   <CardContent className="space-y-4">
@@ -109,7 +109,7 @@ export default function RetreatsPage() {
                     <CardTitle className="font-heading text-xl text-brand-black">Sri Lanka Retreat</CardTitle>
                     <div className="font-body text-sm text-brand-black/70">
                       <p>Sri Lanka</p>
-                      <p>March 2026</p>
+                      <p>March 15–29,  2026</p>
                     </div>
                   </CardHeader>
                   <CardContent className="space-y-4">
@@ -133,7 +133,7 @@ export default function RetreatsPage() {
                     <CardTitle className="font-heading text-xl text-brand-black">Portugal Retreat</CardTitle>
                     <div className="font-body text-sm text-brand-black/70">
                       <p>Loulé, Algarve</p>
-                      <p>April 2026</p>
+                      <p>April 26 – May 2, 2026</p>
                     </div>
                   </CardHeader>
                   <CardContent className="space-y-4">
@@ -157,7 +157,7 @@ export default function RetreatsPage() {
                     <CardTitle className="font-heading text-xl text-brand-black">Portugal Retreat</CardTitle>
                     <div className="font-body text-sm text-brand-black/70">
                       <p>Loulé, Algarve</p>
-                      <p>September 2026</p>
+                      <p>September 13-19,  2026</p>
                     </div>
                   </CardHeader>
                   <CardContent className="space-y-4">

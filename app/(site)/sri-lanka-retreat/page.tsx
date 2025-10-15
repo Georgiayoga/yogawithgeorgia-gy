@@ -18,7 +18,7 @@ export default function SriLankaRetreatPage() {
           <header className="text-centre mb-12">
             <h1 className="font-heading text-4xl md:text-5xl text-brand-black mb-4">Sri Lanka Retreat 2026</h1>
             <p className="font-body text-xl text-brand-black/80 mb-2">Ulpotha, Sri Lanka</p>
-            <p className="font-body text-lg text-brand-orange font-medium">March 2026</p>
+            <p className="font-body text-lg text-brand-orange font-medium">March 15–19,  2026</p>
           </header>
 
           {/* Main Image */}

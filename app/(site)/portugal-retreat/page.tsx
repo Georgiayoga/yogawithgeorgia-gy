@@ -18,7 +18,7 @@ export default function PortugalRetreatPage() {
           <header className="text-center mb-12">
             <h1 className="font-heading text-4xl md:text-5xl text-brand-black mb-4">Portugal Retreat 2026</h1>
             <p className="font-body text-xl text-brand-black/80 mb-2">Casa Cales, Loulé, Algarve</p>
-            <p className="font-body text-lg text-brand-orange font-medium">April 2026</p>
+            <p className="font-body text-lg text-brand-orange font-medium">April 26 – May 2, 2026</p>
           </header>
 
           {/* Main Image */}
