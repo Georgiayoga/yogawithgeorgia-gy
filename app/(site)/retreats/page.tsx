@@ -138,7 +138,7 @@ export default function RetreatsPage() {
                   </CardHeader>
                   <CardContent className="space-y-4">
                     <p className="font-body text-brand-black/80 text-sm">
-                      {"Come to the lovely Casa Cales, nestled in the hills outside Loulé and just 15 minutes from the coastline of fabulous beaches, sandy coves, and islands. A family home converted to peaceful retreat centre surrounded by nature."}
+                      {"Come to the lovely Casa Cales, nestled in the hills outside Loulé and just 15 minutes from the coastline of fabulous beaches and sandy coves. A family home converted to peaceful retreat centre surrounded by nature."}
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
                       <Link href="/portugal-retreat">View Details</Link>
@@ -186,7 +186,7 @@ export default function RetreatsPage() {
                     <CardTitle className="font-heading text-xl text-brand-black">Weekend Workshop - Scotland</CardTitle>
                     <div className="font-body text-sm text-brand-black/70">
                       <p>Comrie, nr Edinburgh</p>
-                      <p>November 2025</p>
+                      <p>November 8– 9, 2025</p>
                     </div>
                   </CardHeader>
                   <CardContent className="space-y-4">
@@ -211,7 +211,7 @@ export default function RetreatsPage() {
                     <CardTitle className="font-heading text-xl text-brand-black">Weekend Workshop - Portugal</CardTitle>
                     <div className="font-body text-sm text-brand-black/70">
                       <p>Loulé, Algarve</p>
-                      <p>November 2025</p>
+                      <p>November 29–30, 2025</p>
                     </div>
                   </CardHeader>
                   <CardContent className="space-y-4">
@@ -241,8 +241,7 @@ export default function RetreatsPage() {
                   </CardHeader>
                   <CardContent className="space-y-4">
                     <p className="font-body text-brand-black/80 text-sm">
-                      Immerse yourself in a transformative weekend of yoga, featuring a series of classes that build
-                      into a full-weekend course.
+                      Immerse yourself in a weekend of yoga, featuring a series of classes that build into a full-weekend course.
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
                       <Link href="/contact">Dates to be confirmed</Link>

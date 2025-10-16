@@ -103,7 +103,18 @@ export default function SiteFooter() {
         </div>
 
         <div className="mt-8 pt-8 border-t border-brand-warm-gray text-center text-sm font-body text-brand-black/60">
-          <p>&copy; {new Date().getFullYear()} Yoga with Georgia. All rights reserved.</p>
+          <p>
+            &copy; {new Date().getFullYear()} Yoga with Georgia. All rights reserved. Powered by{" "}
+            <a
+              href="https://oliverjensenmedia.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-brand-orange hover:text-brand-gold hover:underline underline-offset-4 transition-colors"
+            >
+              Jensen Media
+            </a>
+            .
+          </p>
         </div>
       </div>
     </footer>
