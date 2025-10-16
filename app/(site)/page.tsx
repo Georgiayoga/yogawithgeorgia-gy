@@ -82,8 +82,8 @@ export default function HomePage() {
             <div className="absolute inset-0 w-full h-full bg-black/10" />
           </div>
 
-          {/* Text Overlay - Positioned lower on mobile, top on larger screens */}
-          <div className="absolute bottom-8 sm:top-0 left-0 right-0 sm:pt-16 pb-8 px-4 z-10">
+          {/* Text Overlay - Positioned at bottom on mobile, top on larger screens */}
+          <div className="absolute bottom-8 sm:bottom-auto sm:top-0 left-0 right-0 sm:pt-16 pb-8 px-4 z-10">
             <div className="container mx-auto text-center text-black">
               <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl mb-4">Iyengar Yoga with Georgia</h1>
               <p className="font-body text-xl md:text-2xl mb-8">Precise · Supportive · Transformative</p>
