@@ -70,7 +70,7 @@ export default function RetreatsPage() {
             </header>
 
             <section className="mb-16">
-              <h2 className="font-heading text-3xl text-brand-black text-center mb-8">Retreats in 2026  </h2>
+              <h2 className="font-heading text-3xl text-brand-black text-center mb-8">Retreats in 2026 &amp; 2027 </h2>
               <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
                 {/* Morocco Retreat Card */}
                 <Card className="border-brand-warm-gray overflow-hidden">
@@ -83,14 +83,14 @@ export default function RetreatsPage() {
                     <CardTitle className="font-heading text-xl text-brand-black">Morocco Retreat</CardTitle>
                     <div className="font-body text-sm text-brand-black/70">
                       <p>Atlas Mountains, Morocco</p>
-                      <p>February 15–21, 2026</p>
+                      <p>February 15—21, 2026</p>
                     </div>
                   </CardHeader>
                   <CardContent className="space-y-4">
                     <p className="font-body text-brand-black/80 text-sm">
-                      Bab Zouina's Moroccan architecture and landscaped gardens blend aesthetic beauty with rustic
-                      simplicity. Including scenic views, local cuisine, and a spacious yoga shala, it offers a peaceful
-                      and tranquil retreat.
+                      Bab Zouina&#39;s Moroccan architecture and landscaped gardens blend aesthetic beauty with rustic
+                      simplicity. Including scenic views, local cuisine, and a spacious and well-equipped yoga shala, it
+                      offers a peaceful and tranquil retreat.
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
                       <Link href="/morocco-retreat">View Details</Link>
@@ -109,12 +109,14 @@ export default function RetreatsPage() {
                     <CardTitle className="font-heading text-xl text-brand-black">Sri Lanka Retreat</CardTitle>
                     <div className="font-body text-sm text-brand-black/70">
                       <p>Sri Lanka</p>
-                      <p>March 15–29,  2026</p>
+                      <p>March 15—29, 2026</p>
                     </div>
                   </CardHeader>
                   <CardContent className="space-y-4">
                     <p className="font-body text-brand-black/80 text-sm">
-                      Considered one of the world&#39;s best yoga centres, Ulpotha, is an Ayurvedic retreat centre, based on a traditional Sri Lankan farming village which is run by the local Buddhist community. &quot;It is Heaven on Earth&quot;.
+                      Considered one of the world&#39;s best yoga centres, Ulpotha, is an Ayurvedic retreat centre,
+                      based on a traditional Sri Lankan farming village which is run by the local Buddhist community.
+                      &quot;It is Heaven on Earth&quot;.
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
                       <Link href="/sri-lanka-retreat">View Details</Link>
@@ -133,15 +135,69 @@ export default function RetreatsPage() {
                     <CardTitle className="font-heading text-xl text-brand-black">Portugal Retreat</CardTitle>
                     <div className="font-body text-sm text-brand-black/70">
                       <p>Loulé, Algarve</p>
-                      <p>April 26 – May 2, 2026</p>
+                      <p>April 26—May 2, 2026</p>
                     </div>
                   </CardHeader>
                   <CardContent className="space-y-4">
                     <p className="font-body text-brand-black/80 text-sm">
-                      {"Come to the lovely Casa Cales, nestled in the hills outside Loulé and just 15 minutes from the coastline of fabulous beaches and sandy coves. A family home converted to peaceful retreat centre surrounded by nature."}
+                      {
+                        "Enjoy Spring in Portugal and come to the lovely Casa Cales, nestled in the hills outside Loulé and just 15 minutes from the coastline of fabulous beaches and sandy coves. A family home converted to peaceful retreat centre surrounded by nature."
+                      }
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
                       <Link href="/portugal-retreat">View Details</Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+
+                {/* Greece Retreat Card */}
+                <Card className="border-brand-warm-gray overflow-hidden">
+                  <img
+                    src="/greece-evia-bay.png"
+                    alt="Greece Retreat - Evia Bay with turquoise waters"
+                    className="w-full h-48 object-cover"
+                  />
+                  <CardHeader>
+                    <CardTitle className="font-heading text-xl text-brand-black">Greece Retreat</CardTitle>
+                    <div className="font-body text-sm text-brand-black/70">
+                      <p>Evia Bay, Northern Evia </p>
+                      <p>June 21—27, 2026</p>
+                    </div>
+                  </CardHeader>
+                  <CardContent className="space-y-4">
+                    <p className="font-body text-brand-black/80 text-sm">
+                      {
+                        "Experience early-summer tranquillity at Evia Bay — before the tourist rush. Practise overlooking the Aegean, swim in crystal waters, and unwind among olive groves and healing hot springs in a serene, sun-warmed coastal haven."
+                      }
+                    </p>
+                    <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
+                      <Link href="/greece-retreat">Details to come</Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+
+                {/* UK Retreat Card */}
+                <Card className="border-brand-warm-gray overflow-hidden">
+                  <img
+                    src="/uk-lake-district-yewfield.jpg"
+                    alt="UK Retreat venue in Lake District"
+                    className="w-full h-48 object-cover"
+                  />
+                  <CardHeader>
+                    <CardTitle className="font-heading text-xl text-brand-black">UK Retreat</CardTitle>
+                    <div className="font-body text-sm text-brand-black/70">
+                      <p>Ambleside, Lake District</p>
+                      <p>July 16—20, 2026</p>
+                    </div>
+                  </CardHeader>
+                  <CardContent className="space-y-4">
+                    <p className="font-body text-brand-black/80 text-sm">
+                      {
+                        "Experience the beauty of the Lake District with daily yoga classes and peaceful walks or invigorating hikes through valleys, lakes, and fells — a perfect summer retreat in one of England’s most breathtaking landscapes."
+                      }
+                    </p>
+                    <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
+                      <Link href="/uk-retreat">View Details</Link>
                     </Button>
                   </CardContent>
                 </Card>
@@ -157,15 +213,69 @@ export default function RetreatsPage() {
                     <CardTitle className="font-heading text-xl text-brand-black">Portugal Retreat</CardTitle>
                     <div className="font-body text-sm text-brand-black/70">
                       <p>Loulé, Algarve</p>
-                      <p>September 13-19,  2026</p>
+                      <p>September 13—19, 2026</p>
                     </div>
                   </CardHeader>
                   <CardContent className="space-y-4">
                     <p className="font-body text-brand-black/80 text-sm">
-                      {"Join us once again at the much-loved Casa Cales near the market town of Loulé, surrounded by the beauty of the Algarve coast, for a rejuvenating week of yoga and relaxation. The perfect end-of-summer getaway."}
+                      {
+                        "Join us once again at the much-loved Casa Cales near the market town of Loulé, surrounded by the beauty of the Algarve coast, for a rejuvenating week of yoga and relaxation. The perfect end-of-summer getaway."
+                      }
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
                       <Link href="/portugal-september-retreat">View Details</Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+
+                {/* Updated Sri Lanka Retreat Card */}
+                <Card className="border-brand-warm-gray overflow-hidden">
+                  <img
+                    src="/sri-lanka-mountain-lake.jpeg"
+                    alt="Sri Lanka Retreat - mountain and lake landscape"
+                    className="w-full h-48 object-cover"
+                  />
+                  <CardHeader>
+                    <CardTitle className="font-heading text-xl text-brand-black">Sri Lanka Retreat</CardTitle>
+                    <div className="font-body text-sm text-brand-black/70">
+                      <p>Uloptha, Sri Lanka</p>
+                      <p>January 15—29, 2027</p>
+                    </div>
+                  </CardHeader>
+                  <CardContent className="space-y-4">
+                    <p className="font-body text-brand-black/80 text-sm">
+                      {
+                        "Ulpotha offers an immersive retreat into nature and tradition. Enjoy authentic Sri Lankan hospitality, nourishing Ayurvedic meals, and deeply restorative yoga in a setting that feels timeless and sacred."
+                      }
+                    </p>
+                    <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
+                      <Link href="/sri-lanka-retreat">View Details</Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+
+                {/* Azores, Portugal Retreat Card */}
+                <Card className="border-brand-warm-gray overflow-hidden">
+                  <img
+                    src="/azores-volcanic-crater.png"
+                    alt="Azores, Portugal Retreat - aerial view of volcanic crater with lush green fields"
+                    className="w-full h-48 object-cover"
+                  />
+                  <CardHeader>
+                    <CardTitle className="font-heading text-xl text-brand-black">Azores, Portugal</CardTitle>
+                    <div className="font-body text-sm text-brand-black/70">
+                      <p>Xhale Resort, Teceira Island</p>
+                      <p>September 12—18, 2027</p>
+                    </div>
+                  </CardHeader>
+                  <CardContent className="space-y-4">
+                    <p className="font-body text-brand-black/80 text-sm">
+                      {
+                        "Surrounded by ocean views and volcanic landscapes, practise yoga amidst nature's elements. Savour locally sourced plant-based meals, explore coastal trails and natural pools, and unwind in this peaceful eco-retreat."
+                      }
+                    </p>
+                    <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
+                      <Link href="/azores-portugal-retreat">Details to come</Link>
                     </Button>
                   </CardContent>
                 </Card>
@@ -186,7 +296,7 @@ export default function RetreatsPage() {
                     <CardTitle className="font-heading text-xl text-brand-black">Weekend Workshop - Scotland</CardTitle>
                     <div className="font-body text-sm text-brand-black/70">
                       <p>Comrie, nr Edinburgh</p>
-                      <p>November 8– 9, 2025</p>
+                      <p>November, 2026</p>
                     </div>
                   </CardHeader>
                   <CardContent className="space-y-4">
@@ -211,7 +321,7 @@ export default function RetreatsPage() {
                     <CardTitle className="font-heading text-xl text-brand-black">Weekend Workshop - Portugal</CardTitle>
                     <div className="font-body text-sm text-brand-black/70">
                       <p>Loulé, Algarve</p>
-                      <p>November 29–30, 2025</p>
+                      <p>November 29—30, 2025</p>
                     </div>
                   </CardHeader>
                   <CardContent className="space-y-4">
@@ -236,12 +346,13 @@ export default function RetreatsPage() {
                     <CardTitle className="font-heading text-xl text-brand-black">Weekend Workshop - England</CardTitle>
                     <div className="font-body text-sm text-brand-black/70">
                       <p>Sidmouth, Devon</p>
-                      <p>July 2026</p>
+                      <p>October 2026</p>
                     </div>
                   </CardHeader>
                   <CardContent className="space-y-4">
                     <p className="font-body text-brand-black/80 text-sm">
-                      Immerse yourself in a weekend of yoga, featuring a series of classes that build into a full-weekend course.
+                      Immerse yourself in a weekend of yoga, featuring a series of classes that build into a
+                      full-weekend course.
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
                       <Link href="/contact">Dates to be confirmed</Link>
@@ -278,7 +389,9 @@ export default function RetreatsPage() {
                           Where are the retreats held?
                         </h3>
                         <p className="text-brand-black/70 leading-relaxed text-sm">
-                          Retreats take place in stunning locations including Portugal, Sri Lanka, Greece and Morocco. Each venue is carefully selected for its natural beauty, peaceful atmosphere, and excellent facilities.
+                          Retreats take place in stunning locations including Portugal, Sri Lanka, Greece and Morocco.
+                          Each venue is carefully selected for its natural beauty, peaceful atmosphere, and excellent
+                          facilities.
                         </p>
                       </div>
                     </div>
@@ -333,7 +446,8 @@ export default function RetreatsPage() {
                           How do I book?
                         </h3>
                         <p className="text-brand-black/70 leading-relaxed text-sm mb-4">
-                          Booking is simple! Click &quot;View Details&quot; on any retreat above, or contact Georgia directly to discuss which retreat would be best for you.
+                          Booking is simple! Click &quot;View Details&quot; on any retreat above, or contact Georgia
+                          directly to discuss which retreat would be best for you.
                         </p>
                         <Button
                           asChild
