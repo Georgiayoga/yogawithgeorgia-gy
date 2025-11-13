@@ -35,7 +35,7 @@ export default function PortugalRetreatPage() {
             <div className="space-y-6 font-body text-lg text-brand-black/90 leading-relaxed">
               <p>
                 {
-                  "\nIn the heart of the English Lake District, Yewfield is ideally situated for walking and enjoying this special region of rare natural beauty. Set in beautiful gardens, Yewfield offers stylish rooms, stunning views and peaceful ambience. \n"
+                  "In the heart of the English Lake District, Yewfield is ideally situated for walking and enjoying this special region of natural beauty. Set in beautiful gardens, Yewfield offers stylish rooms, stunning views and peaceful ambience."
                 }
               </p>
               <p>{""}</p>
@@ -85,12 +85,12 @@ export default function PortugalRetreatPage() {
               <h2 className="font-heading text-2xl text-brand-black mb-4">Daily Schedule</h2>
               <div className="space-y-3 font-body text-brand-black/80">
                 <div>
-                  <p className="font-medium text-brand-black">Morning yoga practice 8:30 - 10:30</p>
+                  <p className="font-medium text-brand-black">Morning yoga practice 8:00 - 10:30</p>
                   <p className="text-sm">Yoga practice</p>
                 </div>
                 <div>
-                  <p className="font-medium text-brand-black">{"Brunch 10:30 - 11\n:30"}</p>
-                  <p className="text-sm">Brunch</p>
+                  <p className="font-medium text-brand-black">{"Breakfast 10:30 - 11:30"}</p>
+                  <p className="text-sm">Continental breakfast with cooked options                      </p>
                 </div>
                 <div>
                   <p className="font-medium text-brand-black">Afternoon</p>
@@ -103,8 +103,8 @@ export default function PortugalRetreatPage() {
                   <p className="text-sm">Yoga practice</p>
                 </div>
                 <div>
-                  <p className="font-medium text-brand-black">Dinner and relaxation 19:30 onwards)</p>
-                  <p className="text-sm">Dinner and relaxation</p>
+                  <p className="font-medium text-brand-black">Dinner 19:30 onwards</p>
+                  <p className="text-sm">Post dinner relaxation</p>
                 </div>
               </div>
             </div>
@@ -127,7 +127,7 @@ export default function PortugalRetreatPage() {
                 </div>
               </div>
               <p className="font-body text-sm text-brand-black/70 mt-6">
-                {"A deposit of £100\n is required to secure your place"}
+                "A deposit of £100 is required to secure your place"
               </p>
             </div>
           </section>
@@ -164,31 +164,31 @@ export default function PortugalRetreatPage() {
             <h2 className="font-heading text-3xl text-brand-black mb-6">What Makes This Retreat Special</h2>
             <div className="space-y-4 font-body text-lg text-brand-black/90 leading-relaxed">
               <div className="bg-brand-warm-gray/10 rounded-lg p-6">
-                <h3 className="font-heading text-xl text-brand-black mb-3">🏖️ Beach Access</h3>
+                <h3 className="font-heading text-xl text-brand-black mb-3">🌳 The Estate</h3>
                 <p>
-                  Just 15 minutes from stunning Algarve beaches and the Ria Formosa Natural Park. Enjoy morning yoga
-                  practice followed by afternoon beach visits, combining the best of yoga retreat and coastal holiday.
+                  The Yewfield Estate covers about 80 acres in total, with 2 acres of gardens around the house, 25 acres
+                  of grazing land and the rest is woodland. The land is managed organically and sustainably.
                 </p>
               </div>
               <div className="bg-brand-warm-gray/10 rounded-lg p-6">
-                <h3 className="font-heading text-xl text-brand-black mb-3">🧘 Dedicated Yoga Studio</h3>
+                <h3 className="font-heading text-xl text-brand-black mb-3">🍲 Fresh and flavourful </h3>
                 <p>
-                  Casa Cales features a purpose-built yoga studio with all necessary props, excellent natural light, and
-                  beautiful views. The space is designed specifically for Iyengar practice.
+                  Yewfield's vegetarian cuisine is fresh, seasonal, and locally sourced, prepared with creativity and
+                  care. Every meal is nourishing, beautifully presented, and full of flavour.
                 </p>
               </div>
               <div className="bg-brand-warm-gray/10 rounded-lg p-6">
-                <h3 className="font-heading text-xl text-brand-black mb-3">🌞 Perfect Climate</h3>
+                <h3 className="font-heading text-xl text-brand-black mb-3">🌞 Summer!</h3>
                 <p>
-                  April in the Algarve offers ideal weather—warm, sunny days averaging 20-24°C, perfect for both yoga
-                  practice and outdoor exploration without the summer crowds.
+                  July is the perfect time to experience the Lake District at its most vibrant, with long days, clear
+                  air, and endless opportunities to explore and relax outdoors.
                 </p>
               </div>
               <div className="bg-brand-warm-gray/10 rounded-lg p-6">
-                <h3 className="font-heading text-xl text-brand-black mb-3">🏘️ Cultural Exploration</h3>
+                <h3 className="font-heading text-xl text-brand-black mb-3">🏞️ Tarn Hows</h3>
                 <p>
-                  Explore the charming market town of Loulé, known for its Saturday market, historic architecture, and
-                  authentic Portuguese culture. Optional excursions to local villages and coastal towns.
+                  Superb walks from the door lead to Tarn Hows and the surrounding fells which is an area renowned for
+                  its beauty, and ideal for picnics, boating, and observing wildlife.
                 </p>
               </div>
             </div>
@@ -200,45 +200,39 @@ export default function PortugalRetreatPage() {
             <div className="bg-brand-warm-gray/10 rounded-lg p-8">
               <div className="space-y-6 font-body text-brand-black/90 leading-relaxed">
                 <div>
-                  <p className="font-heading text-lg text-brand-black mb-2">7:30 AM - Morning Practice</p>
+                  <p className="font-heading text-lg text-brand-black mb-2">8:00 AM - Morning Practice</p>
                   <p>
-                    Begin your day with a 2-hour Iyengar yoga class in the beautiful studio. Morning sessions often
-                    focus on standing poses, inversions, and energizing sequences to awaken the body.
+                    Begin your day with yoga in the beautiful studio. Morning sessions often focus on energising
+                    sequences while having the time for questions and discussion as needed.
                   </p>
                 </div>
                 <div>
-                  <p className="font-heading text-lg text-brand-black mb-2">9:30 AM - Breakfast</p>
+                  <p className="font-heading text-lg text-brand-black mb-2">10:30 AM - Breakfast</p>
                   <p>
-                    Enjoy a healthy breakfast featuring fresh local fruits, homemade breads, yogurt, eggs, and
-                    Portuguese specialties.
+                    Breakfast is a generous vegetarian buffet, with both continental and cooked options made from fresh,
+                    local ingredients.
                   </p>
                 </div>
                 <div>
-                  <p className="font-heading text-lg text-brand-black mb-2">10:30 AM - Free Time</p>
+                  <p className="font-heading text-lg text-brand-black mb-2">Free time </p>
                   <p>
-                    Relax by the pool, take a siesta, read in the gardens, or join an optional excursion to the beach or
-                    local villages. Some days include organised trips to nearby attractions.
+                    Enjoy the afternoons to unwind or explore. Options include local walks and village visits or quiet
+                    rest at Yewfield. A freshly prepared vegetarian packed lunch is prepared each day, with the option
+                    of a light meal served at the house instead.
                   </p>
                 </div>
                 <div>
-                  <p className="font-heading text-lg text-brand-black mb-2">1:00 PM - Lunch</p>
+                  <p className="font-heading text-lg text-brand-black mb-2">5:30 PM - Afternoon Practice</p>
                   <p>
-                    A light, nourishing lunch with salads, grilled vegetables, soups, and Mediterranean dishes. Fresh,
-                    seasonal, and mostly vegetarian.
+                    The afternoon session typically focuses on slower sequences and restorative practice including
+                    pranayama.
                   </p>
                 </div>
                 <div>
-                  <p className="font-heading text-lg text-brand-black mb-2">4:30 PM - Afternoon Practice</p>
+                  <p className="font-heading text-lg text-brand-black mb-2">7:30 PM - Dinner &amp; Evening</p>
                   <p>
-                    The afternoon session typically focuses on deeper work—restorative poses, backbends, forward bends,
-                    or specialised workshops on particular aspects of Iyengar practice.
-                  </p>
-                </div>
-                <div>
-                  <p className="font-heading text-lg text-brand-black mb-2">7:00 PM - Dinner & Evening</p>
-                  <p>
-                    Gather for dinner featuring Portuguese and Mediterranean cuisine. Evenings are free to relax, share
-                    conversations with fellow students, or enjoy the peaceful surroundings under the stars.
+                    Dinner at Yewfield is a highlight of the day. Enjoy beautifully cooked vegetarian dishes made with
+                    care, followed by a delicious homemade dessert.
                   </p>
                 </div>
               </div>
@@ -250,17 +244,13 @@ export default function PortugalRetreatPage() {
             <h2 className="font-heading text-3xl text-brand-black mb-6">Who Should Attend</h2>
             <div className="space-y-4 font-body text-lg text-brand-black/90 leading-relaxed">
               <p>
-                This retreat is suitable for students of all levels, from beginners to experienced practitioners.
-                Georgia's clear teaching style ensures everyone receives appropriate guidance and individual attention.
+                This retreat welcomes students with at least one year of Iyengar Yoga experience through to seasoned practitioners. 
               </p>
               <p>
-                Whether you're looking to deepen your existing practice, learn Iyengar Yoga properly from the beginning,
-                or simply enjoy a week of yoga combined with the beauty of the Algarve, this retreat offers something
-                for everyone.
+                Georgia’s clear and attentive teaching offers individual guidance and space for personal exploration. It’s an opportunity to deepen your practice, refine technique, and share time with a like-minded community, all within the tranquillity of the Lake District. 
               </p>
               <p>
-                The combination of dedicated practice time and leisure activities makes this retreat ideal for both
-                serious students and those seeking a more balanced yoga holiday experience.
+                With a balanced rhythm of dedicated practice and relaxed free time, the retreat nurtures both focused study and quiet restoration.
               </p>
             </div>
           </section>
@@ -270,11 +260,9 @@ export default function PortugalRetreatPage() {
             <h2 className="font-heading text-3xl text-brand-black mb-6">Getting There</h2>
             <div className="space-y-6 font-body text-lg text-brand-black/90 leading-relaxed">
               <div>
-                <h3 className="font-heading text-xl text-brand-black mb-3">By Air</h3>
+                <h3 className="font-heading text-xl text-brand-black mb-3">Car or Public Transport    </h3>
                 <p>
-                  The nearest airport is Faro (FAO), which is well-connected to major European cities with frequent
-                  direct flights. From Faro airport, Casa Cales is approximately 30 minutes by car. Airport transfers
-                  are included in the retreat price.
+                  The nearest town is Ambleside is Faro (FAO), which is well-connected to major European cities with frequent direct flights. From Faro airport, Casa Cales is approximately 30 minutes by car. Airport transfers are included in the retreat price.
                 </p>
               </div>
               <div>
