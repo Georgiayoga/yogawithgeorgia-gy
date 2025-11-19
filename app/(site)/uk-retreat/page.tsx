@@ -42,6 +42,20 @@ export default function PortugalRetreatPage() {
             </div>
           </section>
 
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+            <Button asChild size="lg" className="bg-brand-orange hover:bg-brand-gold text-white transition-colors">
+              <Link href="/contact">Book Your Place</Link>
+            </Button>
+            <Button
+              asChild
+              size="lg"
+              variant="outline"
+              className="border-brand-orange text-brand-orange hover:bg-brand-orange hover:text-white transition-colors bg-transparent"
+            >
+              <Link href="/retreats">View All Retreats</Link>
+            </Button>
+          </div>
+
           {/* Key Details Grid */}
           <section className="mb-12 grid gap-6 md:grid-cols-2">
             <div className="bg-brand-warm-gray/20 rounded-lg p-6">
@@ -90,7 +104,7 @@ export default function PortugalRetreatPage() {
                 </div>
                 <div>
                   <p className="font-medium text-brand-black">{"Breakfast 10:30 - 11:30"}</p>
-                  <p className="text-sm">Continental breakfast with cooked options                      </p>
+                  <p className="text-sm">Continental breakfast with cooked options </p>
                 </div>
                 <div>
                   <p className="font-medium text-brand-black">Afternoon</p>
@@ -244,13 +258,17 @@ export default function PortugalRetreatPage() {
             <h2 className="font-heading text-3xl text-brand-black mb-6">Who Should Attend</h2>
             <div className="space-y-4 font-body text-lg text-brand-black/90 leading-relaxed">
               <p>
-                This retreat welcomes students with at least one year of Iyengar Yoga experience through to seasoned practitioners. 
+                This retreat welcomes students with at least one year of Iyengar Yoga experience through to seasoned
+                practitioners.
               </p>
               <p>
-                Georgia’s clear and attentive teaching offers individual guidance and space for personal exploration. It’s an opportunity to deepen your practice, refine technique, and share time with a like-minded community, all within the tranquillity of the Lake District. 
+                Georgia’s clear and attentive teaching offers individual guidance and space for personal exploration.
+                It’s an opportunity to deepen your practice, refine technique, and share time with a like-minded
+                community, all within the tranquillity of the Lake District.
               </p>
               <p>
-                With a balanced rhythm of dedicated practice and relaxed free time, the retreat nurtures both focused study and quiet restoration.
+                With a balanced rhythm of dedicated practice and relaxed free time, the retreat nurtures both focused
+                study and quiet restoration.
               </p>
             </div>
           </section>
@@ -260,9 +278,11 @@ export default function PortugalRetreatPage() {
             <h2 className="font-heading text-3xl text-brand-black mb-6">Getting There</h2>
             <div className="space-y-6 font-body text-lg text-brand-black/90 leading-relaxed">
               <div>
-                <h3 className="font-heading text-xl text-brand-black mb-3">Car or Public Transport    </h3>
+                <h3 className="font-heading text-xl text-brand-black mb-3">Car or Public Transport </h3>
                 <p>
-                  The nearest town is Ambleside is Faro (FAO), which is well-connected to major European cities with frequent direct flights. From Faro airport, Casa Cales is approximately 30 minutes by car. Airport transfers are included in the retreat price.
+                  The nearest town is Ambleside is Faro (FAO), which is well-connected to major European cities with
+                  frequent direct flights. From Faro airport, Casa Cales is approximately 30 minutes by car. Airport
+                  transfers are included in the retreat price.
                 </p>
               </div>
               <div>
@@ -371,21 +391,6 @@ export default function PortugalRetreatPage() {
               </div>
             </div>
           </section>
-
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button asChild size="lg" className="bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-              <Link href="/contact">Book Your Place</Link>
-            </Button>
-            <Button
-              asChild
-              size="lg"
-              variant="outline"
-              className="border-brand-orange text-brand-orange hover:bg-brand-orange hover:text-white transition-colors bg-transparent"
-            >
-              <Link href="/retreats">View All Retreats</Link>
-            </Button>
-          </div>
 
           {/* Additional Image Gallery */}
           <section className="mt-16">

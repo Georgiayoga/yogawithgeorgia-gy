@@ -382,8 +382,7 @@ export default function HomePage() {
               cultural understanding to her classes.
             </p>
             <p>
-              She has studied directly with the Iyengar family at RIMYI in Pune, India, ensuring authentic transmission
-              of this powerful yoga method.
+              She has studied directly with the Iyengar family at RIMYI in Pune, India, ensuring authentic transmission of a yoga method distinguished by its depth and integrity.
             </p>
             <p>
               Georgia's classes are known for their clarity, warmth, and attention to individual needs, creating an
@@ -481,8 +480,7 @@ export default function HomePage() {
               international retreats.
             </p>
             <p className="text-base">
-              Choose from Studio Classes, Online Classes, or Retreats & Workshops mailing lists to receive only the
-              updates that interest you most.
+              To receive the updates that most interest you, join up to three different mailing lists: Studio Classes, Online Classes, or Retreats &amp; Workshops.
             </p>
           </div>
           <Button asChild size="lg" className="bg-brand-orange hover:bg-brand-gold text-white transition-colors">

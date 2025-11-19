@@ -16,9 +16,11 @@ export default function SriLankaRetreatPage() {
         <div className="max-w-4xl mx-auto">
           {/* Hero Section */}
           <header className="text-centre mb-12">
-            <h1 className="font-heading text-4xl md:text-5xl text-brand-black mb-4 text-center">Sri Lanka Retreat 2026</h1>
+            <h1 className="font-heading text-4xl md:text-5xl text-brand-black mb-4 text-center">
+              Sri Lanka Retreat 2027
+            </h1>
             <p className="font-body text-xl text-brand-black/80 mb-2 text-center">Ulpotha, Sri Lanka</p>
-            <p className="font-body text-lg text-brand-orange font-medium text-center">March 15–19,  2026</p>
+            <p className="font-body text-lg text-brand-orange font-medium text-center">January 15–29, 2027</p>
           </header>
 
           {/* Main Image */}
@@ -34,8 +36,8 @@ export default function SriLankaRetreatPage() {
           <section className="mb-12">
             <div className="space-y-6 font-body text-lg text-brand-black/90 leading-relaxed">
               <p>
-                Join Georgia for an unforgettable week-long Iyengar Yoga retreat at Ulpotha, widely considered one of
-                the world's finest yoga centres. This immersive experience combines daily yoga practice with the natural
+                Join Georgia for an unforgettable two-week Iyengar Yoga retreat at Ulpotha, widely considered one of the
+                world&#39;s finest yoga centres. This immersive experience combines daily yoga practice with the natural
                 beauty and spiritual richness of Sri Lanka.
               </p>
               <p>
@@ -45,6 +47,21 @@ export default function SriLankaRetreatPage() {
               </p>
             </div>
           </section>
+
+          {/* CTA buttons */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+            <Button asChild size="lg" className="bg-brand-orange hover:bg-brand-gold text-white transition-colors">
+              <Link href="/contact">Book Your Place</Link>
+            </Button>
+            <Button
+              asChild
+              size="lg"
+              variant="outline"
+              className="border-brand-orange text-brand-orange hover:bg-brand-orange hover:text-white transition-colors bg-transparent"
+            >
+              <Link href="/retreats">View All Retreats</Link>
+            </Button>
+          </div>
 
           {/* Key Details Grid */}
           <section className="mb-12 grid gap-6 md:grid-cols-2">
@@ -65,6 +82,10 @@ export default function SriLankaRetreatPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
+                  <span>A 1-hour weekly massage per 7-nights stay</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-brand-orange mt-1">•</span>
                   <span>Use of yoga props and equipment</span>
                 </li>
                 <li className="flex items-start gap-3">
@@ -77,7 +98,11 @@ export default function SriLankaRetreatPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
-                  <span>Airport transfers from Colombo</span>
+                  <span>Transport provided for optional excursions</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-brand-orange mt-1">•</span>
+                  <span>Laundry service and the use of bicycles, hot water bathing area, and taxes</span>
                 </li>
               </ul>
             </div>
@@ -86,28 +111,37 @@ export default function SriLankaRetreatPage() {
               <h2 className="font-heading text-2xl text-brand-black mb-4">Daily Schedule</h2>
               <div className="space-y-3 font-body text-brand-black/80">
                 <div>
-                  <p className="font-medium text-brand-black">Early Morning (6:00 - 6:30)</p>
-                  <p className="text-sm">Optional meditation or walk</p>
+                  <p className="font-medium text-brand-black">Tea and Fruit: 7:00 - 7:30</p>
                 </div>
                 <div>
-                  <p className="font-medium text-brand-black">Morning (7:00 - 9:00)</p>
-                  <p className="text-sm">Yoga practice</p>
+                  <p className="font-medium text-brand-black">Yoga practice 8:00 - 9:30</p>
                 </div>
                 <div>
-                  <p className="font-medium text-brand-black">Morning (9:00 - 10:00)</p>
-                  <p className="text-sm">Breakfast</p>
+                  <p className="font-medium text-brand-black">Breakfast 9:30 - 10:00</p>
                 </div>
                 <div>
-                  <p className="font-medium text-brand-black">Mid-day</p>
-                  <p className="text-sm">Free time for rest, swimming, treatments, or exploration</p>
+                  <p className="font-medium text-brand-black">Free time 10.00 - 12.30</p>
+                  <p className="text-sm">Massage, Ayurveda, swimming or rest</p>
                 </div>
                 <div>
-                  <p className="font-medium text-brand-black">Afternoon (4:30 - 6:30)</p>
-                  <p className="text-sm">Yoga practice</p>
+                  <p className="font-medium text-brand-black">Lunch 12:30 - 13:30</p>
+                  <p className="text-sm">Meet at the Ambalama</p>
                 </div>
                 <div>
-                  <p className="font-medium text-brand-black">Evening (7:00 onwards)</p>
-                  <p className="text-sm">Dinner and relaxation</p>
+                  <p className="font-medium text-brand-black">Free time 14:00 - 16:00</p>
+                  <p className="text-sm">Additional free time for exploration or relaxation</p>
+                </div>
+                <div>
+                  <p className="font-medium text-brand-black">Tea and Snacks 16:00 - 17:00</p>
+                  <p className="text-sm">Afternoon refreshments</p>
+                </div>
+                <div>
+                  <p className="font-medium text-brand-black">Yoga practice 17:00 - 18:30</p>
+                  <p className="text-sm">Evening practice </p>
+                </div>
+                <div>
+                  <p className="font-medium text-brand-black">Dinner 19:00 - 20:00</p>
+                  <p className="text-sm">Evening meal and relaxation</p>
                 </div>
               </div>
             </div>
@@ -284,21 +318,6 @@ export default function SriLankaRetreatPage() {
               </div>
             </div>
           </section>
-
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-centre items-centre">
-            <Button asChild size="lg" className="bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-              <Link href="/contact">Book Your Place</Link>
-            </Button>
-            <Button
-              asChild
-              size="lg"
-              variant="outline"
-              className="border-brand-orange text-brand-orange hover:bg-brand-orange hover:text-white transition-colors bg-transparent"
-            >
-              <Link href="/retreats">View All Retreats</Link>
-            </Button>
-          </div>
 
           {/* Additional Image Gallery */}
           <section className="mt-16">

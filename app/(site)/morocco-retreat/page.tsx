@@ -1,5 +1,11 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
 
 export const metadata = {
   title: "Morocco Retreat 2026 | Yoga with Georgia",
@@ -44,6 +50,20 @@ export default function MoroccoRetreatPage() {
               </p>
             </div>
           </section>
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+            <Button asChild size="lg" className="bg-brand-orange hover:bg-brand-gold text-white transition-colors">
+              <Link href="/contact">Book Your Place</Link>
+            </Button>
+            <Button
+              asChild
+              size="lg"
+              variant="outline"
+              className="border-brand-orange text-brand-orange hover:bg-brand-orange hover:text-white transition-colors bg-transparent"
+            >
+              <Link href="/retreats">View All Retreats</Link>
+            </Button>
+          </div>
 
           {/* Key Details Grid */}
           <section className="mb-12 grid gap-6 md:grid-cols-2">
@@ -104,40 +124,18 @@ export default function MoroccoRetreatPage() {
             </div>
           </section>
 
-          {/* Pricing */}
-          <section className="mb-12">
-            <div className="bg-brand-warm-gray/20 rounded-lg p-8 text-center">
-              <h2 className="font-heading text-3xl text-brand-black mb-6">Pricing</h2>
-              <div className="grid gap-6 md:grid-cols-2 max-w-2xl mx-auto">
-                <div className="bg-white rounded-lg p-6 shadow-sm">
-                  <h3 className="font-heading text-xl text-brand-black mb-2">Shared Room</h3>
-                  <p className="font-body text-3xl text-brand-orange font-bold mb-2">€1,200</p>
-                  <p className="font-body text-sm text-brand-black/70">per person</p>
-                </div>
-                <div className="bg-white rounded-lg p-6 shadow-sm">
-                  <h3 className="font-heading text-xl text-brand-black mb-2">Private Room</h3>
-                  <p className="font-body text-3xl text-brand-orange font-bold mb-2">€1,450</p>
-                  <p className="font-body text-sm text-brand-black/70">per person</p>
-                </div>
-              </div>
-              <p className="font-body text-sm text-brand-black/70 mt-6">
-                A deposit of €400 is required to secure your place
-              </p>
-            </div>
-          </section>
-
           {/* About the Venue */}
           <section className="mb-12">
             <h2 className="font-heading text-3xl text-brand-black mb-6">About Bab Zouina</h2>
             <div className="space-y-6 font-body text-lg text-brand-black/90 leading-relaxed">
               <p>
-                Bab Zouina is a beautifully organised retreat center nestled in the foothills of the Atlas Mountains,
-                just 45 minutes from Marrakech. The center combines traditional Moroccan architecture with modern
+                Bab Zouina is a beautifully organised retreat centre nestled in the foothills of the Atlas Mountains,
+                just 45 minutes from Marrakech. The centre combines traditional Moroccan architecture with modern
                 comfort, creating an ideal environment for yoga practice and relaxation.
               </p>
               <p>
                 The property features landscaped gardens with fragrant orange and olive trees, a spacious yoga shala
-                with mountain views, and comfortable accommodation designed in traditional Moroccan style. The center's
+                with mountain views, and comfortable accommodation designed in traditional Moroccan style. The centre's
                 commitment to sustainability and local culture creates an authentic and enriching experience.
               </p>
               <p>
@@ -186,21 +184,6 @@ export default function MoroccoRetreatPage() {
             </div>
           </section>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button asChild size="lg" className="bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-              <Link href="/contact">Book Your Place</Link>
-            </Button>
-            <Button
-              asChild
-              size="lg"
-              variant="outline"
-              className="border-brand-orange text-brand-orange hover:bg-brand-orange hover:text-white transition-colors bg-transparent"
-            >
-              <Link href="/retreats">View All Retreats</Link>
-            </Button>
-          </div>
-
           {/* Additional Image Gallery */}
           <section className="mt-16">
             <h2 className="font-heading text-3xl text-brand-black mb-8 text-center">Gallery</h2>
@@ -217,6 +200,107 @@ export default function MoroccoRetreatPage() {
               />
             </div>
           </section>
+
+          {/* FAQ Accordion */}
+          <section className="mt-12 mb-8">
+            <h2 className="font-heading text-2xl text-brand-black mb-6 text-center">Frequently Asked Questions</h2>
+            <Accordion type="single" collapsible className="w-full">
+              <AccordionItem value="pricing">
+                <AccordionTrigger className="font-body text-lg text-brand-black">
+                  The price and what's included
+                </AccordionTrigger>
+                <AccordionContent className="font-body text-brand-black/80">
+                  <div className="space-y-4">
+                    <div>
+                      <p className="font-medium mb-2">Pricing:</p>
+                      <ul className="space-y-1 ml-4">
+                        <li>• Shared Room: €1,200</li>
+                        <li>• Private Room: €1,450</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <p className="font-medium mb-2">What's Included:</p>
+                      <ul className="space-y-1 ml-4">
+                        <li>• Daily Iyengar Yoga classes (morning and afternoon sessions)</li>
+                        <li>• 7 nights accommodation in shared or private rooms</li>
+                        <li>• All meals featuring delicious Moroccan cuisine</li>
+                        <li>• Use of yoga props and equipment</li>
+                        <li>{""}</li>
+                        <li>• Airport transfers from Marrakech</li>
+                      </ul>
+                    </div>
+                    <p className="text-sm italic text-brand-black/60 mt-4">€400 deposit required to secure your booking</p>
+                  </div>
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="not-included">
+                <AccordionTrigger className="font-body text-lg text-brand-black">
+                  What's not included
+                </AccordionTrigger>
+                <AccordionContent className="font-body text-brand-black/80">
+                  <ul className="space-y-2 ml-4">
+                    <li>• International flights to Marrakech</li>
+                    <li>• Travel insurance (required)</li>
+                    <li>• Personal expenses and souvenirs</li>
+                    <li>• Hammam treatments and additional services</li>
+                    <li>{""}</li>
+                  </ul>
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="sharing">
+                <AccordionTrigger className="font-body text-lg text-brand-black">
+                  Can I share a room?
+                </AccordionTrigger>
+                <AccordionContent className="font-body text-brand-black/80">
+                  <p>
+                    Yes! Shared rooms are available at €1,200 per person. If you're booking with a friend or partner, 
+                    please let us know when making your reservation. Private rooms are also available 
+                    for €1,450 if you prefer your own space.
+                  </p>
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="getting-there">
+                <AccordionTrigger className="font-body text-lg text-brand-black">
+                  How to get there?
+                </AccordionTrigger>
+                <AccordionContent className="font-body text-brand-black/80">
+                  <div className="space-y-3">
+                    <p>
+                      <strong>Flight:</strong> Fly into Marrakech Menara Airport (RAK). The retreat centre is approximately 
+                      45 minutes from the airport.
+                    </p>
+                    <p>
+                      <strong>Airport Transfer:</strong> We provide complimentary group transfers from Marrakech airport to 
+                      the retreat centre. Transfer times will be coordinated closer to the retreat date to accommodate 
+                      everyone's arrival times.
+                    </p>
+                    <p>
+                      <strong>Arrival Day:</strong> Please plan to arrive on February 15th. The retreat officially begins 
+                      with dinner that evening. Departure is after breakfast on February 21st.
+                    </p>
+                  </div>
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          </section>
+
+          {/* CTA Section */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8 border-t border-brand-warm-gray/30">
+            <Button asChild size="lg" className="bg-brand-orange hover:bg-brand-gold text-white transition-colors">
+              <Link href="/contact">Book Your Place</Link>
+            </Button>
+            <Button
+              asChild
+              size="lg"
+              variant="outline"
+              className="border-brand-orange text-brand-orange hover:bg-brand-orange hover:text-white transition-colors bg-transparent"
+            >
+              <Link href="/retreats">View All Retreats</Link>
+            </Button>
+          </div>
         </div>
       </div>
     </div>

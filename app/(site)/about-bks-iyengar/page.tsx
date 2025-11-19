@@ -145,7 +145,7 @@ export default function AboutBKSIyengarPage() {
               <h2 className="font-heading text-3xl text-brand-black mb-6">Connection to Georgia</h2>
               <div className="space-y-6 font-body text-lg text-brand-black/90 leading-relaxed">
                 <p>
-                  Georgia Marnham has studied directly in the lineage of B.K.S. Iyengar, having traveled to the Ramamani
+                  Georgia Marnham has studied directly in the lineage of B.K.S. Iyengar, having travelled to the Ramamani
                   Iyengar Memorial Yoga Institute (RIMYI) in Pune, India, on several occasions. There, she studied with
                   B.K.S. Iyengar himself, as well as his daughter Geeta and son Prashant.
                 </p>

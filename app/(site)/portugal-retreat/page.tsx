@@ -21,7 +21,6 @@ export default function PortugalRetreatPage() {
             <p className="font-body text-lg text-brand-orange font-medium">April 26 – May 2, 2026</p>
           </header>
 
-          {/* Main Image */}
           <div className="mb-12">
             <img
               src="/portugal-algarve-coast.jpg"
@@ -45,6 +44,20 @@ export default function PortugalRetreatPage() {
               </p>
             </div>
           </section>
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+            <Button asChild size="lg" className="bg-brand-orange hover:bg-brand-gold text-white transition-colors">
+              <Link href="/contact">Book Your Place</Link>
+            </Button>
+            <Button
+              asChild
+              size="lg"
+              variant="outline"
+              className="border-brand-orange text-brand-orange hover:bg-brand-orange hover:text-white transition-colors bg-transparent"
+            >
+              <Link href="/retreats">View All Retreats</Link>
+            </Button>
+          </div>
 
           {/* Key Details Grid */}
           <section className="mb-12 grid gap-6 md:grid-cols-2">
@@ -382,21 +395,6 @@ export default function PortugalRetreatPage() {
               </div>
             </div>
           </section>
-
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button asChild size="lg" className="bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-              <Link href="/contact">Book Your Place</Link>
-            </Button>
-            <Button
-              asChild
-              size="lg"
-              variant="outline"
-              className="border-brand-orange text-brand-orange hover:bg-brand-orange hover:text-white transition-colors bg-transparent"
-            >
-              <Link href="/retreats">View All Retreats</Link>
-            </Button>
-          </div>
 
           {/* Additional Image Gallery */}
           <section className="mt-16">
