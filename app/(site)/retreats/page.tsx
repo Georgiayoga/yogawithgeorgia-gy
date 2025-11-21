@@ -88,9 +88,7 @@ export default function RetreatsPage() {
                   </CardHeader>
                   <CardContent className="space-y-4">
                     <p className="font-body text-brand-black/80 text-sm">
-                      Bab Zouina&#39;s Moroccan architecture and landscaped gardens blend aesthetic beauty with rustic
-                      simplicity. Including scenic views, local cuisine, and a spacious and well-equipped yoga shala, it
-                      offers a peaceful and tranquil retreat.
+                      Bab Zouina&#39;s Moroccan architecture and landscaped gardens blend aesthetic beauty with rustic simplicity. Including scenic views, local cuisine, and a spacious and well-equipped yoga studio, it offers a peaceful and tranquil retreat.
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
                       <Link href="/morocco-retreat">View Details</Link>

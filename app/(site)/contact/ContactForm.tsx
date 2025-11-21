@@ -30,7 +30,7 @@ export default function ContactForm() {
 
       <div>
         <label htmlFor="subject" className="block font-body text-sm text-brand-black mb-2">
-          {"How did you hear about me?"}
+          {"Enquiry subject:"}
         </label>
         <Input id="subject" name="subject" className="border-brand-warm-gray focus:ring-brand-orange" />
       </div>
