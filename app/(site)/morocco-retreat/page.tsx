@@ -1,11 +1,6 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion"
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 
 export const metadata = {
   title: "Morocco Retreat 2026 | Yoga with Georgia",
@@ -72,11 +67,11 @@ export default function MoroccoRetreatPage() {
               <ul className="space-y-3 font-body text-brand-black/80">
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
-                  <span>Daily Iyengar Yoga classes (morning and afternoon sessions)</span>
+                  <span>Daily Iyengar Yoga classes in fully equipped studio (morning and afternoon sessions)</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
-                  <span>7 nights accommodation in shared or private rooms</span>
+                  <span>6 nights accommodation in shared or private rooms</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
@@ -84,12 +79,17 @@ export default function MoroccoRetreatPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
-                  <span>Use of yoga props and equipment</span>
+                  <span>Tea, coffee, and snacks available all day</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
-                  <span>Excursions and cultural experiences</span>
+                  <span>Use of the extensive gardens, terraces, and facilities</span>
                 </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-brand-orange mt-1">•</span>
+                  <span>Use of yoga props and equipment</span>
+                </li>
+
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
                   <span>Airport transfers from Marrakech</span>
@@ -101,24 +101,28 @@ export default function MoroccoRetreatPage() {
               <h2 className="font-heading text-2xl text-brand-black mb-4">Daily Schedule</h2>
               <div className="space-y-3 font-body text-brand-black/80">
                 <div>
-                  <p className="font-medium text-brand-black">Morning (7:30 - 9:30)</p>
-                  <p className="text-sm">Yoga practice</p>
+                  <p className="font-medium text-brand-black">Tea, coffee, nuts and dried fruits </p>
                 </div>
                 <div>
-                  <p className="font-medium text-brand-black">Morning (9:30 - 10:30)</p>
-                  <p className="text-sm">Breakfast</p>
+                  <p className="font-medium text-brand-black">Yoga practice 8:30 – 10:30</p>
                 </div>
                 <div>
-                  <p className="font-medium text-brand-black">Mid-day</p>
-                  <p className="text-sm">Free time for rest, exploration, or spa treatments</p>
+                  <p className="font-medium text-brand-black">Brunch 11:00 – 12:00</p>
                 </div>
                 <div>
-                  <p className="font-medium text-brand-black">Afternoon (4:00 - 6:00)</p>
-                  <p className="text-sm">Yoga practice</p>
+                  <p className="font-medium text-brand-black">Afternoon - free time </p>
+                  <p className="text-sm">{"Hammam, massage, walks or excursions, tennis\n or rest"}</p>
                 </div>
                 <div>
-                  <p className="font-medium text-brand-black">Evening</p>
-                  <p className="text-sm">Dinner and relaxation</p>
+                  <p className="font-medium text-brand-black">Tea and snacks </p>
+                </div>
+                <div>
+                  <p className="font-medium text-brand-black">Yoga practice 17:00 – 18:30</p>
+                  <p className="text-sm">Evening practice </p>
+                </div>
+                <div>
+                  <p className="font-medium text-brand-black">Dinner 19:00 – 20:00</p>
+                  <p className="text-sm">Evening meal and relaxation</p>
                 </div>
               </div>
             </div>
@@ -214,8 +218,11 @@ export default function MoroccoRetreatPage() {
                     <div>
                       <p className="font-medium mb-2">Pricing:</p>
                       <ul className="space-y-1 ml-4">
-                        <li>• Shared Room: €1,200</li>
-                        <li>• Private Room: €1,450</li>
+                        <li>• Single Room with ensuite: €1,570</li>
+                        <li>• Single room with adjacent bathroom: €1,360</li>
+                        <li>• Shared room with ensuite bathroom: €1,270</li>
+                        <li>• Shared room with adjacent bathroom: €1,180</li>
+                        <li>• Triple Room with adjacent: €970</li>
                       </ul>
                     </div>
                     <div>
@@ -224,20 +231,21 @@ export default function MoroccoRetreatPage() {
                         <li>• Daily Iyengar Yoga classes (morning and afternoon sessions)</li>
                         <li>• 7 nights accommodation in shared or private rooms</li>
                         <li>• All meals featuring delicious Moroccan cuisine</li>
+                        <li>• Tea, coffee, and snacks available all day</li>
+                        <li>• Use of the extensive gardens, terraces, and facilities</li>
                         <li>• Use of yoga props and equipment</li>
-                        <li>{""}</li>
                         <li>• Airport transfers from Marrakech</li>
                       </ul>
                     </div>
-                    <p className="text-sm italic text-brand-black/60 mt-4">€400 deposit required to secure your booking</p>
+                    <p className="text-sm italic text-brand-black/60 mt-4">
+                      €400 deposit required to secure your booking / Shared room only available with friends
+                    </p>
                   </div>
                 </AccordionContent>
               </AccordionItem>
 
               <AccordionItem value="not-included">
-                <AccordionTrigger className="font-body text-lg text-brand-black">
-                  What's not included
-                </AccordionTrigger>
+                <AccordionTrigger className="font-body text-lg text-brand-black">What's not included</AccordionTrigger>
                 <AccordionContent className="font-body text-brand-black/80">
                   <ul className="space-y-2 ml-4">
                     <li>• International flights to Marrakech</li>
@@ -250,36 +258,33 @@ export default function MoroccoRetreatPage() {
               </AccordionItem>
 
               <AccordionItem value="sharing">
-                <AccordionTrigger className="font-body text-lg text-brand-black">
-                  Can I share a room?
-                </AccordionTrigger>
+                <AccordionTrigger className="font-body text-lg text-brand-black">Can I share a room?</AccordionTrigger>
                 <AccordionContent className="font-body text-brand-black/80">
                   <p>
-                    Yes! Shared rooms are available at €1,200 per person. If you're booking with a friend or partner, 
-                    please let us know when making your reservation. Private rooms are also available 
-                    for €1,450 if you prefer your own space.
+                    Yes! Shared rooms are available at €1,200 per person. If you're booking with a friend or partner,
+                    please let us know when making your reservation. Private rooms are also available for €1,450 if you
+                    prefer your own space.
                   </p>
                 </AccordionContent>
               </AccordionItem>
 
               <AccordionItem value="getting-there">
-                <AccordionTrigger className="font-body text-lg text-brand-black">
-                  How to get there?
-                </AccordionTrigger>
+                <AccordionTrigger className="font-body text-lg text-brand-black">How and when to get there?</AccordionTrigger>
                 <AccordionContent className="font-body text-brand-black/80">
                   <div className="space-y-3">
                     <p>
-                      <strong>Flight:</strong> Fly into Marrakech Menara Airport (RAK). The retreat centre is approximately 
-                      45 minutes from the airport.
+                      <strong>Flight:</strong> Fly into Marrakech Menara Airport (RAK). The retreat centre is
+                      approximately 45 minutes from the airport.
                     </p>
                     <p>
-                      <strong>Airport Transfer:</strong> We provide complimentary group transfers from Marrakech airport to 
-                      the retreat centre. Transfer times will be coordinated closer to the retreat date to accommodate 
-                      everyone's arrival times.
+                      <strong>Airport Transfer:</strong> We provide complimentary group transfers from Marrakech airport
+                      to the retreat centre. Transfer times will be coordinated closer to the retreat date to
+                      accommodate everyone's arrival times.
                     </p>
                     <p>
-                      <strong>Arrival Day:</strong> Please plan to arrive on February 15th. The retreat officially begins 
-                      with dinner that evening. Departure is after breakfast on February 21st.
+                      <strong>Arrival Day:</strong> Please plan to arrive on February 15th. The retreat officially
+                      begins with a yoga class at 17:30 followed by the welcome dinner. Departure is after breakfast on
+                      February 21st.
                     </p>
                   </div>
                 </AccordionContent>

@@ -111,36 +111,36 @@ export default function SriLankaRetreatPage() {
               <h2 className="font-heading text-2xl text-brand-black mb-4">Daily Schedule</h2>
               <div className="space-y-3 font-body text-brand-black/80">
                 <div>
-                  <p className="font-medium text-brand-black">Tea and Fruit: 7:00 - 7:30</p>
+                  <p className="font-medium text-brand-black">Tea and Fruit: 7:00 – 7:30</p>
                 </div>
                 <div>
-                  <p className="font-medium text-brand-black">Yoga practice 8:00 - 9:30</p>
+                  <p className="font-medium text-brand-black">Yoga practice 8:00 – 9:30</p>
                 </div>
                 <div>
-                  <p className="font-medium text-brand-black">Breakfast 9:30 - 10:00</p>
+                  <p className="font-medium text-brand-black">Breakfast 9:30 – 10:00</p>
                 </div>
                 <div>
-                  <p className="font-medium text-brand-black">Free time 10.00 - 12.30</p>
+                  <p className="font-medium text-brand-black">Free time 10.00 – 12.30</p>
                   <p className="text-sm">Massage, Ayurveda, swimming or rest</p>
                 </div>
                 <div>
-                  <p className="font-medium text-brand-black">Lunch 12:30 - 13:30</p>
+                  <p className="font-medium text-brand-black">Lunch 12:30 – 13:30</p>
                   <p className="text-sm">Meet at the Ambalama</p>
                 </div>
                 <div>
-                  <p className="font-medium text-brand-black">Free time 14:00 - 16:00</p>
+                  <p className="font-medium text-brand-black">Free time 14:00 – 16:00</p>
                   <p className="text-sm">Additional free time for exploration or relaxation</p>
                 </div>
                 <div>
-                  <p className="font-medium text-brand-black">Tea and Snacks 16:00 - 17:00</p>
+                  <p className="font-medium text-brand-black">Tea and Snacks 16:00 – 17:00</p>
                   <p className="text-sm">Afternoon refreshments</p>
                 </div>
                 <div>
-                  <p className="font-medium text-brand-black">Yoga practice 17:00 - 18:30</p>
+                  <p className="font-medium text-brand-black">Yoga practice 17:00 – 18:30</p>
                   <p className="text-sm">Evening practice </p>
                 </div>
                 <div>
-                  <p className="font-medium text-brand-black">Dinner 19:00 - 20:00</p>
+                  <p className="font-medium text-brand-black">Dinner 19:00 – 20:00</p>
                   <p className="text-sm">Evening meal and relaxation</p>
                 </div>
               </div>
