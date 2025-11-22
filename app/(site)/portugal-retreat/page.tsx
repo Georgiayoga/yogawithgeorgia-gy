@@ -38,7 +38,9 @@ export default function PortugalRetreatPage() {
                 practice with the natural beauty and cultural richness of southern Portugal.
               </p>
               <p>
-                Casa Cales is just 15 minutes from the coastline with its fabulous beaches, sandy coves, and islands. The retreat centre offers a serene hillside setting with stunning views, a fully equipped yoga studio, and comfortable accommodation; the perfect environment for deepening your practice.
+                Casa Cales is just 15 minutes from the coastline with its fabulous beaches, sandy coves, and islands.
+                The retreat centre offers a serene hillside setting with stunning views, a fully equipped yoga studio,
+                and comfortable accommodation; the perfect environment for deepening your practice.
               </p>
             </div>
           </section>
@@ -68,7 +70,7 @@ export default function PortugalRetreatPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
-                  <span>7 nights accommodation in shared or private rooms</span>
+                  <span>6 nights accommodation in shared or private rooms</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
@@ -80,15 +82,15 @@ export default function PortugalRetreatPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
-                  <span>Access to swimming pool and gardens</span>
+                  <span>Use of living room, terraces and all common areas     </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
-                  <span>Optional excursions to local beaches and villages</span>
+                  <span>{"Acess to swimming pool and gardens"}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
-                  <span>Airport transfers from Faro airport</span>
+                  <span>Optional excursions to local beaches and towns    </span>
                 </li>
               </ul>
             </div>
