@@ -23,8 +23,8 @@ export default function PortugalRetreatPage() {
 
           <div className="mb-12">
             <img
-              src="/portugal-algarve-coast.jpg"
-              alt="Casa Cales retreat venue in Loulé, Algarve, Portugal"
+              src="/portugal-yoga-studio-statue.jpg"
+              alt="Yoga studio at Casa Cales retreat venue with traditional Buddha statue and panoramic views"
               className="w-full h-[400px] object-cover rounded-lg shadow-lg"
             />
           </div>
@@ -38,9 +38,7 @@ export default function PortugalRetreatPage() {
                 practice with the natural beauty and cultural richness of southern Portugal.
               </p>
               <p>
-                Casa Cales is just 15 minutes from the coastline with its fabulous beaches, sandy coves, and islands.
-                The retreat centre offers a serene hillside setting with stunning views, a fully equipped yoga studio,
-                and comfortable accommodation—the perfect environment for deepening your practice.
+                Casa Cales is just 15 minutes from the coastline with its fabulous beaches, sandy coves, and islands. The retreat centre offers a serene hillside setting with stunning views, a fully equipped yoga studio, and comfortable accommodation; the perfect environment for deepening your practice.
               </p>
             </div>
           </section>
@@ -401,13 +399,13 @@ export default function PortugalRetreatPage() {
             <h2 className="font-heading text-3xl text-brand-black mb-8 text-center">Gallery</h2>
             <div className="grid gap-4 md:grid-cols-2">
               <img
-                src="/portugal-algarve-coast.jpg"
-                alt="Beautiful Algarve coastline near Casa Cales"
+                src="/portugal-terrace-view.jpg"
+                alt="Peaceful terrace with countryside views at Casa Cales"
                 className="w-full h-64 object-cover rounded-lg shadow-md"
               />
               <img
-                src="/praia-do-quinta-do-lago-algarve.jpg"
-                alt="Casa Cales retreat centre and yoga studio"
+                src="/portugal-bedroom-interior.jpg"
+                alt="Serene bedroom with canopy bed and terrace doors at Casa Cales"
                 className="w-full h-64 object-cover rounded-lg shadow-md"
               />
             </div>

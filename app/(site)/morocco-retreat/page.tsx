@@ -193,13 +193,13 @@ export default function MoroccoRetreatPage() {
             <h2 className="font-heading text-3xl text-brand-black mb-8 text-center">Gallery</h2>
             <div className="grid gap-4 md:grid-cols-2">
               <img
-                src="/morocco-atlas-mountains-retreat.jpg"
-                alt="Morocco retreat venue exterior"
+                src="/morocco-bedroom-bab-zouina.jpg"
+                alt="Cozy bedroom with traditional Moroccan decor at Bab Zouina retreat"
                 className="w-full h-64 object-cover rounded-lg shadow-md"
               />
               <img
-                src="/morocco-atlas-mountains-retreat.jpg"
-                alt="Morocco retreat yoga space"
+                src="/morocco-food-bab-zouina.jpg"
+                alt="Vibrant healthy meal spread with fresh juices and colorful dishes at Bab Zouina"
                 className="w-full h-64 object-cover rounded-lg shadow-md"
               />
             </div>
@@ -269,7 +269,9 @@ export default function MoroccoRetreatPage() {
               </AccordionItem>
 
               <AccordionItem value="getting-there">
-                <AccordionTrigger className="font-body text-lg text-brand-black">How and when to get there?</AccordionTrigger>
+                <AccordionTrigger className="font-body text-lg text-brand-black">
+                  How and when to get there?
+                </AccordionTrigger>
                 <AccordionContent className="font-body text-brand-black/80">
                   <div className="space-y-3">
                     <p>

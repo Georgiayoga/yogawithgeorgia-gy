@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 
 export const metadata = {
   title: "Sri Lanka Retreat 2026 | Yoga with Georgia",
@@ -74,7 +75,7 @@ export default function SriLankaRetreatPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
-                  <span>7 nights accommodation in traditional thatched huts</span>
+                  <span>Accommodation in traditional thatched huts</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
@@ -111,7 +112,7 @@ export default function SriLankaRetreatPage() {
               <h2 className="font-heading text-2xl text-brand-black mb-4">Daily Schedule</h2>
               <div className="space-y-3 font-body text-brand-black/80">
                 <div>
-                  <p className="font-medium text-brand-black">Tea and Fruit: 7:00 – 7:30</p>
+                  <p className="font-medium text-brand-black">Tea and fruit available before class </p>
                 </div>
                 <div>
                   <p className="font-medium text-brand-black">Yoga practice 8:00 – 9:30</p>
@@ -132,7 +133,7 @@ export default function SriLankaRetreatPage() {
                   <p className="text-sm">Additional free time for exploration or relaxation</p>
                 </div>
                 <div>
-                  <p className="font-medium text-brand-black">Tea and Snacks 16:00 – 17:00</p>
+                  <p className="font-medium text-brand-black">Tea and snacks 16:00 – 17:00</p>
                   <p className="text-sm">Afternoon refreshments</p>
                 </div>
                 <div>
@@ -144,29 +145,6 @@ export default function SriLankaRetreatPage() {
                   <p className="text-sm">Evening meal and relaxation</p>
                 </div>
               </div>
-            </div>
-          </section>
-
-          {/* Pricing */}
-          <section className="mb-12">
-            <div className="bg-brand-warm-gray/20 rounded-lg p-8 text-centre">
-              <h2 className="font-heading text-3xl text-brand-black mb-6">Pricing</h2>
-              <div className="max-w-md mx-auto">
-                <div className="bg-white rounded-lg p-6 shadow-sm">
-                  <h3 className="font-heading text-xl text-brand-black mb-2">Full Retreat Package</h3>
-                  <p className="font-body text-3xl text-brand-orange font-bold mb-2">€1,650</p>
-                  <p className="font-body text-sm text-brand-black/70">per person</p>
-                  <p className="font-body text-xs text-brand-black/60 mt-3">
-                    (Accommodation in traditional thatched huts)
-                  </p>
-                </div>
-              </div>
-              <p className="font-body text-sm text-brand-black/70 mt-6">
-                A deposit of €500 is required to secure your place
-              </p>
-              <p className="font-body text-xs text-brand-black/60 mt-2">
-                International flights and visa fees are not included
-              </p>
             </div>
           </section>
 
@@ -182,18 +160,18 @@ export default function SriLankaRetreatPage() {
               </p>
               <p>
                 Accommodation is in beautifully crafted traditional thatched huts, each with its own veranda overlooking
-                the rice paddies or forest. The huts are simple yet comfortable, with mosquito nets, fans, and ensuite
-                bathrooms with hot water. This is eco-luxury at its finest—rustic, authentic, and deeply peaceful.
+                the beautiful surroundings. The huts are simple yet comfortable, with mosquito nets and bathrooms. This
+                is eco-luxury at its finest—rustic, authentic, and deeply peaceful.
               </p>
               <p>
-                The yoga pavilion is an open-air structure with stunning views across the rice paddies to the distant
-                mountains. Practice takes place on wooden platforms with all necessary props provided. The setting
-                creates an ideal environment for deep practice and self-reflection.
+                The yoga studio is an open-sided structure set gently amid the trees and overlooking the tranquil lake.
+                Naturally lit, it invites you to practise in harmony with the elements — the rustle of leaves from
+                passing monkeys, birdsong, and the breeze become part of the experience.
               </p>
               <p>
-                Meals are prepared by the village community using organic vegetables, fruits, and herbs grown on site.
-                The food is delicious, nourishing, and completely vegetarian, offering an authentic taste of Sri Lankan
-                home cooking.
+                Meals are prepared by the village community using locally grown vegetables, fruits, and herbs and
+                spices. The food is delicious, nourishing, and completely vegetarian, offering an authentic taste of Sri
+                Lankan home cooking.
               </p>
               <p>
                 Ulpotha offers optional Ayurvedic treatments, natural swimming in the ancient lake, walks through rice
@@ -224,8 +202,8 @@ export default function SriLankaRetreatPage() {
               <div className="bg-brand-warm-gray/10 rounded-lg p-6">
                 <h3 className="font-heading text-xl text-brand-black mb-3">🌾 Sustainable & Eco-Conscious</h3>
                 <p>
-                  All food is organic and locally grown, buildings are made from natural materials, and operations are
-                  designed to have minimal environmental impact while supporting local livelihoods.
+                  All food is locally grown and organic where possible, buildings are made from natural materials, and
+                  operations are designed to have minimal environmental impact while supporting local livelihoods.
                 </p>
               </div>
               <div className="bg-brand-warm-gray/10 rounded-lg p-6">
@@ -259,82 +237,134 @@ export default function SriLankaRetreatPage() {
             </div>
           </section>
 
-          {/* Practical Information */}
-          <section className="mb-12">
-            <h2 className="font-heading text-3xl text-brand-black mb-6">Practical Information</h2>
-            <div className="space-y-6 font-body text-lg text-brand-black/90 leading-relaxed">
-              <div>
-                <h3 className="font-heading text-xl text-brand-black mb-3">Getting There</h3>
-                <p>
-                  The retreat begins with a group transfer from Colombo airport (approximately 3 hours). International
-                  flights to Colombo are not included in the retreat price. Most participants arrive the day before the
-                  retreat begins and depart the day after it ends.
-                </p>
-              </div>
-              <div>
-                <h3 className="font-heading text-xl text-brand-black mb-3">What to Bring</h3>
-                <ul className="list-disc list-inside space-y-2 ml-4">
-                  <li>Your own yoga mat (preferred, though mats are available)</li>
-                  <li>Comfortable, light clothing for yoga and warm evenings</li>
-                  <li>Insect repellent and sun protection</li>
-                  <li>Torch or headlamp for nighttime</li>
-                  <li>Any personal medications or toiletries</li>
-                  <li>Open mind and adventurous spirit!</li>
-                </ul>
-              </div>
-              <div>
-                <h3 className="font-heading text-xl text-brand-black mb-3">Visa Requirements</h3>
-                <p>
-                  Most nationalities require a tourist visa for Sri Lanka, which can be obtained online as an Electronic
-                  Travel Authorization (ETA). Georgia will provide detailed pre-retreat information including visa
-                  guidance.
-                </p>
-              </div>
-            </div>
-          </section>
-
-          {/* Booking Information */}
-          <section className="mb-12">
-            <div className="bg-brand-orange/10 border-l-4 border-brand-orange rounded-r-lg p-6">
-              <h2 className="font-heading text-2xl text-brand-black mb-4">How to Book</h2>
-              <div className="space-y-4 font-body text-brand-black/90">
-                <p>
-                  To reserve your place on this retreat, please contact Georgia directly. Spaces are very limited as
-                  Ulpotha is a small, intimate retreat centre, and this retreat fills quickly.
-                </p>
-                <p>
-                  <strong>Important:</strong> A non-refundable deposit of €500 is required to secure your booking. The
-                  remaining balance is due 10 weeks before the retreat start date.
-                </p>
-                <p>
-                  <strong>Cancellation Policy:</strong> Cancellations made more than 10 weeks before the retreat will
-                  receive a full refund minus the deposit. Cancellations within 10 weeks are non-refundable unless your
-                  place can be filled from the waiting list.
-                </p>
-                <p>
-                  <strong>Travel Insurance:</strong> We strongly recommend purchasing comprehensive travel insurance
-                  that covers trip cancellation, medical emergencies, and evacuation.
-                </p>
-              </div>
-            </div>
-          </section>
-
           {/* Additional Image Gallery */}
           <section className="mt-16">
-            <h2 className="font-heading text-3xl text-brand-black mb-8 text-centre">Gallery</h2>
+            <h2 className="font-heading text-3xl text-brand-black mb-8 text-center">Gallery</h2>
             <div className="grid gap-4 md:grid-cols-2">
               <img
                 src="/sri-lanka-lush-landscape.jpg"
-                alt="Ulpotha rice paddies and tropical landscape"
+                alt="Ulpotha retreat venue in Sri Lanka"
                 className="w-full h-64 object-cover rounded-lg shadow-md"
               />
               <img
                 src="/sri-lanka-lush-landscape.jpg"
-                alt="Ulpotha yoga pavilion and accommodation"
+                alt="Ulpotha yoga space overlooking the lake"
                 className="w-full h-64 object-cover rounded-lg shadow-md"
               />
             </div>
           </section>
+
+          {/* FAQ Accordion section */}
+          <section className="mt-12 mb-8">
+            <h2 className="font-heading text-2xl text-brand-black mb-6 text-center">Practical Information</h2>
+            <Accordion type="single" collapsible className="w-full">
+              <AccordionItem value="pricing">
+                <AccordionTrigger className="font-body text-lg text-brand-black">The price</AccordionTrigger>
+                <AccordionContent className="font-body text-brand-black/80">
+                  <div className="space-y-4">
+                    <div>
+                      <p className="font-medium mb-2">
+                        Ulpotha prices for a 2-week retreat are in US Dollars. Approximate conversion values to other
+                        currencies are below:
+                      </p>
+                      <ul className="space-y-1 ml-4">
+                        <li>
+                          • Two-week rate is US$3500 (with a 10% discount offer until December 15, 2026, after discount
+                          US$3150)
+                        </li>
+                        <li>
+                          • Current conversion rates to Euros gives €3000 down to €2700 with the current 10% discount
+                        </li>
+                        <li>
+                          • Current conversion rates to GBP gives £2680 down to £2412 with the current 10% discount
+                        </li>
+                        <li>• Single huts are available at an additional price and dependent on availability. </li>
+                      </ul>
+                    </div>
+                  </div>
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="not-included">
+                <AccordionTrigger className="font-body text-lg text-brand-black">What's not included</AccordionTrigger>
+                <AccordionContent className="font-body text-brand-black/80">
+                  <ul className="space-y-2 ml-4">
+                    <li>• International flights to Colombo</li>
+                    <li>
+                      • You will be met at the airport or anywhere in Sri Lanka and brought to Ulpotha. This cost is not
+                      included in the package.
+                    </li>
+                    <li>• Ayurvedic treatments and additional massages.</li>
+                    <li>• Travel insurance (required)</li>
+                    <li>• Travel insurance (required)</li>
+                    <li>• Travel insurance (required)</li>
+                    <li>{""}</li>
+                  </ul>
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="sharing">
+                <AccordionTrigger className="font-body text-lg text-brand-black">Can I share a room?</AccordionTrigger>
+                <AccordionContent className="font-body text-brand-black/80">
+                  <p>
+                    Yes! Shared rooms are available at €1,200 per person. If you're booking with a friend or partner,
+                    please let us know when making your reservation. Private rooms are also available for €1,450 if you
+                    prefer your own space.
+                  </p>
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="getting-there">
+                <AccordionTrigger className="font-body text-lg text-brand-black">
+                  How and when to get there?
+                </AccordionTrigger>
+                <AccordionContent className="font-body text-brand-black/80">
+                  <div className="space-y-3">
+                    <p>
+                      <strong>Flight:</strong> Fly into Colombo Bandaranaike International Airport (CMB). The retreat
+                      centre is approximately 3 hours north of the airport.
+                    </p>
+                    <p>
+                      <strong>Airport Transfer:</strong> We provide complimentary group transfers from Colombo airport
+                      to the retreat centre. Transfer times will be coordinated closer to the retreat date to
+                      accommodate everyone's arrival times.
+                    </p>
+                    <p>
+                      <strong>Arrival Day:</strong> Please plan to arrive on March 15th. The retreat officially begins
+                      with a yoga class at 17:30 followed by the welcome dinner. Departure is after breakfast on March
+                      29th.
+                    </p>
+                  </div>
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="visa-requirements">
+                <AccordionTrigger className="font-body text-lg text-brand-black">Visa Requirements</AccordionTrigger>
+                <AccordionContent className="font-body text-brand-black/80">
+                  <p>
+                    Most nationalities require a tourist visa for Sri Lanka, which can be obtained online as an
+                    Electronic Travel Authorization (ETA). Ulpotha will provide detailed pre-retreat information
+                    including visa guidance if required.
+                  </p>
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          </section>
+
+          {/* CTA Section */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8 border-t border-brand-warm-gray/30">
+            <Button asChild size="lg" className="bg-brand-orange hover:bg-brand-gold text-white transition-colors">
+              <Link href="/contact">Book Your Place</Link>
+            </Button>
+            <Button
+              asChild
+              size="lg"
+              variant="outline"
+              className="border-brand-orange text-brand-orange hover:bg-brand-orange hover:text-white transition-colors bg-transparent"
+            >
+              <Link href="/retreats">View All Retreats</Link>
+            </Button>
+          </div>
         </div>
       </div>
     </div>
