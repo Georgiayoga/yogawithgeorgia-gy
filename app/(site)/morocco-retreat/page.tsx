@@ -166,28 +166,6 @@ export default function MoroccoRetreatPage() {
             </div>
           </section>
 
-          {/* Booking Information */}
-          <section className="mb-12">
-            <div className="bg-brand-orange/10 border-l-4 border-brand-orange rounded-r-lg p-6">
-              <h2 className="font-heading text-2xl text-brand-black mb-4">How to Book</h2>
-              <div className="space-y-4 font-body text-brand-black/90">
-                <p>
-                  To reserve your place on this retreat, please contact Georgia directly. Spaces are limited to ensure a
-                  intimate and personal experience.
-                </p>
-                <p>
-                  <strong>Important:</strong> A non-refundable deposit of €400 is required to secure your booking. The
-                  remaining balance is due 8 weeks before the retreat start date.
-                </p>
-                <p>
-                  <strong>Cancellation Policy:</strong> Cancellations made more than 8 weeks before the retreat will
-                  receive a full refund minus the deposit. Cancellations within 8 weeks are non-refundable unless your
-                  place can be filled from the waiting list.
-                </p>
-              </div>
-            </div>
-          </section>
-
           {/* Additional Image Gallery */}
           <section className="mt-16">
             <h2 className="font-heading text-3xl text-brand-black mb-8 text-center">Gallery</h2>
@@ -243,7 +221,7 @@ export default function MoroccoRetreatPage() {
                       </ul>
                     </div>
                     <p className="text-sm italic text-brand-black/60 mt-4">
-                      €400 deposit required to secure your booking / Shared room only available with friends
+                      €350 deposit required to secure your booking / Shared room only available with friends
                     </p>
                   </div>
                 </AccordionContent>
@@ -292,6 +270,19 @@ export default function MoroccoRetreatPage() {
                       <strong>Arrival Day:</strong> Please plan to arrive on February 15th. The retreat officially
                       begins with a yoga class at 17:30 followed by the welcome dinner. Departure is after breakfast on
                       February 21st.
+                    </p>
+                  </div>
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="booking-process">
+                <AccordionTrigger className="font-body text-lg text-brand-black">Booking process</AccordionTrigger>
+                <AccordionContent className="font-body text-brand-black/80">
+                  <div className="space-y-3">
+                    <p>Spaces are limited to ensure an intimate and personal experience.</p>
+                    <p>
+                      <strong>Important:</strong> A non-refundable deposit of €350 is required to secure your booking.
+                      The remaining balance is due 4 weeks before the retreat start date.
                     </p>
                   </div>
                 </AccordionContent>

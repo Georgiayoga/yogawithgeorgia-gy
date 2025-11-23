@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 
 export const metadata = {
   title: "Portugal Retreat 2026 | Yoga with Georgia",
@@ -70,7 +71,7 @@ export default function PortugalRetreatPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
-                  <span>6 nights accommodation in shared or private rooms</span>
+                  <span>7 nights accommodation in shared or private rooms</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
@@ -103,6 +104,9 @@ export default function PortugalRetreatPage() {
                 </div>
                 <div>
                   <p className="font-medium text-brand-black">Brunch 11:00 – 12:00</p>
+                  <p className="text-sm">
+                    Featuring fresh local fruits, homemade breads, yogurt, eggs, and Portuguese specialties.
+                  </p>
                 </div>
                 <div>
                   <p className="font-medium text-brand-black">Afternoon - free time </p>
@@ -120,28 +124,6 @@ export default function PortugalRetreatPage() {
                   <p className="text-sm">Evening meal and relaxation</p>
                 </div>
               </div>
-            </div>
-          </section>
-
-          {/* Pricing */}
-          <section className="mb-12">
-            <div className="bg-brand-warm-gray/20 rounded-lg p-8 text-center">
-              <h2 className="font-heading text-3xl text-brand-black mb-6">Pricing</h2>
-              <div className="grid gap-6 md:grid-cols-2 max-w-2xl mx-auto">
-                <div className="bg-white rounded-lg p-6 shadow-sm">
-                  <h3 className="font-heading text-xl text-brand-black mb-2">Shared Room</h3>
-                  <p className="font-body text-3xl text-brand-orange font-bold mb-2">€1,100</p>
-                  <p className="font-body text-sm text-brand-black/70">per person</p>
-                </div>
-                <div className="bg-white rounded-lg p-6 shadow-sm">
-                  <h3 className="font-heading text-xl text-brand-black mb-2">Private Room</h3>
-                  <p className="font-body text-3xl text-brand-orange font-bold mb-2">€1,350</p>
-                  <p className="font-body text-sm text-brand-black/70">per person</p>
-                </div>
-              </div>
-              <p className="font-body text-sm text-brand-black/70 mt-6">
-                A deposit of €400 is required to secure your place
-              </p>
             </div>
           </section>
 
@@ -207,196 +189,27 @@ export default function PortugalRetreatPage() {
             </div>
           </section>
 
-          {/* Sample Day */}
-          <section className="mb-12">
-            <h2 className="font-heading text-3xl text-brand-black mb-6">A Day on Retreat</h2>
-            <div className="bg-brand-warm-gray/10 rounded-lg p-8">
-              <div className="space-y-6 font-body text-brand-black/90 leading-relaxed">
-                <div>
-                  <p className="font-heading text-lg text-brand-black mb-2">8:30 AM - Morning Practice</p>
-                  <p>
-                    Begin your day with a 2-hour Iyengar yoga class in the beautiful studio. Morning sessions often
-                    focus on standing poses, inversions, and energizing sequences to awaken the body.
-                  </p>
-                </div>
-                <div>
-                  <p className="font-heading text-lg text-brand-black mb-2">11:00 AM - Brunch</p>
-                  <p>
-                    Enjoy a healthy brunch featuring fresh local fruits, homemade breads, yogurt, eggs, and Portuguese
-                    specialties.
-                  </p>
-                </div>
-                <div>
-                  <p className="font-heading text-lg text-brand-black mb-2">12:00 PM - Free Time</p>
-                  <p>
-                    Relax by the pool, take a siesta, read in the gardens, or join an optional excursion to the beach or
-                    local villages. Some days include organised trips to nearby attractions.
-                  </p>
-                </div>
-                <div>
-                  <p className="font-heading text-lg text-brand-black mb-2">17:00 PM - Afternoon Practice</p>
-                  <p>
-                    The afternoon session typically focuses on deeper work—restorative poses, backbends, forward bends,
-                    or specialised workshops on particular aspects of Iyengar practice.
-                  </p>
-                </div>
-                <div>
-                  <p className="font-heading text-lg text-brand-black mb-2">19:00 PM - Dinner & Evening</p>
-                  <p>
-                    Gather for dinner featuring Portuguese and Mediterranean cuisine. Evenings are free to relax, share
-                    conversations with fellow students, or enjoy the peaceful surroundings under the stars.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </section>
-
           {/* Who Should Attend */}
           <section className="mb-12">
             <h2 className="font-heading text-3xl text-brand-black mb-6">Who Should Attend</h2>
             <div className="space-y-4 font-body text-lg text-brand-black/90 leading-relaxed">
-              <p>
-                This retreat is suitable for students of all levels, from beginners to experienced practitioners.
-                Georgia's clear teaching style ensures everyone receives appropriate guidance and individual attention.
-              </p>
-              <p>
-                Whether you're looking to deepen your existing practice, learn Iyengar Yoga properly from the beginning,
-                or simply enjoy a week of yoga combined with the beauty of the Algarve, this retreat offers something
-                for everyone.
-              </p>
-              <p>
-                The combination of dedicated practice time and leisure activities makes this retreat ideal for both
-                serious students and those seeking a more balanced yoga holiday experience.
-              </p>
-            </div>
-          </section>
-
-          {/* Getting There */}
-          <section className="mb-12">
-            <h2 className="font-heading text-3xl text-brand-black mb-6">Getting There</h2>
-            <div className="space-y-6 font-body text-lg text-brand-black/90 leading-relaxed">
-              <div>
-                <h3 className="font-heading text-xl text-brand-black mb-3">By Air</h3>
-                <p>
-                  The nearest airport is Faro (FAO), which is well-connected to major European cities with frequent
-                  direct flights. From Faro airport, Casa Cales is approximately 30 minutes by car. Airport transfers
-                  are included in the retreat price.
-                </p>
-              </div>
-              <div>
-                <h3 className="font-heading text-xl text-brand-black mb-3">Arrival & Departure</h3>
-                <p>
-                  The retreat begins with dinner on Day 1 and ends after breakfast on Day 8. We recommend arriving at
-                  Faro airport by early afternoon on Day 1 and booking departure flights for mid-morning or later on Day
-                  8.
-                </p>
-              </div>
-              <div className="bg-brand-orange/10 border-l-4 border-brand-orange rounded-r-lg p-6">
-                <p>
-                  <strong>Note:</strong> International flights are not included in the retreat price. Georgia will
-                  provide detailed travel information including recommended flight times and group transfer schedules
-                  after booking.
-                </p>
-              </div>
-            </div>
-          </section>
-
-          {/* What to Bring */}
-          <section className="mb-12">
-            <h2 className="font-heading text-3xl text-brand-black mb-6">What to Bring</h2>
-            <div className="space-y-4 font-body text-brand-black/90 leading-relaxed">
-              <ul className="list-disc list-inside space-y-2 ml-4">
-                <li>Yoga mat (or let Georgia know if you need to borrow one)</li>
-                <li>Comfortable clothing for yoga practice (layers recommended)</li>
-                <li>Casual clothes for leisure time</li>
-                <li>Swimwear and beach towel</li>
-                <li>Sun protection (hat, sunglasses, sunscreen)</li>
-                <li>Light jacket or sweater for cooler evenings</li>
-                <li>Walking shoes or sandals</li>
-                <li>Any personal toiletries or medications</li>
-                <li>Reusable water bottle</li>
-                <li>Notebook and pen if you like to take notes</li>
+              <p>This retreat is perfect for:</p>
+              <ul className="list-disc list-inside space-y-2 pl-4">
+                <li>Anyone seeking a restorative break and a deeper connection to their yoga practice</li>
+                <li>Both experienced practitioners and those newer to yoga who are curious to explore further</li>
+                <li>Those interested in Iyengar yoga's focus on alignment, precision, and mindful awareness</li>
+                <li>Solo travelers, couples, or friends looking for a peaceful retreat in beautiful surroundings</li>
               </ul>
-              <p className="mt-4">
-                <strong>Note:</strong> All yoga props (blocks, belts, bolsters, blankets) are provided at Casa Cales.
-              </p>
-            </div>
-          </section>
-
-          {/* Booking Information */}
-          <section className="mb-12">
-            <div className="bg-brand-orange/10 border-l-4 border-brand-orange rounded-r-lg p-6">
-              <h2 className="font-heading text-2xl text-brand-black mb-4">How to Book</h2>
-              <div className="space-y-4 font-body text-brand-black/90">
-                <p>
-                  To reserve your place on this retreat, please contact Georgia directly. Spaces are limited to ensure
-                  an intimate and personal experience with individual attention for each student.
-                </p>
-                <p>
-                  <strong>Deposit:</strong> A non-refundable deposit of €400 is required to secure your booking. The
-                  remaining balance is due 8 weeks before the retreat start date.
-                </p>
-                <p>
-                  <strong>Cancellation Policy:</strong> Cancellations made more than 8 weeks before the retreat will
-                  receive a full refund minus the deposit. Cancellations within 8 weeks are non-refundable unless your
-                  place can be filled from the waiting list.
-                </p>
-                <p>
-                  <strong>Travel Insurance:</strong> We strongly recommend purchasing travel insurance that covers trip
-                  cancellation and medical emergencies.
-                </p>
-                <p>
-                  <strong>Payment:</strong> Payment can be made via bank transfer. Full payment details will be provided
-                  upon booking confirmation.
-                </p>
-              </div>
-            </div>
-          </section>
-
-          {/* Testimonials from Previous Retreats */}
-          <section className="mb-12">
-            <h2 className="font-heading text-3xl text-brand-black mb-8 text-center">
-              What Students Say About Georgia's Retreats
-            </h2>
-            <div className="grid gap-6 md:grid-cols-2">
-              <div className="bg-white border border-brand-warm-gray rounded-lg p-6">
-                <div className="flex items-center gap-1 mb-4">
-                  {[1, 2, 3, 4, 5].map((star) => (
-                    <span key={star} className="text-brand-gold text-lg">
-                      ★
-                    </span>
-                  ))}
-                </div>
-                <blockquote className="font-body text-brand-black/90 mb-4">
-                  "I first met Georgia on a yoga retreat in Portugal and was blown away by her depth of knowledge. Every
-                  session left me both energised and peaceful. I return every year."
-                </blockquote>
-                <cite className="font-body text-sm text-brand-black/70">— João, Portugal</cite>
-              </div>
-              <div className="bg-white border border-brand-warm-gray rounded-lg p-6">
-                <div className="flex items-center gap-1 mb-4">
-                  {[1, 2, 3, 4, 5].map((star) => (
-                    <span key={star} className="text-brand-gold text-lg">
-                      ★
-                    </span>
-                  ))}
-                </div>
-                <blockquote className="font-body text-brand-black/90 mb-4">
-                  "Georgia's yoga retreats in Portugal are unforgettable. The yoga is challenging yet deeply
-                  restorative, and the whole experience is beautifully organised. I can't recommend them enough."
-                </blockquote>
-                <cite className="font-body text-sm text-brand-black/70">— Emma, UK</cite>
-              </div>
             </div>
           </section>
 
           {/* Additional Image Gallery */}
-          <section className="mt-16">
+          <section className="mb-12">
             <h2 className="font-heading text-3xl text-brand-black mb-8 text-center">Gallery</h2>
             <div className="grid gap-4 md:grid-cols-3">
               <img
-                src="/portugal-terrace-view.jpg"
-                alt="Peaceful outdoor terrace with pergola and countryside views at Casa Cales"
+                src="/portugal-pool-evening.jpeg"
+                alt="Beautiful swimming pool at Casa Cales in evening light with stone terracing and lush Mediterranean gardens"
                 className="w-full h-64 object-cover rounded-lg shadow-md"
               />
               <img
@@ -405,12 +218,120 @@ export default function PortugalRetreatPage() {
                 className="w-full h-64 object-cover rounded-lg shadow-md"
               />
               <img
-                src="/portugal-yoga-studio-statue.jpg"
-                alt="Beautiful yoga studio with panoramic windows and Buddha statue"
+                src="/portugal-food-spread.jpg"
+                alt="Delicious healthy vegetarian meal spread with fresh salad, flatbreads, and accompaniments at Casa Cales"
                 className="w-full h-64 object-cover rounded-lg shadow-md"
               />
             </div>
           </section>
+
+          {/* Practical Information */}
+          <section className="mb-12">
+            <h2 className="font-heading text-2xl text-brand-black mb-6 text-center">Practical Information</h2>
+            <Accordion type="single" collapsible className="w-full">
+              <AccordionItem value="pricing">
+                <AccordionTrigger className="font-body text-lg text-brand-black">
+                  The price and what's included
+                </AccordionTrigger>
+                <AccordionContent className="font-body text-brand-black/80">
+                  <div className="space-y-4">
+                    <div>
+                      <p className="font-medium mb-2">Pricing:</p>
+                      <ul className="space-y-1 ml-4">
+                        <li>• Shared room: €1,100 per person</li>
+                        <li>• Private room: €1,325 per person</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <p className="font-medium mb-2">What's Included:</p>
+                      <ul className="space-y-1 ml-4">
+                        <li>• Daily Iyengar Yoga classes (morning and afternoon sessions)</li>
+                        <li>• 7 nights accommodation</li>
+                        <li>• All meals featuring fresh local cuisine</li>
+                        <li>• Tea, coffee, and snacks available throughout the day</li>
+                        <li>• Access to swimming pool and gardens</li>
+                        <li>• Use of yoga props and equipment</li>
+                      </ul>
+                    </div>
+                    <p className="text-sm italic text-brand-black/60 mt-4">
+                      €400 deposit required to secure your booking
+                    </p>
+                  </div>
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="not-included">
+                <AccordionTrigger className="font-body text-lg text-brand-black">What's not included</AccordionTrigger>
+                <AccordionContent className="font-body text-brand-black/80">
+                  <ul className="space-y-2 ml-4">
+                    <li>• International flights to Faro</li>
+                    <li>• Travel insurance (required)</li>
+                    <li>• Personal expenses and souvenirs</li>
+                    <li>• Optional excursions</li>
+                    <li>• Airport transfers</li>
+                  </ul>
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="sharing">
+                <AccordionTrigger className="font-body text-lg text-brand-black">Can I share a room?</AccordionTrigger>
+                <AccordionContent className="font-body text-brand-black/80">
+                  <p>
+                    Yes! Shared rooms are available at €1,100 per person. If you're booking with a friend or partner,
+                    please let us know when making your reservation. Private rooms are also available for €1,325 if you
+                    prefer your own space.
+                  </p>
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="booking-process">
+                <AccordionTrigger className="font-body text-lg text-brand-black">Booking process</AccordionTrigger>
+                <AccordionContent className="font-body text-brand-black/80">
+                  <div className="space-y-3">
+                    <p>Spaces are limited to ensure a personal experience and individual attention for each student.</p>
+                    <p>
+                      <strong>Important:</strong> A non-refundable deposit of €400 is required to secure your booking.
+                      The remaining balance is due 8 weeks before the retreat start date.
+                    </p>
+                  </div>
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="what-to-bring">
+                <AccordionTrigger className="font-body text-lg text-brand-black">What to bring</AccordionTrigger>
+                <AccordionContent className="font-body text-brand-black/80">
+                  <ul className="space-y-2 ml-4">
+                    <li>• Comfortable clothing for yoga practice (layers recommended)</li>
+                    <li>• Casual clothes for leisure time</li>
+                    <li>• Swimwear and beach towel</li>
+                    <li>• Sun protection (hat, sunglasses, sunscreen)</li>
+                    <li>• Light jacket or sweater for cooler evenings</li>
+                    <li>• Walking shoes or sandals</li>
+                    <li>• Any personal toiletries or medications</li>
+                    <li>• Reusable water bottle</li>
+                    <li>• Notebook and pen if you like to take notes</li>
+                  </ul>
+                  <p className="text-sm italic text-brand-black/60 mt-4">
+                    Note: All yoga props (blocks, belts, bolsters, blankets) are provided at Casa Cales.
+                  </p>
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          </section>
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+            <Button asChild size="lg" className="bg-brand-orange hover:bg-brand-gold text-white transition-colors">
+              <Link href="/contact">Book Your Place</Link>
+            </Button>
+            <Button
+              asChild
+              size="lg"
+              variant="outline"
+              className="border-brand-orange text-brand-orange hover:bg-brand-orange hover:text-white transition-colors bg-transparent"
+            >
+              <Link href="/retreats">View All Retreats</Link>
+            </Button>
+          </div>
         </div>
       </div>
     </div>
