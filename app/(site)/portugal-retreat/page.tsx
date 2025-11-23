@@ -82,15 +82,15 @@ export default function PortugalRetreatPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
-                  <span>Use of living room, terraces and all common areas     </span>
+                  <span>Use of living room, terraces and all common areas </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
-                  <span>{"Acess to swimming pool and gardens"}</span>
+                  <span>Access to swimming pool and gardens</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
-                  <span>Optional excursions to local beaches and towns    </span>
+                  <span>Optional excursions to local beaches and towns </span>
                 </li>
               </ul>
             </div>
@@ -99,24 +99,25 @@ export default function PortugalRetreatPage() {
               <h2 className="font-heading text-2xl text-brand-black mb-4">Daily Schedule</h2>
               <div className="space-y-3 font-body text-brand-black/80">
                 <div>
-                  <p className="font-medium text-brand-black">Morning (7:30 - 9:30)</p>
-                  <p className="text-sm">Yoga practice</p>
+                  <p className="font-medium text-brand-black">Yoga practice 8:30 – 10:30</p>
                 </div>
                 <div>
-                  <p className="font-medium text-brand-black">Morning (9:30 - 10:30)</p>
-                  <p className="text-sm">Breakfast</p>
+                  <p className="font-medium text-brand-black">Brunch 11:00 – 12:00</p>
                 </div>
                 <div>
-                  <p className="font-medium text-brand-black">Mid-day</p>
-                  <p className="text-sm">Free time for pool, beach visits, rest, or exploration</p>
+                  <p className="font-medium text-brand-black">Afternoon - free time </p>
+                  <p className="text-sm">Rest, walks, coastal visits, excursions, massage etc</p>
                 </div>
                 <div>
-                  <p className="font-medium text-brand-black">Afternoon (4:30 - 6:30)</p>
-                  <p className="text-sm">Yoga practice</p>
+                  <p className="font-medium text-brand-black">Tea and snacks </p>
                 </div>
                 <div>
-                  <p className="font-medium text-brand-black">Evening (7:00 onwards)</p>
-                  <p className="text-sm">Dinner and relaxation</p>
+                  <p className="font-medium text-brand-black">Yoga practice 17:00 – 18:30</p>
+                  <p className="text-sm">Evening practice </p>
+                </div>
+                <div>
+                  <p className="font-medium text-brand-black">Dinner 19:00 – 20:00</p>
+                  <p className="text-sm">Evening meal and relaxation</p>
                 </div>
               </div>
             </div>
@@ -212,42 +213,35 @@ export default function PortugalRetreatPage() {
             <div className="bg-brand-warm-gray/10 rounded-lg p-8">
               <div className="space-y-6 font-body text-brand-black/90 leading-relaxed">
                 <div>
-                  <p className="font-heading text-lg text-brand-black mb-2">7:30 AM - Morning Practice</p>
+                  <p className="font-heading text-lg text-brand-black mb-2">8:30 AM - Morning Practice</p>
                   <p>
                     Begin your day with a 2-hour Iyengar yoga class in the beautiful studio. Morning sessions often
                     focus on standing poses, inversions, and energizing sequences to awaken the body.
                   </p>
                 </div>
                 <div>
-                  <p className="font-heading text-lg text-brand-black mb-2">9:30 AM - Breakfast</p>
+                  <p className="font-heading text-lg text-brand-black mb-2">11:00 AM - Brunch</p>
                   <p>
-                    Enjoy a healthy breakfast featuring fresh local fruits, homemade breads, yogurt, eggs, and
-                    Portuguese specialties.
+                    Enjoy a healthy brunch featuring fresh local fruits, homemade breads, yogurt, eggs, and Portuguese
+                    specialties.
                   </p>
                 </div>
                 <div>
-                  <p className="font-heading text-lg text-brand-black mb-2">10:30 AM - Free Time</p>
+                  <p className="font-heading text-lg text-brand-black mb-2">12:00 PM - Free Time</p>
                   <p>
                     Relax by the pool, take a siesta, read in the gardens, or join an optional excursion to the beach or
                     local villages. Some days include organised trips to nearby attractions.
                   </p>
                 </div>
                 <div>
-                  <p className="font-heading text-lg text-brand-black mb-2">1:00 PM - Lunch</p>
-                  <p>
-                    A light, nourishing lunch with salads, grilled vegetables, soups, and Mediterranean dishes. Fresh,
-                    seasonal, and mostly vegetarian.
-                  </p>
-                </div>
-                <div>
-                  <p className="font-heading text-lg text-brand-black mb-2">4:30 PM - Afternoon Practice</p>
+                  <p className="font-heading text-lg text-brand-black mb-2">17:00 PM - Afternoon Practice</p>
                   <p>
                     The afternoon session typically focuses on deeper work—restorative poses, backbends, forward bends,
                     or specialised workshops on particular aspects of Iyengar practice.
                   </p>
                 </div>
                 <div>
-                  <p className="font-heading text-lg text-brand-black mb-2">7:00 PM - Dinner & Evening</p>
+                  <p className="font-heading text-lg text-brand-black mb-2">19:00 PM - Dinner & Evening</p>
                   <p>
                     Gather for dinner featuring Portuguese and Mediterranean cuisine. Evenings are free to relax, share
                     conversations with fellow students, or enjoy the peaceful surroundings under the stars.
@@ -402,7 +396,7 @@ export default function PortugalRetreatPage() {
             <div className="grid gap-4 md:grid-cols-2">
               <img
                 src="/portugal-terrace-view.jpg"
-                alt="Peaceful terrace with countryside views at Casa Cales"
+                alt="Peaceful outdoor terrace with pergola and countryside views at Casa Cales"
                 className="w-full h-64 object-cover rounded-lg shadow-md"
               />
               <img

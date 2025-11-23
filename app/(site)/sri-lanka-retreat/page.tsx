@@ -240,15 +240,20 @@ export default function SriLankaRetreatPage() {
           {/* Additional Image Gallery */}
           <section className="mt-16">
             <h2 className="font-heading text-3xl text-brand-black mb-8 text-center">Gallery</h2>
-            <div className="grid gap-4 md:grid-cols-2">
+            <div className="grid gap-4 md:grid-cols-3">
               <img
-                src="/sri-lanka-lush-landscape.jpg"
-                alt="Ulpotha retreat venue in Sri Lanka"
+                src="/portugal-natural-lake-mountain.jpg"
+                alt="Natural swimming lake with dramatic mountain backdrop"
                 className="w-full h-64 object-cover rounded-lg shadow-md"
               />
               <img
-                src="/sri-lanka-lush-landscape.jpg"
-                alt="Ulpotha yoga space overlooking the lake"
+                src="/sri-lanka-dining-pavilion.jpg"
+                alt="Traditional Ambalama dining pavilion with Sri Lankan meal spread"
+                className="w-full h-64 object-cover rounded-lg shadow-md"
+              />
+              <img
+                src="/sri-lanka-traditional-hut.jpg"
+                alt="Traditional rustic hut accommodation with thatched roof and colorful furnishings"
                 className="w-full h-64 object-cover rounded-lg shadow-md"
               />
             </div>
@@ -259,7 +264,7 @@ export default function SriLankaRetreatPage() {
             <h2 className="font-heading text-2xl text-brand-black mb-6 text-center">Practical Information</h2>
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="pricing">
-                <AccordionTrigger className="font-body text-lg text-brand-black">The price</AccordionTrigger>
+                <AccordionTrigger className="font-body text-lg text-brand-black">Price options</AccordionTrigger>
                 <AccordionContent className="font-body text-brand-black/80">
                   <div className="space-y-4">
                     <div>
@@ -339,7 +344,7 @@ export default function SriLankaRetreatPage() {
               </AccordionItem>
 
               <AccordionItem value="visa-requirements">
-                <AccordionTrigger className="font-body text-lg text-brand-black">Visa Requirements</AccordionTrigger>
+                <AccordionTrigger className="font-body text-lg text-brand-black">Visa requirements</AccordionTrigger>
                 <AccordionContent className="font-body text-brand-black/80">
                   <p>
                     Most nationalities require a tourist visa for Sri Lanka, which can be obtained online as an

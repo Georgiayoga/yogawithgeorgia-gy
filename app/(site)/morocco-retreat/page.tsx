@@ -207,7 +207,7 @@ export default function MoroccoRetreatPage() {
 
           {/* FAQ Accordion */}
           <section className="mt-12 mb-8">
-            <h2 className="font-heading text-2xl text-brand-black mb-6 text-center">Frequently Asked Questions</h2>
+            <h2 className="font-heading text-2xl text-brand-black mb-6 text-center">Practical Information</h2>
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="pricing">
                 <AccordionTrigger className="font-body text-lg text-brand-black">
