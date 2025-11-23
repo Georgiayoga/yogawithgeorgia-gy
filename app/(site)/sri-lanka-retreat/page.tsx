@@ -67,7 +67,7 @@ export default function SriLankaRetreatPage() {
           {/* Key Details Grid */}
           <section className="mb-12 grid gap-6 md:grid-cols-2">
             <div className="bg-brand-warm-gray/20 rounded-lg p-6">
-              <h2 className="font-heading text-2xl text-brand-black mb-4">What's Included</h2>
+              <h2 className="font-heading text-2xl text-brand-black mb-4">Retreat Features</h2>
               <ul className="space-y-3 font-body text-brand-black/80">
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>

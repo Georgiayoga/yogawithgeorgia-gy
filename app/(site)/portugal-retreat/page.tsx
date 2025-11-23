@@ -62,7 +62,7 @@ export default function PortugalRetreatPage() {
           {/* Key Details Grid */}
           <section className="mb-12 grid gap-6 md:grid-cols-2">
             <div className="bg-brand-warm-gray/20 rounded-lg p-6">
-              <h2 className="font-heading text-2xl text-brand-black mb-4">What's Included</h2>
+              <h2 className="font-heading text-2xl text-brand-black mb-4">Retreat Features</h2>
               <ul className="space-y-3 font-body text-brand-black/80">
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
@@ -393,7 +393,7 @@ export default function PortugalRetreatPage() {
           {/* Additional Image Gallery */}
           <section className="mt-16">
             <h2 className="font-heading text-3xl text-brand-black mb-8 text-center">Gallery</h2>
-            <div className="grid gap-4 md:grid-cols-2">
+            <div className="grid gap-4 md:grid-cols-3">
               <img
                 src="/portugal-terrace-view.jpg"
                 alt="Peaceful outdoor terrace with pergola and countryside views at Casa Cales"
@@ -402,6 +402,11 @@ export default function PortugalRetreatPage() {
               <img
                 src="/portugal-bedroom-interior.jpg"
                 alt="Serene bedroom with canopy bed and terrace doors at Casa Cales"
+                className="w-full h-64 object-cover rounded-lg shadow-md"
+              />
+              <img
+                src="/portugal-yoga-studio-statue.jpg"
+                alt="Beautiful yoga studio with panoramic windows and Buddha statue"
                 className="w-full h-64 object-cover rounded-lg shadow-md"
               />
             </div>

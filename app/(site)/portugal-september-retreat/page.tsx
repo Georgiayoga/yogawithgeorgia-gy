@@ -66,7 +66,7 @@ export default function PortugalSeptemberRetreatPage() {
           {/* Key Details Grid */}
           <section className="mb-12 grid gap-6 md:grid-cols-2">
             <div className="bg-brand-warm-gray/20 rounded-lg p-6">
-              <h2 className="font-heading text-2xl text-brand-black mb-4">What's Included</h2>
+              <h2 className="font-heading text-2xl text-brand-black mb-4">Retreat Features</h2>
               <ul className="space-y-3 font-body text-brand-black/80">
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
@@ -442,7 +442,7 @@ export default function PortugalSeptemberRetreatPage() {
           {/* Additional Image Gallery */}
           <section className="mt-16">
             <h2 className="font-heading text-3xl text-brand-black mb-8 text-center">Gallery</h2>
-            <div className="grid gap-4 md:grid-cols-2">
+            <div className="grid gap-4 md:grid-cols-3">
               <img
                 src="/praia-do-quinta-do-lago-algarve.jpg"
                 alt="Beautiful Algarve beach in September"
@@ -451,6 +451,11 @@ export default function PortugalSeptemberRetreatPage() {
               <img
                 src="/portugal-algarve-coast.jpg"
                 alt="Casa Cales retreat centre and surroundings"
+                className="w-full h-64 object-cover rounded-lg shadow-md"
+              />
+              <img
+                src="/portugal-yoga-studio-statue.jpg"
+                alt="Casa Cales yoga studio with peaceful atmosphere"
                 className="w-full h-64 object-cover rounded-lg shadow-md"
               />
             </div>

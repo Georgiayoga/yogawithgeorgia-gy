@@ -66,7 +66,7 @@ export default function SriLankaRetreat2027Page() {
         <div className="grid md:grid-cols-2 gap-8 mb-12">
           {/* What's Included */}
           <div className="bg-brand-warm-gray/20 rounded-lg p-6">
-            <h2 className="font-heading text-2xl text-brand-black mb-4">What&apos;s Included</h2>
+            <h2 className="font-heading text-2xl text-brand-black mb-4">Retreat Features</h2>
             <ul className="space-y-3 font-body text-brand-black/80">
               <li className="flex items-start gap-3">
                 <span className="text-brand-orange mt-1">•</span>
@@ -213,8 +213,8 @@ export default function SriLankaRetreat2027Page() {
             </div>
             <div className="rounded-lg overflow-hidden">
               <Image
-                src="/placeholder.svg?height=300&width=400"
-                alt="Traditional village yoga space"
+                src="/sri-lanka-traditional-hut.jpg"
+                alt="Traditional accommodation at Ulpotha retreat"
                 width={400}
                 height={300}
                 className="w-full h-64 object-cover"
@@ -273,14 +273,6 @@ export default function SriLankaRetreat2027Page() {
                   <li className="flex items-start gap-3">
                     <span className="text-brand-orange mt-1">•</span>
                     <span>International flights to Sri Lanka</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-brand-orange mt-1">•</span>
-                    <span>Travel insurance (required)</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-brand-orange mt-1">•</span>
-                    <span>Travel insurance (required)</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-brand-orange mt-1">•</span>

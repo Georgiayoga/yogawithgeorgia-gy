@@ -63,7 +63,7 @@ export default function MoroccoRetreatPage() {
           {/* Key Details Grid */}
           <section className="mb-12 grid gap-6 md:grid-cols-2">
             <div className="bg-brand-warm-gray/20 rounded-lg p-6">
-              <h2 className="font-heading text-2xl text-brand-black mb-4">What's Included</h2>
+              <h2 className="font-heading text-2xl text-brand-black mb-4">Retreat Features</h2>
               <ul className="space-y-3 font-body text-brand-black/80">
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
@@ -191,7 +191,7 @@ export default function MoroccoRetreatPage() {
           {/* Additional Image Gallery */}
           <section className="mt-16">
             <h2 className="font-heading text-3xl text-brand-black mb-8 text-center">Gallery</h2>
-            <div className="grid gap-4 md:grid-cols-2">
+            <div className="grid gap-4 md:grid-cols-3">
               <img
                 src="/morocco-bedroom-bab-zouina.jpg"
                 alt="Cozy bedroom with traditional Moroccan decor at Bab Zouina retreat"
@@ -200,6 +200,11 @@ export default function MoroccoRetreatPage() {
               <img
                 src="/morocco-food-bab-zouina.jpg"
                 alt="Vibrant healthy meal spread with fresh juices and colorful dishes at Bab Zouina"
+                className="w-full h-64 object-cover rounded-lg shadow-md"
+              />
+              <img
+                src="/morocco-yoga-class-practice.jpg"
+                alt="Students practicing chair yoga poses with instructor guidance at Bab Zouina yoga studio"
                 className="w-full h-64 object-cover rounded-lg shadow-md"
               />
             </div>
