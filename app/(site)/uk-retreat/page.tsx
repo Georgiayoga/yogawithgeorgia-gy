@@ -167,10 +167,10 @@ export default function UKRetreatPage() {
                 </p>
               </div>
               <div className="bg-brand-warm-gray/10 rounded-lg p-6">
-                <h3 className="font-heading text-xl text-brand-black mb-3">🧘 Dedicated Yoga Studio</h3>
+                <h3 className="font-heading text-xl text-brand-black mb-3">🌱 Low-Impact Journey</h3>
                 <p>
-                  Yewfield features a purpose-built yoga studio with excellent natural light, and beautiful views. The
-                  space is designed specifically for Iyengar practice with a peaceful, inspiring atmosphere.
+                  For students travelling from Britain, this is a rare chance to join a retreat without flying, making
+                  your journey gentler on both you and the environment.
                 </p>
               </div>
               <div className="bg-brand-warm-gray/10 rounded-lg p-6">

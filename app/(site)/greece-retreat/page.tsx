@@ -5,9 +5,9 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 export const metadata = {
   title: "Greece Retreat 2026 | Yoga with Georgia",
   description:
-    "Join Georgia for a week-long Iyengar Yoga retreat at Evia Bay in Northern Evia, Greece, June 2026. Experience daily yoga practice overlooking the Aegean Sea in a serene coastal setting.",
+    "Join Georgia for a week-long Iyengar Yoga retreat at Evia Bay in Limni, Evia Peninsula, Greece, June-July 2026. Experience daily yoga practice overlooking the Aegean Sea in a serene coastal setting.",
   keywords:
-    "Greece yoga retreat, Evia retreat, Aegean yoga, Iyengar yoga Greece, yoga retreat 2026, Georgia Marnham retreat, Northern Evia retreat",
+    "Greece yoga retreat, Evia retreat, Aegean yoga, Iyengar yoga Greece, yoga retreat 2026, Georgia Marnham retreat, Limni retreat",
 }
 
 export default function GreeceRetreatPage() {
@@ -18,14 +18,14 @@ export default function GreeceRetreatPage() {
           {/* Hero Section */}
           <header className="text-center mb-12">
             <h1 className="font-heading text-4xl md:text-5xl text-brand-black mb-4">Greece Retreat 2026</h1>
-            <p className="font-body text-xl text-brand-black/80 mb-2">Evia Bay, Northern Evia</p>
-            <p className="font-body text-lg text-brand-orange font-medium">June 21 – 27, 2026</p>
+            <p className="font-body text-xl text-brand-black/80 mb-2">Limni, Evia Peninsula</p>
+            <p className="font-body text-lg text-brand-orange font-medium">June 27 – July 3, 2026</p>
           </header>
 
           <div className="mb-12">
             <img
-              src="/portugal-yoga-studio-statue.jpg"
-              alt="Yoga studio at retreat venue with traditional Buddha statue and panoramic views"
+              src="/greece-evia-bay-aerial.jpg"
+              alt="Aerial view of Evia Bay retreat centre with swimming pool, buildings, and private beach on the Aegean Sea"
               className="w-full h-[400px] object-cover rounded-lg shadow-lg"
             />
           </div>
@@ -34,14 +34,14 @@ export default function GreeceRetreatPage() {
           <section className="mb-12">
             <div className="space-y-6 font-body text-lg text-brand-black/90 leading-relaxed">
               <p>
-                Join Georgia for a transformative week-long Iyengar Yoga retreat at Evia Bay, nestled in the hills of
-                Northern Evia in beautiful Greece. This peaceful retreat combines daily yoga practice with the natural
-                beauty and cultural richness of the Aegean coast.
+                Join Georgia for a week of Iyengar Yoga at Kaminos Resort, set between the hills and the Aegean Sea. The
+                atmosphere is peaceful and unhurried, creating a comfortable space to focus on practice and enjoy a
+                slower pace.
               </p>
               <p>
-                Evia Bay is just minutes from the coastline with its fabulous beaches, sandy coves, and crystal-clear
-                waters. The retreat centre offers a serene hillside setting with stunning views, a fully equipped yoga
-                studio, and comfortable accommodation; the perfect environment for deepening your practice.
+                From the resort it's an easy walk to quiet swimming spots along the Evia coastline, with clear water and
+                gentle views. With a dedicated yoga area, delicious meals, and genuine Greek hospitality, it's an ideal
+                early-summer retreat to reconnect and recharge.
               </p>
             </div>
           </section>
@@ -67,15 +67,15 @@ export default function GreeceRetreatPage() {
               <ul className="space-y-3 font-body text-brand-black/80">
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
-                  <span>Daily Iyengar Yoga classes (morning and afternoon sessions)</span>
+                  <span>Daily Iyengar Yoga classes (morning and evening sessions)</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
-                  <span>6 nights accommodation in shared or private rooms</span>
+                  <span>6 nights accommodation in standard or junior suites</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
-                  <span>All meals featuring delicious local Greek and vegetarian cuisine</span>
+                  <span>Meals featuring delicious local Greek and vegetarian cuisine</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
@@ -87,11 +87,11 @@ export default function GreeceRetreatPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
-                  <span>Access to swimming pool and gardens</span>
+                  <span>Access to swimming pool, gardens, and beach</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
-                  <span>Optional excursions to local beaches and towns </span>
+                  <span>Organisation of local tours</span>
                 </li>
               </ul>
             </div>
@@ -100,10 +100,10 @@ export default function GreeceRetreatPage() {
               <h2 className="font-heading text-2xl text-brand-black mb-4">Daily Schedule</h2>
               <div className="space-y-3 font-body text-brand-black/80">
                 <div>
-                  <p className="font-medium text-brand-black">Yoga practice 8:30 – 10:30</p>
+                  <p className="font-medium text-brand-black">Yoga practice 8:00 – 10:15</p>
                 </div>
                 <div>
-                  <p className="font-medium text-brand-black">Brunch 11:00 – 12:00</p>
+                  <p className="font-medium text-brand-black">Brunch 10:30 – 11:30</p>
                   <p className="text-sm">
                     Featuring fresh local fruits, homemade breads, yogurt, eggs, and Greek specialties.
                   </p>
@@ -111,9 +111,6 @@ export default function GreeceRetreatPage() {
                 <div>
                   <p className="font-medium text-brand-black">Afternoon - free time</p>
                   <p className="text-sm">Rest, walks, coastal visits, excursions, massage etc</p>
-                </div>
-                <div>
-                  <p className="font-medium text-brand-black">Tea and snacks</p>
                 </div>
                 <div>
                   <p className="font-medium text-brand-black">Yoga practice 17:00 – 18:30</p>
@@ -132,9 +129,9 @@ export default function GreeceRetreatPage() {
             <h2 className="font-heading text-3xl text-brand-black mb-6">About the Retreat Centre</h2>
             <div className="space-y-6 font-body text-lg text-brand-black/90 leading-relaxed">
               <p>
-                The retreat centre is a beautiful property set in the rolling hills of Northern Evia, overlooking the
-                stunning Aegean Sea. The property combines traditional Greek architecture with modern comfort, creating
-                an ideal space for yoga practice and relaxation.
+                The retreat centre is a beautiful property set in the rolling hills of Limni, Evia Peninsula,
+                overlooking the stunning Aegean Sea. The property combines traditional Greek architecture with modern
+                comfort, creating an ideal space for yoga practice and relaxation.
               </p>
               <p>
                 The centre features a fully equipped yoga studio with stunning views over the sea, comfortable
@@ -165,24 +162,26 @@ export default function GreeceRetreatPage() {
                 </p>
               </div>
               <div className="bg-brand-warm-gray/10 rounded-lg p-6">
-                <h3 className="font-heading text-xl text-brand-black mb-3">🧘 Dedicated Yoga Studio</h3>
+                <h3 className="font-heading text-xl text-brand-black mb-3">🧘 Equipped Yoga Studio</h3>
                 <p>
-                  The retreat features a purpose-built yoga studio with all necessary props, excellent natural light,
-                  and beautiful views. The space is designed specifically for Iyengar practice.
+                  The yoga studio at Kaminos Resort is spacious, comfortable, and set in peaceful natural surroundings.
+                  It will be equipped with all the props needed for Iyengar Yoga, offering a calm, uncluttered space to
+                  focus on your practice.
                 </p>
               </div>
               <div className="bg-brand-warm-gray/10 rounded-lg p-6">
                 <h3 className="font-heading text-xl text-brand-black mb-3">🌞 Perfect Climate</h3>
                 <p>
-                  June in Greece offers ideal weather—warm, sunny days averaging 25-28°C, perfect for both yoga practice
+                  Late June and early July bring warm, sunny days averaging 25–28°C, ideal for yoga practice, swimming
                   and outdoor exploration.
                 </p>
               </div>
               <div className="bg-brand-warm-gray/10 rounded-lg p-6">
-                <h3 className="font-heading text-xl text-brand-black mb-3">🏘️ Cultural Exploration</h3>
+                <h3 className="font-heading text-xl text-brand-black mb-3">🏛️ Cultural & Local Exploration</h3>
                 <p>
-                  Explore charming local villages, ancient sites, and authentic Greek culture. Optional excursions to
-                  nearby coastal towns and historical landmarks.
+                  Explore nearby villages like Rovies and Limni, known for their relaxed seafronts, cafés, and
+                  traditional charm. Optional short trips to coastal towns, thermal springs, and local historical spots
+                  offer an easy taste of everyday Greek culture without long travel days.
                 </p>
               </div>
             </div>
@@ -192,12 +191,17 @@ export default function GreeceRetreatPage() {
           <section className="mb-12">
             <h2 className="font-heading text-3xl text-brand-black mb-6">Who Should Attend</h2>
             <div className="space-y-4 font-body text-lg text-brand-black/90 leading-relaxed">
-              <p>This retreat is perfect for:</p>
+              <p>This retreat is ideal for:</p>
               <ul className="list-disc list-inside space-y-2 pl-4">
-                <li>Anyone seeking a restorative break and a deeper connection to their yoga practice</li>
-                <li>Both experienced practitioners and those newer to yoga who are curious to explore further</li>
-                <li>Those interested in Iyengar yoga's focus on alignment, precision, and mindful awareness</li>
-                <li>Solo travelers, couples, or friends looking for a peaceful retreat in beautiful surroundings</li>
+                <li>Anyone seeking a restorative week with space to deepen their yoga practice</li>
+                <li>
+                  Both experienced practitioners and those newer to yoga who want to explore Iyengar Yoga more fully
+                </li>
+                <li>People who appreciate comfortable accommodation, coastal holidays, and time in nature</li>
+                <li>
+                  Solo travellers, couples, or friends looking for a peaceful early-summer escape in beautiful
+                  surroundings
+                </li>
               </ul>
             </div>
           </section>
@@ -207,18 +211,18 @@ export default function GreeceRetreatPage() {
             <h2 className="font-heading text-3xl text-brand-black mb-8 text-center">Gallery</h2>
             <div className="grid gap-4 md:grid-cols-3">
               <img
-                src="/portugal-pool-evening.jpeg"
-                alt="Beautiful swimming pool at retreat centre in evening light with stone terracing and lush Mediterranean gardens"
+                src="/greece-bedroom.jpg"
+                alt="Bright bedroom with wooden beams, French doors opening to balcony with mountain views, and traditional Greek decor"
                 className="w-full h-64 object-cover rounded-lg shadow-md"
               />
               <img
-                src="/portugal-bedroom-interior.jpg"
-                alt="Serene bedroom with canopy bed and terrace doors at retreat centre"
+                src="/greece-pool.jpg"
+                alt="Swimming pool at Kaminos Resort surrounded by sun loungers, stone buildings, and lush green hills"
                 className="w-full h-64 object-cover rounded-lg shadow-md"
               />
               <img
-                src="/portugal-food-spread.jpg"
-                alt="Delicious healthy vegetarian meal spread with fresh salad, flatbreads, and accompaniments"
+                src="/greece-coastal-activity.jpg"
+                alt="Person paddleboarding on calm Aegean Sea waters with fishing boat and mountains in background"
                 className="w-full h-64 object-cover rounded-lg shadow-md"
               />
             </div>
@@ -237,19 +241,22 @@ export default function GreeceRetreatPage() {
                     <div>
                       <p className="font-medium mb-2">Pricing:</p>
                       <ul className="space-y-1 ml-4">
-                        <li>• Shared room: €1,100 per person</li>
-                        <li>• Private room: €1,325 per person</li>
+                        <li>• Standard room with ensuite, single: €1,550 per person</li>
+                        <li>• Standard room with ensuite, shared: €1,200 per person</li>
+                        <li>• Junior suite, single: €1,680 per person</li>
+                        <li>• Junior suite, shared: €1,330 per person</li>
+                        <li>• Junior suite, triple: €1,260 per person</li>
                       </ul>
                     </div>
                     <div>
-                      <p className="font-medium mb-2">What's Included:</p>
+                      <p className="font-medium mb-2">What's included:</p>
                       <ul className="space-y-1 ml-4">
-                        <li>• Daily Iyengar Yoga classes (morning and afternoon sessions)</li>
+                        <li>• Daily Iyengar yoga classes (morning and evening sessions)</li>
                         <li>• 6 nights accommodation</li>
-                        <li>• All meals featuring fresh local cuisine</li>
-                        <li>• Tea, coffee, and snacks available throughout the day</li>
-                        <li>• Access to swimming pool and gardens</li>
+                        <li>• Meals (brunch and dinner) featuring fresh local cuisine</li>
+                        <li>• Access to swimming pool, gardens and beach</li>
                         <li>• Use of yoga props and equipment</li>
+                        <li>• Organisation of local tours</li>
                       </ul>
                     </div>
                     <p className="text-sm italic text-brand-black/60 mt-4">
@@ -276,9 +283,8 @@ export default function GreeceRetreatPage() {
                 <AccordionTrigger className="font-body text-lg text-brand-black">Can I share a room?</AccordionTrigger>
                 <AccordionContent className="font-body text-brand-black/80">
                   <p>
-                    Yes! Shared rooms are available at €1,100 per person. If you're booking with a friend or partner,
-                    please let us know when making your reservation. Private rooms are also available for €1,325 if you
-                    prefer your own space.
+                    Yes! Double and triple rooms are available. Family rooms too. If you're booking with friends, family
+                    or a partner, please let us know when making your reservation.
                   </p>
                 </AccordionContent>
               </AccordionItem>
@@ -297,22 +303,26 @@ export default function GreeceRetreatPage() {
               </AccordionItem>
 
               <AccordionItem value="what-to-bring">
-                <AccordionTrigger className="font-body text-lg text-brand-black">What to bring</AccordionTrigger>
+                <AccordionTrigger className="font-body text-lg text-brand-black">How to get there</AccordionTrigger>
                 <AccordionContent className="font-body text-brand-black/80">
-                  <ul className="space-y-2 ml-4">
-                    <li>• Comfortable clothing for yoga practice (layers recommended)</li>
-                    <li>• Casual clothes for leisure time</li>
-                    <li>• Swimwear and beach towel</li>
-                    <li>• Sun protection (hat, sunglasses, sunscreen)</li>
-                    <li>• Light jacket or sweater for cooler evenings</li>
-                    <li>• Walking shoes or sandals</li>
-                    <li>• Any personal toiletries or medications</li>
-                    <li>• Reusable water bottle</li>
-                    <li>• Notebook and pen if you like to take notes</li>
-                  </ul>
-                  <p className="text-sm italic text-brand-black/60 mt-4">
-                    Note: All yoga props (blocks, belts, bolsters, blankets) are provided at the retreat centre.
-                  </p>
+                  <div className="space-y-4">
+                    <p>
+                      If you want to join the group airport transfer service, there will be a mini-bus leaving Athens
+                      airport on Saturday, June 27 at 3pm.
+                    </p>
+                    <p>
+                      If you prefer to hire a car and travel separately, you can drive from Athens to Arkitsa Port
+                      (approx. 1.5 hrs), take the ferry to Aidipsos (45 mins), and then drive 40 mins to Limni.
+                    </p>
+                    <p>
+                      Alternatively, you can drive through Chalkida on the island itself - the journey takes about 3
+                      hours from Athens Airport.
+                    </p>
+                    <p>
+                      There is an airport closer to Limni, with fewer flights: Nea Anchialos (VOL / LGBL) near Volos —
+                      approximately 113 km away.
+                    </p>
+                  </div>
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
