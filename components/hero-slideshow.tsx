@@ -12,15 +12,10 @@ const images = [
 
 export function HeroSlideshow() {
   const [currentIndex, setCurrentIndex] = useState(0)
-  const [isTransitioning, setIsTransitioning] = useState(false)
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setIsTransitioning(true)
-      setTimeout(() => {
-        setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length)
-        setIsTransitioning(false)
-      }, 1000)
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length)
     }, 5000)
 
     return () => clearInterval(interval)
@@ -32,14 +27,14 @@ export function HeroSlideshow() {
         <div
           key={image}
           className={`absolute inset-0 w-full h-full transition-opacity duration-1000 ${
-            index === currentIndex && !isTransitioning ? "opacity-100" : "opacity-0"
+            index === currentIndex ? "opacity-100" : "opacity-0"
           }`}
         >
           <img
             src={image || "/placeholder.svg"}
             alt="Iyengar Yoga practice by the coast"
             className="w-full h-full object-cover"
-            style={{ objectPosition: "50% 90%" }}
+            style={{ objectPosition: "50% 70%" }}
             loading={index === 0 ? "eager" : "lazy"}
           />
         </div>
