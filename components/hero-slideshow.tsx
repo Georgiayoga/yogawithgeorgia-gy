@@ -39,7 +39,7 @@ export function HeroSlideshow() {
             src={image || "/placeholder.svg"}
             alt="Iyengar Yoga practice by the coast"
             className="w-full h-full object-cover"
-            style={{ objectPosition: "50% 100%" }}
+            style={{ objectPosition: "50% 90%" }}
             loading={index === 0 ? "eager" : "lazy"}
           />
         </div>
