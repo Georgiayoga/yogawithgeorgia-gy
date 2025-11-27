@@ -108,7 +108,7 @@ export default function RetreatsPage() {
                   <CardHeader>
                     <CardTitle className="font-heading text-xl text-brand-black">Sri Lanka Retreat</CardTitle>
                     <div className="font-body text-sm text-brand-black/70">
-                      <p>Sri Lanka</p>
+                      <p>Ulpotha, Sri Lanka</p>
                       <p>March 15—29, 2026</p>
                     </div>
                   </CardHeader>
@@ -153,25 +153,25 @@ export default function RetreatsPage() {
                 {/* Greece Retreat Card */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
-                    src="/greece-evia-bay.png"
-                    alt="Greece Retreat - Evia Bay with turquoise waters"
+                    src="/greece-kaminos-aerial.jpg"
+                    alt="Greece Retreat - Kaminos Resort aerial view with beach and mountains"
                     className="w-full h-48 object-cover"
                   />
                   <CardHeader>
                     <CardTitle className="font-heading text-xl text-brand-black">Greece Retreat</CardTitle>
                     <div className="font-body text-sm text-brand-black/70">
-                      <p>Evia Bay, Northern Evia </p>
-                      <p>June 21—27, 2026</p>
+                      <p>Limni, Evia</p>
+                      <p>June 27—July 3, 2026</p>
                     </div>
                   </CardHeader>
                   <CardContent className="space-y-4">
                     <p className="font-body text-brand-black/80 text-sm">
                       {
-                        "Experience early-summer tranquillity at Evia Bay — before the tourist rush. Practise overlooking the Aegean, swim in crystal waters, and unwind among olive groves and healing hot springs in a serene, sun-warmed coastal haven."
+                        "Experience early summer tranquillity at Kaminos Resort, a peaceful spot on the Evia coastline. Swim in clear waters, wander through pine forests and quiet bays, and unwind in a calm, sun-warmed seaside retreat overlooking the Aegean Sea."
                       }
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-                      <Link href="/greece-retreat">Details to come</Link>
+                      <Link href="/greece-retreat">View Details</Link>
                     </Button>
                   </CardContent>
                 </Card>
@@ -264,7 +264,7 @@ export default function RetreatsPage() {
                   <CardHeader>
                     <CardTitle className="font-heading text-xl text-brand-black">Azores, Portugal</CardTitle>
                     <div className="font-body text-sm text-brand-black/70">
-                      <p>Xhale Resort, Teceira Island</p>
+                      <p>Teceira Island</p>
                       <p>September 12—18, 2027</p>
                     </div>
                   </CardHeader>

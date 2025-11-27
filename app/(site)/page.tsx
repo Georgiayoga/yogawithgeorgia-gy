@@ -269,34 +269,62 @@ export default function HomePage() {
       </section>
 
       {/* Retreat Highlight */}
-      <section className="py-16 bg-brand-warm-gray/20">
+      <section className="py-12 md:py-20 bg-gradient-to-br from-brand-warm-gray/10 to-brand-warm-gray/30 relative overflow-hidden">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto grid gap-8 md:grid-cols-2 items-center">
-            <div>
-              <img
-                src="/georgia-coastal-path.jpg"
-                alt="Georgia Marnham in the beautiful natural landscape of Portugal where she leads transformative Iyengar Yoga retreats and workshops"
-                className="w-full h-64 object-cover rounded-lg"
-              />
-            </div>
-            <div className="space-y-6">
-              <h2 className="font-heading text-3xl text-brand-black">Upcoming International Retreats</h2>
-              <div className="space-y-4 font-body text-lg text-brand-black/80">
-                <p>
-                  Join Georgia for transformative Iyengar Yoga retreats in stunning locations across Europe and beyond.
-                </p>
-                <p>
-                  Experience daily practice sessions, guidelines on breathing techniques and time for rest and
-                  reflection in inspiring natural settings.
-                </p>
-                <p>
-                  Connect with like-minded practitioners while deepening your understanding of Iyengar Yoga in a
-                  supportive, nurturing environment.
-                </p>
+          <div className="max-w-7xl mx-auto">
+            <div className="grid lg:grid-cols-5 gap-6 md:gap-8 items-center">
+              {/* Image Side - Takes up more space */}
+              <div className="relative order-2 lg:order-1 lg:col-span-3">
+                <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+                  <img
+                    src="/international-retreats-collage.jpg"
+                    alt="Collage of international yoga retreat destinations including Portugal cliffs, Greece coastal resort, Sri Lanka mountains and rice fields showcasing the beautiful locations where Georgia leads Iyengar Yoga retreats"
+                    className="w-full h-[300px] md:h-[450px] lg:h-[600px] object-cover -rotate-90"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-brand-black/20 to-transparent"></div>
+                </div>
+                {/* Decorative element */}
+                <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-brand-gold/20 rounded-full blur-3xl -z-10"></div>
+                <div className="absolute -top-6 -left-6 w-48 h-48 bg-brand-orange/10 rounded-full blur-3xl -z-10"></div>
               </div>
-              <Button asChild className="bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-                <Link href="/retreats">View All Retreats</Link>
-              </Button>
+
+              {/* Content Side - Takes up less space */}
+              <div className="space-y-4 md:space-y-6 order-1 lg:order-2 lg:col-span-2">
+                <div className="inline-block">
+                  <span className="text-sm font-medium tracking-wider uppercase text-brand-orange bg-brand-orange/10 px-4 py-2 rounded-full">
+                    International Retreats
+                  </span>
+                </div>
+
+                <h2 className="font-heading text-3xl md:text-4xl text-brand-black leading-tight">
+                  Upcoming International Retreats
+                </h2>
+
+                <div className="space-y-4 font-body text-base text-brand-black/75 leading-relaxed">
+                  <p>
+                    Join Georgia for transformative Iyengar Yoga retreats in stunning locations across Europe and
+                    beyond.
+                  </p>
+                  <p>
+                    Experience daily practice sessions, guidelines on breathing techniques and time for rest and
+                    reflection in inspiring natural settings.
+                  </p>
+                  <p>
+                    Connect with like-minded practitioners while deepening your understanding of Iyengar Yoga in a
+                    supportive, nurturing environment.
+                  </p>
+                </div>
+
+                <div className="pt-2">
+                  <Button
+                    asChild
+                    size="lg"
+                    className="bg-brand-orange hover:bg-brand-gold text-white transition-all hover:scale-105 shadow-lg hover:shadow-xl"
+                  >
+                    <Link href="/retreats">View All Retreats</Link>
+                  </Button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -382,7 +410,8 @@ export default function HomePage() {
               cultural understanding to her classes.
             </p>
             <p>
-              She has studied directly with the Iyengar family at RIMYI in Pune, India, ensuring authentic transmission of a yoga method distinguished by its depth and integrity.
+              She has studied directly with the Iyengar family at RIMYI in Pune, India, ensuring authentic transmission
+              of a yoga method distinguished by its depth and integrity.
             </p>
             <p>
               Georgia's classes are known for their clarity, warmth, and attention to individual needs, creating an
@@ -480,7 +509,8 @@ export default function HomePage() {
               international retreats.
             </p>
             <p className="text-base">
-              To receive the updates that most interest you, join up to three different mailing lists: Studio Classes, Online Classes, or Retreats &amp; Workshops.
+              To receive the updates that most interest you, join up to three different mailing lists: Studio Classes,
+              Online Classes, or Retreats &amp; Workshops.
             </p>
           </div>
           <Button asChild size="lg" className="bg-brand-orange hover:bg-brand-gold text-white transition-colors">

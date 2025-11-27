@@ -24,8 +24,8 @@ export default function GreeceRetreatPage() {
 
           <div className="mb-12">
             <img
-              src="/greece-evia-bay-aerial.jpg"
-              alt="Aerial view of Evia Bay retreat centre with swimming pool, buildings, and private beach on the Aegean Sea"
+              src="/greece-kaminos-hero.jpg"
+              alt="Aerial view of Kaminos Resort nestled against dramatic hills with the Aegean Sea coastline, showing terracotta roofs, swimming pool, and pine forests"
               className="w-full h-[400px] object-cover rounded-lg shadow-lg"
             />
           </div>
@@ -126,26 +126,24 @@ export default function GreeceRetreatPage() {
 
           {/* About Venue */}
           <section className="mb-12">
-            <h2 className="font-heading text-3xl text-brand-black mb-6">About the Retreat Centre</h2>
+            <h2 className="font-heading text-3xl text-brand-black mb-6">About Kaminos Resort</h2>
             <div className="space-y-6 font-body text-lg text-brand-black/90 leading-relaxed">
               <p>
-                The retreat centre is a beautiful property set in the rolling hills of Limni, Evia Peninsula,
-                overlooking the stunning Aegean Sea. The property combines traditional Greek architecture with modern
-                comfort, creating an ideal space for yoga practice and relaxation.
+                Set on the coast of North Evia, Kaminos Resort lies between pine-clad woods and the gentle Aegean
+                shoreline, just outside the village of Limni. Now a serene beachfront retreat, the property occupies the
+                site of a former coal-factory complex, re-imagined into a haven where time moves at its own pace.
               </p>
               <p>
-                The centre features a fully equipped yoga studio with stunning views over the sea, comfortable
-                accommodation in both shared and private rooms, a refreshing swimming pool, and extensive gardens
-                perfect for quiet reflection or leisurely walks.
+                The resort features comfortable rooms and suites with rustic charm: wooden beams, stone floors and soft
+                linen accents, thoughtfully designed to feel home-like. Surrounded by nature, you'll find shaded paths
+                through the pines, a private stretch of sandy beach just metres away, and a spacious pool area that
+                invites quiet afternoons beside the water.
               </p>
               <p>
-                Located just minutes from some of Greece's most beautiful beaches and the crystal-clear waters of the
-                Aegean, the retreat offers the perfect balance between focused yoga practice and coastal exploration.
-              </p>
-              <p>
-                Meals are prepared using fresh, local ingredients, with a focus on healthy Mediterranean and vegetarian
-                cuisine. The Greek climate in June—warm sunny days and pleasant evenings—makes this an ideal time to
-                visit.
+                Meals at Kaminos Resort focus on local flavours and simple pleasures: breakfast items from nearby
+                producers, snack options by the pool, and access to authentic seaside tavernas in the village of Limni.
+                The early summer climate here, warm days and gentle sea breezes, provides an ideal backdrop for
+                combining yoga sessions and relaxed coastal walks.
               </p>
             </div>
           </section>
@@ -211,18 +209,18 @@ export default function GreeceRetreatPage() {
             <h2 className="font-heading text-3xl text-brand-black mb-8 text-center">Gallery</h2>
             <div className="grid gap-4 md:grid-cols-3">
               <img
-                src="/greece-bedroom.jpg"
-                alt="Bright bedroom with wooden beams, French doors opening to balcony with mountain views, and traditional Greek decor"
+                src="/greece-modern-bedroom.jpg"
+                alt="Modern bedroom at Kaminos Resort with wooden furniture, wicker lighting, and balcony doors opening to views of Mediterranean buildings and hills"
                 className="w-full h-64 object-cover rounded-lg shadow-md"
               />
               <img
-                src="/greece-pool.jpg"
-                alt="Swimming pool at Kaminos Resort surrounded by sun loungers, stone buildings, and lush green hills"
+                src="/greece-pool-updated.jpg"
+                alt="Large swimming pool at Kaminos Resort with turquoise water, white umbrellas, sun loungers, stone pergolas, and lush green hills in the background"
                 className="w-full h-64 object-cover rounded-lg shadow-md"
               />
               <img
-                src="/greece-coastal-activity.jpg"
-                alt="Person paddleboarding on calm Aegean Sea waters with fishing boat and mountains in background"
+                src="/greece-paddleboard.jpg"
+                alt="Woman paddleboarding on calm Aegean Sea waters during golden hour with distant hills on the horizon"
                 className="w-full h-64 object-cover rounded-lg shadow-md"
               />
             </div>

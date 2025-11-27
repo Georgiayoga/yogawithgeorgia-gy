@@ -49,7 +49,9 @@ export default function UKRetreatPage() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button asChild size="lg" className="bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-              <Link href="/contact">Book Your Place</Link>
+              <a href="https://forms.gle/DH3Z5SriZ9MvJQFo7" target="_blank" rel="noopener noreferrer">
+                Book Your Place
+              </a>
             </Button>
             <Button
               asChild
@@ -320,7 +322,9 @@ export default function UKRetreatPage() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button asChild size="lg" className="bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-              <Link href="/contact">Book Your Place</Link>
+              <a href="https://forms.gle/DH3Z5SriZ9MvJQFo7" target="_blank" rel="noopener noreferrer">
+                Book Your Place
+              </a>
             </Button>
             <Button
               asChild
