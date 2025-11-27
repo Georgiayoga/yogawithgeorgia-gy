@@ -157,6 +157,28 @@ export default function UKRetreatPage() {
             </div>
           </section>
 
+          {/* Gallery */}
+          <section className="mb-12">
+            <h2 className="font-heading text-3xl text-brand-black mb-8 text-center">Gallery</h2>
+            <div className="grid gap-4 md:grid-cols-3">
+              <img
+                src="/yewfield-lounge.jpg"
+                alt="Elegant Victorian lounge at Yewfield with grand piano, crystal chandelier, and mountain views"
+                className="w-full h-64 object-cover rounded-lg shadow-md"
+              />
+              <img
+                src="/yewfield-bedroom.jpg"
+                alt="Comfortable guest room at Yewfield with blue striped wallpaper and garden views"
+                className="w-full h-64 object-cover rounded-lg shadow-md"
+              />
+              <img
+                src="/yewfield-yoga-studio.jpg"
+                alt="Spacious yoga studio at Yewfield with wooden floors, vaulted ceiling, and panoramic windows"
+                className="w-full h-64 object-cover rounded-lg shadow-md"
+              />
+            </div>
+          </section>
+
           {/* What Makes This Special */}
           <section className="mb-12">
             <h2 className="font-heading text-3xl text-brand-black mb-6">What Makes This Retreat Special</h2>
@@ -203,28 +225,6 @@ export default function UKRetreatPage() {
                 <li>Those interested in Iyengar yoga's focus on alignment, precision, and mindful awareness</li>
                 <li>Solo travelers, couples, or friends looking for a peaceful retreat in beautiful surroundings</li>
               </ul>
-            </div>
-          </section>
-
-          {/* Additional Image Gallery */}
-          <section className="mb-12">
-            <h2 className="font-heading text-3xl text-brand-black mb-8 text-center">Gallery</h2>
-            <div className="grid gap-4 md:grid-cols-3">
-              <img
-                src="/yewfield-lounge.jpg"
-                alt="Elegant Victorian lounge at Yewfield with grand piano, crystal chandelier, and mountain views"
-                className="w-full h-64 object-cover rounded-lg shadow-md"
-              />
-              <img
-                src="/yewfield-bedroom.jpg"
-                alt="Comfortable guest room at Yewfield with blue striped wallpaper and garden views"
-                className="w-full h-64 object-cover rounded-lg shadow-md"
-              />
-              <img
-                src="/yewfield-yoga-studio.jpg"
-                alt="Spacious yoga studio at Yewfield with wooden floors, vaulted ceiling, and panoramic windows"
-                className="w-full h-64 object-cover rounded-lg shadow-md"
-              />
             </div>
           </section>
 

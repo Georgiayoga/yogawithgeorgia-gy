@@ -150,9 +150,31 @@ export default function PortugalSeptemberRetreatPage() {
               </p>
               <p>
                 Meals are prepared using fresh, local ingredients, with a focus on healthy Mediterranean and vegetarian
-                cuisine. The Algarve's excellent climate in September—warm sunny days and pleasant evenings—makes this
-                an ideal time to visit.
+                cuisine. September in the Algarve offers ideal weather—warm, sunny days and pleasant evenings—making it
+                a perfect time to visit.
               </p>
+            </div>
+          </section>
+
+          {/* Gallery */}
+          <section className="mb-12">
+            <h2 className="font-heading text-3xl text-brand-black mb-8 text-center">Gallery</h2>
+            <div className="grid gap-4 md:grid-cols-3">
+              <img
+                src="/portugal-pool-evening.jpeg"
+                alt="Beautiful swimming pool at Casa Cales in evening light with stone terracing and lush Mediterranean gardens"
+                className="w-full h-64 object-cover rounded-lg shadow-md"
+              />
+              <img
+                src="/portugal-bedroom-interior.jpg"
+                alt="Serene bedroom with canopy bed and terrace doors at Casa Cales"
+                className="w-full h-64 object-cover rounded-lg shadow-md"
+              />
+              <img
+                src="/portugal-food-spread.jpg"
+                alt="Delicious healthy vegetarian meal spread with fresh salad, flatbreads, and accompaniments at Casa Cales"
+                className="w-full h-64 object-cover rounded-lg shadow-md"
+              />
             </div>
           </section>
 
@@ -202,28 +224,6 @@ export default function PortugalSeptemberRetreatPage() {
                 <li>Those interested in Iyengar yoga's focus on alignment, precision, and mindful awareness</li>
                 <li>Solo travelers, couples, or friends looking for a peaceful retreat in beautiful surroundings</li>
               </ul>
-            </div>
-          </section>
-
-          {/* Additional Image Gallery */}
-          <section className="mb-12">
-            <h2 className="font-heading text-3xl text-brand-black mb-8 text-center">Gallery</h2>
-            <div className="grid gap-4 md:grid-cols-3">
-              <img
-                src="/portugal-house-exterior.jpg"
-                alt="Charming Casa Cales house exterior with flowering vines, green doors, and stone terrace in sunny Portuguese countryside"
-                className="w-full h-64 object-cover rounded-lg shadow-md"
-              />
-              <img
-                src="/portugal-pool-evening.jpg"
-                alt="Beautiful swimming pool at Casa Cales during evening golden hour with stone terracing, lounge chairs, and Mediterranean gardens"
-                className="w-full h-64 object-cover rounded-lg shadow-md"
-              />
-              <img
-                src="/portugal-sunset-view.png"
-                alt="Stunning sunset view of Portuguese countryside from Casa Cales with yoga studio dome and olive groves"
-                className="w-full h-64 object-cover rounded-lg shadow-md"
-              />
             </div>
           </section>
 

@@ -48,7 +48,7 @@ export default function GreeceRetreatPage() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button asChild size="lg" className="bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-              <Link href="/contact">Book Your Place</Link>
+              <Link href="https://forms.gle/CRyZ1693cxKAajZi6">Book Your Place</Link>
             </Button>
             <Button
               asChild
@@ -148,6 +148,28 @@ export default function GreeceRetreatPage() {
             </div>
           </section>
 
+          {/* Gallery */}
+          <section className="mb-12">
+            <h2 className="font-heading text-3xl text-brand-black mb-8 text-center">Gallery</h2>
+            <div className="grid gap-4 md:grid-cols-3">
+              <img
+                src="/greece-modern-bedroom.jpg"
+                alt="Modern bedroom at Kaminos Resort with wooden furniture, wicker lighting, and balcony doors opening to views of Mediterranean buildings and hills"
+                className="w-full h-64 object-cover rounded-lg shadow-md"
+              />
+              <img
+                src="/greece-pool-updated.jpg"
+                alt="Large swimming pool at Kaminos Resort with turquoise water, white umbrellas, sun loungers, stone pergolas, and lush green hills in the background"
+                className="w-full h-64 object-cover rounded-lg shadow-md"
+              />
+              <img
+                src="/greece-paddleboard.jpg"
+                alt="Woman paddleboarding on calm Aegean Sea waters during golden hour with distant hills on the horizon"
+                className="w-full h-64 object-cover rounded-lg shadow-md"
+              />
+            </div>
+          </section>
+
           {/* What Makes This Special */}
           <section className="mb-12">
             <h2 className="font-heading text-3xl text-brand-black mb-6">What Makes This Retreat Special</h2>
@@ -201,28 +223,6 @@ export default function GreeceRetreatPage() {
                   surroundings
                 </li>
               </ul>
-            </div>
-          </section>
-
-          {/* Additional Image Gallery */}
-          <section className="mb-12">
-            <h2 className="font-heading text-3xl text-brand-black mb-8 text-center">Gallery</h2>
-            <div className="grid gap-4 md:grid-cols-3">
-              <img
-                src="/greece-modern-bedroom.jpg"
-                alt="Modern bedroom at Kaminos Resort with wooden furniture, wicker lighting, and balcony doors opening to views of Mediterranean buildings and hills"
-                className="w-full h-64 object-cover rounded-lg shadow-md"
-              />
-              <img
-                src="/greece-pool-updated.jpg"
-                alt="Large swimming pool at Kaminos Resort with turquoise water, white umbrellas, sun loungers, stone pergolas, and lush green hills in the background"
-                className="w-full h-64 object-cover rounded-lg shadow-md"
-              />
-              <img
-                src="/greece-paddleboard.jpg"
-                alt="Woman paddleboarding on calm Aegean Sea waters during golden hour with distant hills on the horizon"
-                className="w-full h-64 object-cover rounded-lg shadow-md"
-              />
             </div>
           </section>
 
@@ -328,7 +328,7 @@ export default function GreeceRetreatPage() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button asChild size="lg" className="bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-              <Link href="/contact">Book Your Place</Link>
+              <Link href="https://forms.gle/CRyZ1693cxKAajZi6">Book Your Place</Link>
             </Button>
             <Button
               asChild

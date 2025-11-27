@@ -197,7 +197,7 @@ export default function RetreatsPage() {
                       }
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-                      <Link href="/uk-retreat">View Details</Link>
+                      <Link href="/contact">View Details</Link>
                     </Button>
                   </CardContent>
                 </Card>
@@ -305,7 +305,7 @@ export default function RetreatsPage() {
                       regular yoga practice.
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-                      <Link href="/contact">View Details</Link>
+                      <Link href="/contact">Dates to be confirmed</Link>
                     </Button>
                   </CardContent>
                 </Card>
@@ -330,7 +330,7 @@ export default function RetreatsPage() {
                       stunning views.
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-                      <Link href="/contact">View Details</Link>
+                      <Link href="/contact">Book here</Link>
                     </Button>
                   </CardContent>
                 </Card>

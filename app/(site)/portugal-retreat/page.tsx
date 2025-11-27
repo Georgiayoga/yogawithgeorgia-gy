@@ -156,6 +156,28 @@ export default function PortugalRetreatPage() {
             </div>
           </section>
 
+          {/* Gallery */}
+          <section className="mb-12">
+            <h2 className="font-heading text-3xl text-brand-black mb-8 text-center">Gallery</h2>
+            <div className="grid gap-4 md:grid-cols-3">
+              <img
+                src="/portugal-pool-evening.jpeg"
+                alt="Beautiful swimming pool at Casa Cales in evening light with stone terracing and lush Mediterranean gardens"
+                className="w-full h-64 object-cover rounded-lg shadow-md"
+              />
+              <img
+                src="/portugal-bedroom-interior.jpg"
+                alt="Serene bedroom with canopy bed and terrace doors at Casa Cales"
+                className="w-full h-64 object-cover rounded-lg shadow-md"
+              />
+              <img
+                src="/portugal-food-spread.jpg"
+                alt="Delicious healthy vegetarian meal spread with fresh salad, flatbreads, and accompaniments at Casa Cales"
+                className="w-full h-64 object-cover rounded-lg shadow-md"
+              />
+            </div>
+          </section>
+
           {/* What Makes This Special */}
           <section className="mb-12">
             <h2 className="font-heading text-3xl text-brand-black mb-6">What Makes This Retreat Special</h2>
@@ -202,28 +224,6 @@ export default function PortugalRetreatPage() {
                 <li>Those interested in Iyengar yoga's focus on alignment, precision, and mindful awareness</li>
                 <li>Solo travelers, couples, or friends looking for a peaceful retreat in beautiful surroundings</li>
               </ul>
-            </div>
-          </section>
-
-          {/* Additional Image Gallery */}
-          <section className="mb-12">
-            <h2 className="font-heading text-3xl text-brand-black mb-8 text-center">Gallery</h2>
-            <div className="grid gap-4 md:grid-cols-3">
-              <img
-                src="/portugal-pool-evening.jpeg"
-                alt="Beautiful swimming pool at Casa Cales in evening light with stone terracing and lush Mediterranean gardens"
-                className="w-full h-64 object-cover rounded-lg shadow-md"
-              />
-              <img
-                src="/portugal-bedroom-interior.jpg"
-                alt="Serene bedroom with canopy bed and terrace doors at Casa Cales"
-                className="w-full h-64 object-cover rounded-lg shadow-md"
-              />
-              <img
-                src="/portugal-food-spread.jpg"
-                alt="Delicious healthy vegetarian meal spread with fresh salad, flatbreads, and accompaniments at Casa Cales"
-                className="w-full h-64 object-cover rounded-lg shadow-md"
-              />
             </div>
           </section>
 

@@ -6,6 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { useState, useEffect } from "react"
+import { HeroSlideshow } from "@/components/hero-slideshow"
 
 export default function HomePage() {
   const [currentTestimonial, setCurrentTestimonial] = useState(0)
@@ -69,18 +70,7 @@ export default function HomePage() {
           className="w-full min-h-[60vh] sm:min-h-[70vh] lg:min-h-[85vh] max-h-[520px] sm:max-h-[720px] lg:max-h-[900px] relative"
           style={{ marginLeft: "calc(-50vw + 50%)", marginRight: "calc(-50vw + 50%)", width: "100vw" }}
         >
-          <div className="absolute inset-0 w-full h-full">
-            <img
-              src="/georgia-coastal-path.jpg"
-              alt="Georgia Marnham teaching Iyengar Yoga in Portugal"
-              className="w-full h-full object-cover"
-              style={{ objectPosition: "50% 35%" }}
-              loading="eager"
-              width={1200}
-              height={800}
-            />
-            <div className="absolute inset-0 w-full h-full bg-black/10" />
-          </div>
+          <HeroSlideshow />
 
           {/* Text Overlay - Positioned at bottom on mobile, top on larger screens */}
           <div className="absolute bottom-24 sm:bottom-auto sm:top-0 left-0 right-0 sm:pt-16 pb-8 px-4 z-10">

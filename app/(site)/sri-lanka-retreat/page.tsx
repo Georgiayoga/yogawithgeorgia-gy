@@ -181,6 +181,28 @@ export default function SriLankaRetreatPage() {
             </div>
           </section>
 
+          {/* Gallery */}
+          <section className="mb-12">
+            <h2 className="font-heading text-3xl text-brand-black mb-8 text-center">Gallery</h2>
+            <div className="grid gap-4 md:grid-cols-3">
+              <img
+                src="/portugal-natural-lake-mountain.jpg"
+                alt="Natural swimming lake with dramatic mountain backdrop"
+                className="w-full h-64 object-cover rounded-lg shadow-md"
+              />
+              <img
+                src="/sri-lanka-dining-pavilion.jpg"
+                alt="Traditional Ambalama dining pavilion with Sri Lankan meal spread"
+                className="w-full h-64 object-cover rounded-lg shadow-md"
+              />
+              <img
+                src="/sri-lanka-traditional-hut.jpg"
+                alt="Traditional rustic hut accommodation with thatched roof and colorful furnishings"
+                className="w-full h-64 object-cover rounded-lg shadow-md"
+              />
+            </div>
+          </section>
+
           {/* What Makes This Special */}
           <section className="mb-12">
             <h2 className="font-heading text-3xl text-brand-black mb-6">What Makes This Retreat Special</h2>
@@ -234,28 +256,6 @@ export default function SriLankaRetreatPage() {
                 Please note: This retreat involves basic, eco-friendly accommodation and facilities. It's perfect for
                 those who value authenticity and connection to nature over luxury amenities.
               </p>
-            </div>
-          </section>
-
-          {/* Additional Image Gallery */}
-          <section className="mt-16">
-            <h2 className="font-heading text-3xl text-brand-black mb-8 text-center">Gallery</h2>
-            <div className="grid gap-4 md:grid-cols-3">
-              <img
-                src="/portugal-natural-lake-mountain.jpg"
-                alt="Natural swimming lake with dramatic mountain backdrop"
-                className="w-full h-64 object-cover rounded-lg shadow-md"
-              />
-              <img
-                src="/sri-lanka-dining-pavilion.jpg"
-                alt="Traditional Ambalama dining pavilion with Sri Lankan meal spread"
-                className="w-full h-64 object-cover rounded-lg shadow-md"
-              />
-              <img
-                src="/sri-lanka-traditional-hut.jpg"
-                alt="Traditional rustic hut accommodation with thatched roof and colorful furnishings"
-                className="w-full h-64 object-cover rounded-lg shadow-md"
-              />
             </div>
           </section>
 

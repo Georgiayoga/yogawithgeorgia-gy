@@ -150,24 +150,8 @@ export default function MoroccoRetreatPage() {
             </div>
           </section>
 
-          {/* Who Should Attend */}
+          {/* Gallery */}
           <section className="mb-12">
-            <h2 className="font-heading text-3xl text-brand-black mb-6">Who Should Attend</h2>
-            <div className="space-y-4 font-body text-lg text-brand-black/90 leading-relaxed">
-              <p>
-                This retreat is suitable for students with some experience in Iyengar Yoga, though all levels are
-                welcome. Whether you're looking to deepen your practice, experience a new culture, or simply take time
-                for rest and reflection, this retreat offers something for everyone.
-              </p>
-              <p>
-                Georgia's clear teaching style and individual attention ensure that each student receives appropriate
-                guidance and support throughout the week.
-              </p>
-            </div>
-          </section>
-
-          {/* Additional Image Gallery */}
-          <section className="mt-16">
             <h2 className="font-heading text-3xl text-brand-black mb-8 text-center">Gallery</h2>
             <div className="grid gap-4 md:grid-cols-3">
               <img
@@ -185,6 +169,22 @@ export default function MoroccoRetreatPage() {
                 alt="Students practicing chair yoga poses with instructor guidance at Bab Zouina yoga studio"
                 className="w-full h-64 object-cover rounded-lg shadow-md"
               />
+            </div>
+          </section>
+
+          {/* Who Should Attend */}
+          <section className="mb-12">
+            <h2 className="font-heading text-3xl text-brand-black mb-6">Who Should Attend</h2>
+            <div className="space-y-4 font-body text-lg text-brand-black/90 leading-relaxed">
+              <p>
+                This retreat is suitable for students with some experience in Iyengar Yoga, though all levels are
+                welcome. Whether you're looking to deepen your practice, experience a new culture, or simply take time
+                for rest and reflection, this retreat offers something for everyone.
+              </p>
+              <p>
+                Georgia's clear teaching style and individual attention ensure that each student receives appropriate
+                guidance and support throughout the week.
+              </p>
             </div>
           </section>
 

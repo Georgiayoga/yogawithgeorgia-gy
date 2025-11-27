@@ -41,16 +41,12 @@ export default function AboutPage() {
                   Prashant. This direct lineage connection ensures authenticity in her teaching method.
                 </p>
 
-                {/* RIMYI Institute Photo */}
                 <div className="my-8">
                   <img
-                    src="/rimyi-institute-pune.jpg"
-                    alt="The courtyard of RIMYI (Ramamani Iyengar Memorial Yoga Institute) in Pune, India, showing the peaceful garden with traditional yoga props, a statue of B.K.S. Iyengar, and the institute building where Georgia studied with the Iyengar family"
+                    src="/yoga-class-studio-group.jpg"
+                    alt="Georgia teaching a yoga class in a wooden studio with students practicing on yoga mats"
                     className="w-full rounded-lg shadow-md object-cover"
                   />
-                  <p className="mt-3 text-sm text-brand-black/60 italic text-center font-body">
-                    RIMYI (Ramamani Iyengar Memorial Yoga Institute) in Pune, India
-                  </p>
                 </div>
 
                 <p>
@@ -81,8 +77,8 @@ export default function AboutPage() {
 
             <aside className="space-y-6">
               <img
-                src="/georgia-about-coastal-portrait.jpg"
-                alt="Georgia Marnham practicing yoga on the Portuguese coast, embodying the joy and freedom of Iyengar Yoga"
+                src="/georgia-about-coastal-portrait.webp"
+                alt="Georgia Marnham at sunset by the ocean with mountains in the background"
                 className="w-full rounded-lg object-cover shadow-sm"
               />
 
