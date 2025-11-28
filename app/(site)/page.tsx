@@ -72,6 +72,14 @@ export default function HomePage() {
         >
           <HeroSlideshow />
 
+          <div className="absolute bottom-4 left-4 z-10">
+            <img
+              src="/iyengar-uk-logo.png"
+              alt="Iyengar Yoga UK"
+              className="w-16 h-16 sm:w-20 sm:h-20 object-contain opacity-90"
+            />
+          </div>
+
           {/* Text Overlay - Positioned at bottom on mobile, top on larger screens */}
           <div className="absolute bottom-24 sm:bottom-auto sm:top-0 left-0 right-0 sm:pt-16 pb-8 px-4 z-10">
             <div className="container mx-auto text-center text-white">

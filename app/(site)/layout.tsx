@@ -4,6 +4,7 @@ import { Playfair_Display, Source_Sans_3 } from "next/font/google"
 import { cn } from "@/lib/utils"
 import SiteHeader from "@/components/site-header"
 import SiteFooter from "@/components/site-footer"
+import ScrollToTop from "@/components/scroll-to-top"
 
 const headingFont = Playfair_Display({ subsets: ["latin"], variable: "--font-heading" })
 const bodyFont = Source_Sans_3({ subsets: ["latin"], variable: "--font-body" })
@@ -177,6 +178,7 @@ export default function SiteLayout({ children }: { children: React.ReactNode }) 
         >
           Skip to content
         </a>
+        <ScrollToTop />
         <SiteHeader />
         <main id="content" className="flex-1">
           {children}
