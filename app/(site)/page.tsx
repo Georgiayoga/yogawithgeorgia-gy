@@ -101,29 +101,30 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Intro Section - Removed top padding */}
-      <section className="pb-12 bg-white">
-        <div className="container mx-auto px-4 max-w-4xl text-center">
-          <div className="space-y-4 font-body text-lg text-brand-black/90 leading-relaxed">
-            <p>
+      {/* About Georgia Section - Improved spacing and visual flow from hero */}
+      <section className="py-20 md:py-24 bg-gradient-to-b from-white to-brand-warm-gray/10">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <div className="text-center space-y-6 font-body text-lg md:text-xl text-brand-black/90 leading-relaxed">
+            <p className="text-balance">
               Georgia Marnham is a certified Level 3 Iyengar Yoga teacher with over 25 years of international teaching
               experience and more than 35 years of dedicated practice.
             </p>
-            <p>
+            <p className="text-balance">
               Based in Portugal and teaching worldwide, she is known for her clear, supportive teaching style that makes
               Iyengar Yoga accessible to practitioners of all levels and abilities.
             </p>
-            <p>
+            <p className="text-balance">
               {
                 "Her classes emphasise alignment with the use of props, and individual attention to help each student safely develop strength, flexibility, and awareness."
               }
             </p>
           </div>
-          <div className="mt-8">
+          <div className="mt-10 flex justify-center">
             <Button
               asChild
+              size="lg"
               variant="outline"
-              className="border-brand-orange text-brand-orange hover:bg-brand-orange hover:text-white transition-colors bg-transparent"
+              className="border-2 border-brand-orange text-brand-orange hover:bg-brand-orange hover:text-white transition-colors bg-transparent text-base px-8 py-6"
             >
               <Link href="/about">Read More About Georgia</Link>
             </Button>
@@ -132,7 +133,7 @@ export default function HomePage() {
       </section>
 
       {/* 3 Pathways Section */}
-      <section id="pathways" className="py-16 bg-brand-warm-gray/20">
+      <section id="pathways" className="py-16 bg-gradient-to-b from-brand-warm-gray/10 to-white">
         <div className="container mx-auto px-4">
           <header className="text-center mb-12">
             <h2 className="font-heading text-3xl md:text-4xl text-brand-black mb-4">Ways to Learn with Georgia</h2>

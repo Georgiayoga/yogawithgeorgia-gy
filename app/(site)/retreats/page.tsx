@@ -193,11 +193,11 @@ export default function RetreatsPage() {
                   <CardContent className="space-y-4">
                     <p className="font-body text-brand-black/80 text-sm">
                       {
-                        "Experience the beauty of the Lake District with daily yoga classes and peaceful walks or invigorating hikes through valleys, lakes, and fells — a perfect summer retreat in one of England’s most breathtaking landscapes."
+                        "Experience the beauty of the Lake District with daily yoga classes and peaceful walks or invigorating hikes through valleys, lakes, and fells — a perfect summer retreat in one of England's most breathtaking landscapes."
                       }
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-                      <Link href="/contact">View Details</Link>
+                      <Link href="/uk-retreat">View Details</Link>
                     </Button>
                   </CardContent>
                 </Card>

@@ -15,6 +15,9 @@ export const metadata: Metadata = {
     "Join Iyengar Yoga with Georgia Marnham, a certified teacher with over 25 years of international teaching experience. Offering studio classes in Portugal, live online classes, and yoga retreats across Europe.",
   keywords:
     "Iyengar Yoga Portugal, Iyengar Yoga online, Georgia Marnham yoga, Iyengar retreats Europe, Iyengar teacher Portugal, yoga classes Portugal, yoga with Georgia",
+  icons: {
+    icon: "/favicon.png",
+  },
 }
 
 export default function SiteLayout({ children }: { children: React.ReactNode }) {
@@ -158,6 +161,7 @@ export default function SiteLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
+        <link rel="icon" href="/favicon.png" sizes="any" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
