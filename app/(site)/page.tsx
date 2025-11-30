@@ -101,30 +101,36 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* About Georgia Section - Improved spacing and visual flow from hero */}
-      <section className="py-20 md:py-24 bg-gradient-to-b from-white to-brand-warm-gray/10">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <div className="text-center space-y-6 font-body text-lg md:text-xl text-brand-black/90 leading-relaxed">
-            <p className="text-balance">
+      {/* About Georgia Section - Enhanced with subtle animations */}
+      <section className="relative py-20 md:py-28 bg-gradient-to-b from-white via-brand-warm-gray/5 to-white overflow-hidden">
+        {/* Subtle decorative element */}
+        <div className="absolute inset-0 opacity-[0.03]">
+          <div className="absolute top-20 left-10 w-64 h-64 bg-brand-orange rounded-full blur-3xl" />
+          <div className="absolute bottom-20 right-10 w-64 h-64 bg-brand-orange rounded-full blur-3xl" />
+        </div>
+
+        <div className="container mx-auto px-4 max-w-4xl relative z-10">
+          <div className="text-center space-y-8 font-body text-lg md:text-xl text-brand-black/90 leading-relaxed">
+            <p className="text-balance opacity-0 animate-[fadeInUp_0.6s_ease-out_0.1s_forwards]">
               Georgia Marnham is a certified Level 3 Iyengar Yoga teacher with over 25 years of international teaching
               experience and more than 35 years of dedicated practice.
             </p>
-            <p className="text-balance">
+            <p className="text-balance opacity-0 animate-[fadeInUp_0.6s_ease-out_0.3s_forwards]">
               Based in Portugal and teaching worldwide, she is known for her clear, supportive teaching style that makes
               Iyengar Yoga accessible to practitioners of all levels and abilities.
             </p>
-            <p className="text-balance">
+            <p className="text-balance opacity-0 animate-[fadeInUp_0.6s_ease-out_0.5s_forwards]">
               {
                 "Her classes emphasise alignment with the use of props, and individual attention to help each student safely develop strength, flexibility, and awareness."
               }
             </p>
           </div>
-          <div className="mt-10 flex justify-center">
+          <div className="mt-12 flex justify-center opacity-0 animate-[fadeInUp_0.6s_ease-out_0.7s_forwards]">
             <Button
               asChild
               size="lg"
               variant="outline"
-              className="border-2 border-brand-orange text-brand-orange hover:bg-brand-orange hover:text-white transition-colors bg-transparent text-base px-8 py-6"
+              className="border-2 border-brand-orange text-brand-orange hover:bg-brand-orange hover:text-white transition-all duration-300 hover:scale-105 hover:shadow-lg bg-transparent text-base px-8 py-6"
             >
               <Link href="/about">Read More About Georgia</Link>
             </Button>
