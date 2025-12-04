@@ -253,7 +253,6 @@ export default function UKRetreatPage() {
                         <li>• All meals featuring fresh vegetarian cuisine</li>
                         <li>• Tea, coffee, and snacks available throughout the day</li>
                         <li>• Access to gardens and woodland walks</li>
-                        <li>• Use of yoga props and equipment</li>
                       </ul>
                     </div>
                     <p className="text-sm italic text-brand-black/60 mt-4">
@@ -271,6 +270,7 @@ export default function UKRetreatPage() {
                     <li>• Travel insurance (recommended)</li>
                     <li>• Personal expenses and souvenirs</li>
                     <li>• Optional excursions</li>
+                    <li>• A set of yoga props. Yewfield has a dedicated yoga studio but no props are provided.</li>
                   </ul>
                 </AccordionContent>
               </AccordionItem>
@@ -308,13 +308,11 @@ export default function UKRetreatPage() {
                     <li>• Waterproof jacket for walking</li>
                     <li>• Walking boots or sturdy shoes</li>
                     <li>• Light jacket or sweater for cooler evenings</li>
+                    <li>• Yoga props including a mat, 2 belts, 2 blankets, 2 bricks and 4 blocks.</li>
                     <li>• Any personal toiletries or medications</li>
                     <li>• Reusable water bottle</li>
                     <li>• Notebook and pen if you like to take notes</li>
                   </ul>
-                  <p className="text-sm italic text-brand-black/60 mt-4">
-                    Note: All yoga props (blocks, belts, bolsters, blankets) are provided at Yewfield.
-                  </p>
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
