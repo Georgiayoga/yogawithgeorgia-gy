@@ -308,17 +308,6 @@ export default function SriLankaRetreatPage() {
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="sharing">
-                <AccordionTrigger className="font-body text-lg text-brand-black">Can I share a room?</AccordionTrigger>
-                <AccordionContent className="font-body text-brand-black/80">
-                  <p>
-                    Yes! Shared rooms are available at €1,200 per person. If you're booking with a friend or partner,
-                    please let us know when making your reservation. Private rooms are also available for €1,450 if you
-                    prefer your own space.
-                  </p>
-                </AccordionContent>
-              </AccordionItem>
-
               <AccordionItem value="getting-there">
                 <AccordionTrigger className="font-body text-lg text-brand-black">
                   How and when to get there?
