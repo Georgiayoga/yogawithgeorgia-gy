@@ -319,14 +319,13 @@ export default function SriLankaRetreatPage() {
                       centre is approximately 3 hours north of the airport.
                     </p>
                     <p>
-                      <strong>Airport Transfer:</strong> We provide complimentary group transfers from Colombo airport
-                      to the retreat centre. Transfer times will be coordinated closer to the retreat date to
-                      accommodate everyone's arrival times.
+                      <strong>Airport Transfer:</strong> We will meet you at the airport and return you to the airport
+                      after your holiday. The cost of Airport transfers is US$ 100 each way by car / $120 by van.
+                      Transfers can also be organised from other locations in Sri Lanka.
                     </p>
                     <p>
-                      <strong>Arrival Day:</strong> Please plan to arrive on March 15th. The retreat officially begins
-                      with a yoga class at 17:30 followed by the welcome dinner. Departure is after breakfast on March
-                      29th.
+                      <strong>Arrival Day:</strong> Please plan to arrive on March 15th by lunchtime. Departure is after
+                      breakfast on March 29th.
                     </p>
                   </div>
                 </AccordionContent>
