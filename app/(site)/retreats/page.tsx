@@ -239,7 +239,7 @@ export default function RetreatsPage() {
                     <CardTitle className="font-heading text-xl text-brand-black">Sri Lanka Retreat</CardTitle>
                     <div className="font-body text-sm text-brand-black/70">
                       <p>Uloptha, Sri Lanka</p>
-                      <p>January 15—29, 2027</p>
+                      <p>January 31—February 14, 2027</p>
                     </div>
                   </CardHeader>
                   <CardContent className="space-y-4">
