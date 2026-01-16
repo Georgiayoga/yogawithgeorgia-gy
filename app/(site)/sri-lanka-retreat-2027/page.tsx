@@ -268,22 +268,17 @@ export default function SriLankaRetreat2027Page() {
                 <AccordionContent className="font-body text-brand-black/80">
                   <div className="space-y-4">
                     <div>
-                      <p className="font-medium mb-2">
-                        Ulpotha prices for a 2-week retreat are in US Dollars. Approximate conversion values to other
-                        currencies are below:
-                      </p>
+                      <p className="font-medium mb-2">Ulpotha retreat prices are in US Dollars.</p>
                       <ul className="space-y-1 ml-4">
                         <li>
-                          • Two-week rate is US$3500 (with a 10% discount offer until December 15, 2026, after discount
-                          US$3150)
+                          • Two-week rate is $3,150 for early bird bookings more than 90 days before start date, or
+                          $3500 for those booking within 90 days of start date.
                         </li>
                         <li>
-                          • Current conversion rates to Euros gives €3000 down to €2700 with the current 10% discount
+                          • One-week rate is $1,890 for early bird bookings more than 90 days before start date, or
+                          $2100 for those booking within 90 days of start date.
                         </li>
-                        <li>
-                          • Current conversion rates to GBP gives £2680 down to £2412 with the current 10% discount
-                        </li>
-                        <li>• Single huts are available at an additional price and dependent on availability. </li>
+                        <li>• Single huts are available at an additional price and dependent on availability.</li>
                       </ul>
                     </div>
                   </div>
@@ -301,9 +296,6 @@ export default function SriLankaRetreat2027Page() {
                     </li>
                     <li>• Ayurvedic treatments and additional massages.</li>
                     <li>• Travel insurance (required)</li>
-                    <li>• Travel insurance (required)</li>
-                    <li>• Travel insurance (required)</li>
-                    <li>{""}</li>
                   </ul>
                 </AccordionContent>
               </AccordionItem>

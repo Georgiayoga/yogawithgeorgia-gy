@@ -98,7 +98,7 @@ export default function ClassesPortugalPage() {
               <Card className="border-brand-warm-gray">
                 <CardContent className="space-y-4 pt-6">
                   <div className="space-y-4">
-                    <h3 className="font-heading text-brand-black text-2xl">Class Schedule – Autumn</h3>
+                    <h3 className="font-heading text-brand-black text-2xl">Class Schedule – Winter</h3>
                     <div className="space-y-3">
                       <div className="flex justify-between items-center py-2 border-b border-brand-warm-gray/30">
                         <span className="font-medium font-body text-brand-black">Tuesday morning</span>
@@ -107,10 +107,6 @@ export default function ClassesPortugalPage() {
                       <div className="flex justify-between items-center py-2 border-b border-brand-warm-gray/30">
                         <span className="font-medium font-body text-brand-black">Tuesday evening</span>
                         <span className="font-body text-brand-black/80">18:00–19:30</span>
-                      </div>
-                      <div className="flex justify-between items-center py-2 border-b border-brand-warm-gray/30">
-                        <span className="font-medium font-body text-brand-black">Thursday morning</span>
-                        <span className="font-body text-brand-black/80">09:30–11:00</span>
                       </div>
                       <div className="flex justify-between items-center py-2 border-b border-brand-warm-gray/30">
                         <span className="font-medium font-body text-brand-black">Thursday evening</span>
@@ -336,7 +332,9 @@ export default function ClassesPortugalPage() {
                     </AccordionTrigger>
                     <AccordionContent className="font-body text-brand-black/80 leading-relaxed pb-6 pt-2">
                       <p className="mb-3">
-                        {"Studio classes can be booked and paid for directly through Georgia\'s Momence profile. The booking system is simple and secure, and you\'ll receive immediate confirmation.\n Private class request are through the contact page."}
+                        {
+                          "Studio classes can be booked and paid for directly through Georgia's Momence profile. The booking system is simple and secure, and you'll receive immediate confirmation.\n Private class request are through the contact page."
+                        }
                       </p>
                       <Button asChild size="sm" className="bg-brand-orange hover:bg-brand-gold text-white">
                         <Link

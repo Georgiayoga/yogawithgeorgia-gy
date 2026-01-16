@@ -73,7 +73,7 @@ export default function PortugalSeptemberRetreatPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
-                  <span>7 nights accommodation in shared or private rooms</span>
+                  <span>6 nights accommodation in shared or private rooms</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
@@ -248,7 +248,7 @@ export default function PortugalSeptemberRetreatPage() {
                       <p className="font-medium mb-2">What's Included:</p>
                       <ul className="space-y-1 ml-4">
                         <li>• Daily Iyengar Yoga classes (morning and afternoon sessions)</li>
-                        <li>• 7 nights accommodation</li>
+                        <li>• 6 nights accommodation</li>
                         <li>• All meals featuring fresh local cuisine</li>
                         <li>• Tea, coffee, and snacks available throughout the day</li>
                         <li>• Access to swimming pool and gardens</li>
@@ -279,9 +279,9 @@ export default function PortugalSeptemberRetreatPage() {
                 <AccordionTrigger className="font-body text-lg text-brand-black">Can I share a room?</AccordionTrigger>
                 <AccordionContent className="font-body text-brand-black/80">
                   <p>
-                    Yes! Shared rooms are available at €1,100 per person. If you're booking with a friend or partner,
-                    please let us know when making your reservation. Private rooms are also available for €1,325 if you
-                    prefer your own space.
+                    Yes, you can share with a friend, family or partner! Shared rooms are available at €1,100 per
+                    person. When you're booking, please let us know who you're sharing with. Private rooms are also
+                    available for €1,325 if you prefer your own space.
                   </p>
                 </AccordionContent>
               </AccordionItem>

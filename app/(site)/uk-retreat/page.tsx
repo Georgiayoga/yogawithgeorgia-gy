@@ -279,9 +279,9 @@ export default function UKRetreatPage() {
                 <AccordionTrigger className="font-body text-lg text-brand-black">Can I share a room?</AccordionTrigger>
                 <AccordionContent className="font-body text-brand-black/80">
                   <p>
-                    Yes! Shared rooms are available at £800 per person. If you're booking with a friend or partner,
-                    please let us know when making your reservation. Private rooms are also available for £980 if you
-                    prefer your own space.
+                    Yes, you can share with a friend, family or partner! Shared rooms are available at £800 per person.
+                    When you're booking, please let us know who you're sharing with. Private rooms are also available
+                    for £980 if you prefer your own space.
                   </p>
                 </AccordionContent>
               </AccordionItem>
