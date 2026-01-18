@@ -150,32 +150,6 @@ export default function RetreatsPage() {
                   </CardContent>
                 </Card>
 
-                {/* Greece Retreat Card */}
-                <Card className="border-brand-warm-gray overflow-hidden">
-                  <img
-                    src="/greece-kaminos-aerial.jpg"
-                    alt="Greece Retreat - Kaminos Resort aerial view with beach and mountains"
-                    className="w-full h-48 object-cover"
-                  />
-                  <CardHeader>
-                    <CardTitle className="font-heading text-xl text-brand-black">Greece Retreat</CardTitle>
-                    <div className="font-body text-sm text-brand-black/70">
-                      <p>Limni, Evia</p>
-                      <p>June 27—July 3, 2026</p>
-                    </div>
-                  </CardHeader>
-                  <CardContent className="space-y-4">
-                    <p className="font-body text-brand-black/80 text-sm">
-                      {
-                        "Experience early summer tranquillity at Kaminos Resort, a peaceful spot on the Evia coastline. Swim in clear waters, wander through pine forests and quiet bays, and unwind in a calm, sun-warmed seaside retreat overlooking the Aegean Sea."
-                      }
-                    </p>
-                    <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-                      <Link href="/greece-retreat">View Details</Link>
-                    </Button>
-                  </CardContent>
-                </Card>
-
                 {/* UK Retreat Card */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
@@ -228,7 +202,7 @@ export default function RetreatsPage() {
                   </CardContent>
                 </Card>
 
-                {/* Updated Sri Lanka Retreat Card */}
+                {/* Sri Lanka Retreat Card 2027 */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
                     src="/sri-lanka-mountain-lake.jpeg"
@@ -250,6 +224,32 @@ export default function RetreatsPage() {
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
                       <Link href="/sri-lanka-retreat-2027">View Details</Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+
+                {/* Greece Retreat Card */}
+                <Card className="border-brand-warm-gray overflow-hidden">
+                  <img
+                    src="/greece-kaminos-aerial.jpg"
+                    alt="Greece Retreat - Kaminos Resort aerial view with beach and mountains"
+                    className="w-full h-48 object-cover"
+                  />
+                  <CardHeader>
+                    <CardTitle className="font-heading text-xl text-brand-black">Greece Retreat</CardTitle>
+                    <div className="font-body text-sm text-brand-black/70">
+                      <p>Limni, Evia</p>
+                      <p>June 5—11, 2027</p>
+                    </div>
+                  </CardHeader>
+                  <CardContent className="space-y-4">
+                    <p className="font-body text-brand-black/80 text-sm">
+                      {
+                        "Experience early summer tranquillity at Kaminos Resort, a peaceful spot on the Evia coastline. Swim in clear waters, wander through pine forests and quiet bays, and unwind in a calm, sun-warmed seaside retreat overlooking the Aegean Sea."
+                      }
+                    </p>
+                    <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
+                      <Link href="/greece-retreat">View Details</Link>
                     </Button>
                   </CardContent>
                 </Card>

@@ -17,9 +17,9 @@ export default function GreeceRetreatPage() {
         <div className="max-w-4xl mx-auto">
           {/* Hero Section */}
           <header className="text-center mb-12">
-            <h1 className="font-heading text-4xl md:text-5xl text-brand-black mb-4">Greece Retreat 2026</h1>
+            <h1 className="font-heading text-4xl md:text-5xl text-brand-black mb-4">Greece Retreat 2027</h1>
             <p className="font-body text-xl text-brand-black/80 mb-2">Limni, Evia Peninsula</p>
-            <p className="font-body text-lg text-brand-orange font-medium">June 27 – July 3, 2026</p>
+            <p className="font-body text-lg text-brand-orange font-medium">June 5–11, 2027</p>
           </header>
 
           <div className="mb-12">
@@ -306,7 +306,7 @@ export default function GreeceRetreatPage() {
                   <div className="space-y-4">
                     <p>
                       If you want to join the group airport transfer service, there will be a mini-bus leaving Athens
-                      airport on Saturday, June 27 at 3pm.
+                      airport on June 5 at 3pm.
                     </p>
                     <p>
                       If you prefer to hire a car and travel separately, you can drive from Athens to Arkitsa Port
