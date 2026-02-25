@@ -72,32 +72,6 @@ export default function RetreatsPage() {
             <section className="mb-16">
               <h2 className="font-heading text-3xl text-brand-black text-center mb-8">Retreats in 2026 &amp; 2027 </h2>
               <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-                {/* Morocco Retreat Card */}
-                <Card className="border-brand-warm-gray overflow-hidden">
-                  <img
-                    src="/morocco-atlas-mountains-retreat.jpg"
-                    alt="Morocco Retreat venue"
-                    className="w-full h-48 object-cover"
-                  />
-                  <CardHeader>
-                    <CardTitle className="font-heading text-xl text-brand-black">Morocco Retreat</CardTitle>
-                    <div className="font-body text-sm text-brand-black/70">
-                      <p>Atlas Mountains, Morocco</p>
-                      <p>February 15—21, 2026</p>
-                    </div>
-                  </CardHeader>
-                  <CardContent className="space-y-4">
-                    <p className="font-body text-brand-black/80 text-sm">
-                      Bab Zouina&#39;s Moroccan architecture and landscaped gardens blend aesthetic beauty with rustic
-                      simplicity. Including scenic views, local cuisine, and a spacious and well-equipped yoga studio,
-                      it offers a peaceful and tranquil retreat.
-                    </p>
-                    <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-                      <Link href="/morocco-retreat">View Details</Link>
-                    </Button>
-                  </CardContent>
-                </Card>
-
                 {/* Sri Lanka Retreat Card */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
@@ -224,6 +198,32 @@ export default function RetreatsPage() {
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
                       <Link href="/sri-lanka-retreat-2027">View Details</Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+
+                {/* Morocco Retreat Card */}
+                <Card className="border-brand-warm-gray overflow-hidden">
+                  <img
+                    src="/morocco-atlas-mountains-retreat.jpg"
+                    alt="Morocco Retreat venue"
+                    className="w-full h-48 object-cover"
+                  />
+                  <CardHeader>
+                    <CardTitle className="font-heading text-xl text-brand-black">Morocco Retreat</CardTitle>
+                    <div className="font-body text-sm text-brand-black/70">
+                      <p>Atlas Mountains, Morocco</p>
+                      <p>April 11—17, 2027</p>
+                    </div>
+                  </CardHeader>
+                  <CardContent className="space-y-4">
+                    <p className="font-body text-brand-black/80 text-sm">
+                      Bab Zouina&#39;s Moroccan architecture and landscaped gardens blend aesthetic beauty with rustic
+                      simplicity. Including scenic views, local cuisine, and a spacious and well-equipped yoga studio,
+                      it offers a peaceful and tranquil retreat.
+                    </p>
+                    <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
+                      <Link href="/morocco-retreat">View Details</Link>
                     </Button>
                   </CardContent>
                 </Card>

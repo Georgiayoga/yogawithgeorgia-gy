@@ -17,9 +17,9 @@ export default function MoroccoRetreatPage() {
         <div className="max-w-4xl mx-auto">
           {/* Hero Section */}
           <header className="text-center mb-12">
-            <h1 className="font-heading text-4xl md:text-5xl text-brand-black mb-4">Morocco Retreat 2026</h1>
+            <h1 className="font-heading text-4xl md:text-5xl text-brand-black mb-4">{"Morocco Retreat 2027\n"}</h1>
             <p className="font-body text-xl text-brand-black/80 mb-2">Marrakesh, near Atlas Mountains</p>
-            <p className="font-body text-lg text-brand-orange font-medium"> 15—21 February </p>
+            <p className="font-body text-lg text-brand-orange font-medium"> {"11—17 April\n"} </p>
           </header>
 
           {/* Main Image */}
@@ -267,9 +267,9 @@ export default function MoroccoRetreatPage() {
                       accommodate everyone's arrival times.
                     </p>
                     <p>
-                      <strong>Arrival Day:</strong> Please plan to arrive on February 15th. The retreat officially
+                      <strong>Arrival Day:</strong> Please plan to arrive on April 11. The retreat officially
                       begins with a yoga class at 17:30 followed by the welcome dinner. Departure is after breakfast on
-                      February 21st.
+                      April 17.
                     </p>
                   </div>
                 </AccordionContent>
