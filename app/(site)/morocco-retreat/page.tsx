@@ -267,9 +267,9 @@ export default function MoroccoRetreatPage() {
                       accommodate everyone's arrival times.
                     </p>
                     <p>
-                      <strong>Arrival Day:</strong> Please plan to arrive on February 15th. The retreat officially
+                      <strong>Arrival Day:</strong> Please plan to arrive on April 11. The retreat officially
                       begins with a yoga class at 17:30 followed by the welcome dinner. Departure is after breakfast on
-                      February 21st.
+                      April 17.
                     </p>
                   </div>
                 </AccordionContent>
