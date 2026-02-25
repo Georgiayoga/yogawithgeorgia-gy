@@ -83,7 +83,7 @@ export default function RetreatsPage() {
                     <CardTitle className="font-heading text-xl text-brand-black">Morocco Retreat</CardTitle>
                     <div className="font-body text-sm text-brand-black/70">
                       <p>Atlas Mountains, Morocco</p>
-                      <p>February 15—21, 2026</p>
+                      <p>{"April 11—17, 2027\n"}</p>
                     </div>
                   </CardHeader>
                   <CardContent className="space-y-4">
