@@ -72,28 +72,28 @@ export default function RetreatsPage() {
             <section className="mb-16">
               <h2 className="font-heading text-3xl text-brand-black text-center mb-8">Retreats in 2026 &amp; 2027 </h2>
               <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-                {/* Morocco Retreat Card */}
+                {/* Portugal September Retreat Card */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
-                    src="/morocco-atlas-mountains-retreat.jpg"
-                    alt="Morocco Retreat venue"
+                    src="/praia-do-quinta-do-lago-algarve.jpg"
+                    alt="Portugal September Retreat venue"
                     className="w-full h-48 object-cover"
                   />
                   <CardHeader>
-                    <CardTitle className="font-heading text-xl text-brand-black">Morocco Retreat</CardTitle>
+                    <CardTitle className="font-heading text-xl text-brand-black">Portugal Retreat</CardTitle>
                     <div className="font-body text-sm text-brand-black/70">
-                      <p>Atlas Mountains, Morocco</p>
-                      <p>{"April 11—17, 2027\n"}</p>
+                      <p>Loulé, Algarve</p>
+                      <p>September 13—19, 2026</p>
                     </div>
                   </CardHeader>
                   <CardContent className="space-y-4">
                     <p className="font-body text-brand-black/80 text-sm">
-                      Bab Zouina&#39;s Moroccan architecture and landscaped gardens blend aesthetic beauty with rustic
-                      simplicity. Including scenic views, local cuisine, and a spacious and well-equipped yoga studio,
-                      it offers a peaceful and tranquil retreat.
+                      {
+                        "Join us once again at the much-loved Casa Cales near the market town of Loulé, surrounded by the beauty of the Algarve coast, for a rejuvenating week of yoga and relaxation. The perfect end-of-summer getaway."
+                      }
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-                      <Link href="/morocco-retreat">View Details</Link>
+                      <Link href="/portugal-september-retreat">View Details</Link>
                     </Button>
                   </CardContent>
                 </Card>
@@ -176,32 +176,6 @@ export default function RetreatsPage() {
                   </CardContent>
                 </Card>
 
-                {/* Portugal September Retreat Card */}
-                <Card className="border-brand-warm-gray overflow-hidden">
-                  <img
-                    src="/praia-do-quinta-do-lago-algarve.jpg"
-                    alt="Portugal September Retreat venue"
-                    className="w-full h-48 object-cover"
-                  />
-                  <CardHeader>
-                    <CardTitle className="font-heading text-xl text-brand-black">Portugal Retreat</CardTitle>
-                    <div className="font-body text-sm text-brand-black/70">
-                      <p>Loulé, Algarve</p>
-                      <p>September 13—19, 2026</p>
-                    </div>
-                  </CardHeader>
-                  <CardContent className="space-y-4">
-                    <p className="font-body text-brand-black/80 text-sm">
-                      {
-                        "Join us once again at the much-loved Casa Cales near the market town of Loulé, surrounded by the beauty of the Algarve coast, for a rejuvenating week of yoga and relaxation. The perfect end-of-summer getaway."
-                      }
-                    </p>
-                    <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-                      <Link href="/portugal-september-retreat">View Details</Link>
-                    </Button>
-                  </CardContent>
-                </Card>
-
                 {/* Sri Lanka Retreat Card 2027 */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
@@ -224,6 +198,32 @@ export default function RetreatsPage() {
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
                       <Link href="/sri-lanka-retreat-2027">View Details</Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+
+                {/* Morocco Retreat Card */}
+                <Card className="border-brand-warm-gray overflow-hidden">
+                  <img
+                    src="/morocco-atlas-mountains-retreat.jpg"
+                    alt="Morocco Retreat venue"
+                    className="w-full h-48 object-cover"
+                  />
+                  <CardHeader>
+                    <CardTitle className="font-heading text-xl text-brand-black">Morocco Retreat</CardTitle>
+                    <div className="font-body text-sm text-brand-black/70">
+                      <p>Atlas Mountains, Morocco</p>
+                      <p>April 11—17, 2027</p>
+                    </div>
+                  </CardHeader>
+                  <CardContent className="space-y-4">
+                    <p className="font-body text-brand-black/80 text-sm">
+                      Bab Zouina&#39;s Moroccan architecture and landscaped gardens blend aesthetic beauty with rustic
+                      simplicity. Including scenic views, local cuisine, and a spacious and well-equipped yoga studio,
+                      it offers a peaceful and tranquil retreat.
+                    </p>
+                    <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
+                      <Link href="/morocco-retreat">View Details</Link>
                     </Button>
                   </CardContent>
                 </Card>
