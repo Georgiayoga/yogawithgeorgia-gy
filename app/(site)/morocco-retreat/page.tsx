@@ -202,10 +202,10 @@ export default function MoroccoRetreatPage() {
                       <p className="font-medium mb-2">Pricing:</p>
                       <ul className="space-y-1 ml-4">
                         <li>• Single Room with ensuite: €1,570</li>
-                        <li>• Single room with adjacent bathroom: €1,360</li>
-                        <li>• Shared room with ensuite bathroom: €1,270</li>
-                        <li>• Shared room with adjacent bathroom: €1,180</li>
-                        <li>• Triple Room with adjacent: €970</li>
+                        <li>• Single room with adjacent bathroom: €1,390</li>
+                        <li>• Shared room with ensuite bathroom: €1,300</li>
+                        <li>• Shared room with adjacent bathroom: €1,210</li>
+                        <li>• Triple Room with adjacent: €1030</li>
                       </ul>
                     </div>
                     <div>
