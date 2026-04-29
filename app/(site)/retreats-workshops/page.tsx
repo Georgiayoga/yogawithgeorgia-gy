@@ -6,6 +6,21 @@ export const metadata = {
 
 const items = [
   {
+    place: "UK",
+    img: "/uk-yoga-retreat.png",
+    summary: "Paste the exact UK retreat/workshop description here, including dates.",
+  },
+  {
+    place: "Scotland",
+    img: "/placeholder.svg?height=300&width=520",
+    summary: "Paste the exact Scotland retreat/workshop description here, including dates.",
+  },
+  {
+    place: "Algarve",
+    img: "/algarve-yoga-retreat.png",
+    summary: "Paste the exact Algarve retreat description here, including dates.",
+  },
+  {
     place: "Sri Lanka",
     img: "/sri-lanka-yoga-retreat-beach.png",
     summary: "Paste the exact Sri Lanka retreat description here, including dates.",
@@ -19,21 +34,6 @@ const items = [
     place: "Morocco",
     img: "/morocco-desert-yoga.png",
     summary: "Paste the exact Morocco retreat description here, including dates.",
-  },
-  {
-    place: "Algarve",
-    img: "/algarve-yoga-retreat.png",
-    summary: "Paste the exact Algarve retreat description here, including dates.",
-  },
-  {
-    place: "UK",
-    img: "/uk-yoga-retreat.png",
-    summary: "Paste the exact UK retreat/workshop description here, including dates.",
-  },
-  {
-    place: "Scotland",
-    img: "/placeholder.svg?height=300&width=520",
-    summary: "Paste the exact Scotland retreat/workshop description here, including dates.",
   },
 ]
 
