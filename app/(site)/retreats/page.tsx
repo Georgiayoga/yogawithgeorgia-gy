@@ -305,7 +305,7 @@ export default function RetreatsPage() {
                       full-weekend course.
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-                      <Link href="/contact">Dates to be confirmed</Link>
+                      <Link href="/contact">Book here</Link>
                     </Button>
                   </CardContent>
                 </Card>
@@ -330,7 +330,7 @@ export default function RetreatsPage() {
                       regular yoga practice.
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-                      <Link href="/contact">Dates to be confirmed</Link>
+                      <Link href="/contact">Book here</Link>
                     </Button>
                   </CardContent>
                 </Card>
