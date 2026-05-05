@@ -296,7 +296,7 @@ export default function RetreatsPage() {
                     <CardTitle className="font-heading text-xl text-brand-black">Weekend Workshop - Portugal</CardTitle>
                     <div className="font-body text-sm text-brand-black/70">
                       <p>Loulé, Algarve</p>
-                      <p>November 29—30, 2025</p>
+                      <p>November 29—30, 2026</p>
                     </div>
                   </CardHeader>
                   <CardContent className="space-y-4">
