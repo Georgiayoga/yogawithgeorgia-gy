@@ -285,35 +285,10 @@ export default function RetreatsPage() {
             <section className="mb-16">
               <h2 className="font-heading text-3xl text-brand-black text-center mb-8">Upcoming Workshops</h2>
               <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-                {/* Scotland Workshop Card */}
+                {/* Portugal Workshop Card - November 2025 */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
-                    src="/comrie-scotland-village.jpg"
-                    alt="Weekend Workshop - Scotland venue"
-                    className="w-full h-48 object-cover"
-                  />
-                  <CardHeader>
-                    <CardTitle className="font-heading text-xl text-brand-black">Weekend Workshop - Scotland</CardTitle>
-                    <div className="font-body text-sm text-brand-black/70">
-                      <p>Comrie, nr Edinburgh</p>
-                      <p>14-15 November, 2026</p>
-                    </div>
-                  </CardHeader>
-                  <CardContent className="space-y-4">
-                    <p className="font-body text-brand-black/80 text-sm">
-                      A weekend of in-depth learning sessions focusing on a variety of asanas for students with a
-                      regular yoga practice.
-                    </p>
-                    <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-                      <Link href="/contact">Dates to be confirmed</Link>
-                    </Button>
-                  </CardContent>
-                </Card>
-
-                {/* Portugal Workshop Card */}
-                <Card className="border-brand-warm-gray overflow-hidden">
-                  <img
-                    src="/sidmouth-devon-yoga-studio.png"
+                    src="/portugal-yoga-studio-ceiling.jpg"
                     alt="Weekend Workshop - Portugal venue"
                     className="w-full h-48 object-cover"
                   />
@@ -321,12 +296,12 @@ export default function RetreatsPage() {
                     <CardTitle className="font-heading text-xl text-brand-black">Weekend Workshop - Portugal</CardTitle>
                     <div className="font-body text-sm text-brand-black/70">
                       <p>Loulé, Algarve</p>
-                      <p>November 29—30, 2026</p>
+                      <p>November 29—30, 2025</p>
                     </div>
                   </CardHeader>
                   <CardContent className="space-y-4">
                     <p className="font-body text-brand-black/80 text-sm">
-                      Join us for a weekend of learning and practice in Casa Cales's fully equipped studio, offering
+                      Join us for a weekend of learning and practice in Casa Cales&apos;s fully equipped studio, offering
                       stunning views.
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
@@ -335,7 +310,7 @@ export default function RetreatsPage() {
                   </CardContent>
                 </Card>
 
-                {/* England Workshop Card */}
+                {/* England Workshop Card - October 2026 */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
                     src="/sidmouth-devon-coastal-view.png"
@@ -353,6 +328,31 @@ export default function RetreatsPage() {
                     <p className="font-body text-brand-black/80 text-sm">
                       Immerse yourself in a weekend of yoga, featuring a series of classes that build into a
                       full-weekend course.
+                    </p>
+                    <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
+                      <Link href="/contact">Dates to be confirmed</Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+
+                {/* Scotland Workshop Card - November 2026 */}
+                <Card className="border-brand-warm-gray overflow-hidden">
+                  <img
+                    src="/comrie-scotland-village.jpg"
+                    alt="Weekend Workshop - Scotland venue"
+                    className="w-full h-48 object-cover"
+                  />
+                  <CardHeader>
+                    <CardTitle className="font-heading text-xl text-brand-black">Weekend Workshop - Scotland</CardTitle>
+                    <div className="font-body text-sm text-brand-black/70">
+                      <p>Comrie, nr Edinburgh</p>
+                      <p>14-15 November, 2026</p>
+                    </div>
+                  </CardHeader>
+                  <CardContent className="space-y-4">
+                    <p className="font-body text-brand-black/80 text-sm">
+                      A weekend of in-depth learning sessions focusing on a variety of asanas for students with a
+                      regular yoga practice.
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
                       <Link href="/contact">Dates to be confirmed</Link>
