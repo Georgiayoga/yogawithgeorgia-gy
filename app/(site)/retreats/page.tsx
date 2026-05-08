@@ -115,7 +115,7 @@ export default function RetreatsPage() {
                   <CardContent className="space-y-4">
                     <p className="font-body text-brand-black/80 text-sm">
                       {
-                        "Enjoy Spring in Portugal and come to the lovely Casa Cales, nestled in the hills outside Loulé and just 15 minutes from the coastline of fabulous beaches and sandy coves. A family home converted to peaceful retreat centre surrounded by nature."
+                        "Enjoy late-summer in Portugal and come to the lovely Casa Cales, nestled in the hills outside Loulé and just 15 minutes from the coastline of fabulous beaches and sandy coves. A family home converted to peaceful retreat centre surrounded by nature."
                       }
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
