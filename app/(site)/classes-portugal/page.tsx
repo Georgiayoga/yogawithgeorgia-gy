@@ -5,9 +5,9 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { MapPin, Users, Euro, Calendar, HelpCircle, Package } from "lucide-react"
 
 export const metadata = {
-  title: "Classes in Portugal | Yoga with Georgia",
+  title: "Yoga Classes in Colares, Sintra | Iyengar Yoga with Georgia Marnham",
   description:
-    "Georgia Marnham is a Level 3 Iyengar Yoga teacher with 25 years of international teaching experience, known for her clear, supportive style and personalised approach.",
+    "Weekly Iyengar Yoga classes in Colares, Sintra — suitable for all levels, beginners welcome. Morning and evening sessions. Easy reach from Cascais, Ericeira and Lisbon. Book with Georgia Marnham.",
 }
 
 export default function ClassesPortugalPage() {
@@ -17,42 +17,42 @@ export default function ClassesPortugalPage() {
     mainEntity: [
       {
         "@type": "Question",
-        name: "How are the classes priced?",
+        name: "How are the yoga classes priced?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "There are three pricing options to choose from based on your financial situation: Supporter (€60/€80/€20), Sustainer (€50/€70/€17.50), and Supported (€40/€60/€15) for 4-class packs, 8-class packs, and drop-in classes respectively.",
+          text: "Georgia uses a sliding scale so that everyone can join. Single class: Supporter €20, Sustainer €17.50, Supported €15. 4-Class Pack (valid 30 days): Supporter €60, Sustainer €50, Supported €40. 8-Class Pack (valid 30 days): Supporter €80, Sustainer €70, Supported €60.",
         },
       },
       {
         "@type": "Question",
-        name: "What level are the classes?",
+        name: "What level are the yoga classes in Colares?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Georgia teaches both beginners and experienced practitioners, adapting the class to meet each student's needs.",
+          text: "All classes are suitable for complete beginners and general-level practitioners. Georgia adapts each session to the students present, and individual modifications are always available.",
         },
       },
       {
         "@type": "Question",
-        name: "Do I need to bring props?",
+        name: "Do I need to bring my own props to class?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Props are provided at the studio, but you're welcome to bring your own mat if you prefer.",
+          text: "No. All mats and props — including blocks, belts, and blankets — are provided at the studio. You are welcome to bring your own mat if you prefer.",
         },
       },
       {
         "@type": "Question",
-        name: "How do I book a class?",
+        name: "How do I book a yoga class in Colares?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Studio classes can be booked and paid for directly through Georgia's Momence profile at https://momence.com/u/georgia-marnham-TXk2rZ.",
+          text: "Bookings are made through Georgia's online booking system (Momence) or by contacting her directly via WhatsApp on +351 933 675 722. Class sizes are limited to 12 students, so advance booking is essential.",
         },
       },
       {
         "@type": "Question",
-        name: "Where is the location?",
+        name: "Where exactly are the yoga classes located?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "After booking for your first time, you will be sent the specific location of the studio and arrival details.",
+          text: "Classes are held in Covão, Colares, near Sintra, Portugal. The studio is approximately 40 minutes from Lisbon, 25 minutes from Cascais, and 20 minutes from Ericeira. Detailed directions are provided on booking.",
         },
       },
     ],
@@ -70,7 +70,7 @@ export default function ClassesPortugalPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <header className="text-center mb-12">
-              <h1 className="font-heading text-4xl md:text-5xl text-brand-black mb-6">Classes in Portugal</h1>
+              <h1 className="font-heading text-4xl md:text-5xl text-brand-black mb-6">Iyengar Yoga Classes in Colares, Sintra</h1>
               <p className="font-body text-lg text-brand-black/80 max-w-2xl mx-auto">
                 Georgia teaches group and private Iyengar yoga classes in Colares, near Sintra. Classes are suitable for
                 beginners and general levels, with close attention to each student&apos;s needs.
@@ -138,8 +138,11 @@ export default function ClassesPortugalPage() {
 
             <div className="text-center mb-12">
               <h3 className="font-heading text-2xl text-brand-black mb-4">Location</h3>
-              <p className="font-body text-brand-black/80 mb-6">
+              <p className="font-body text-brand-black/80 mb-4">
                 Classes are held in Covão, Colares, near Sintra, Portugal - a peaceful setting surrounded by nature.
+              </p>
+              <p className="font-body text-brand-black/80 mb-6">
+                The studio is located in Covão, Colares, in the foothills of the Sintra hills — a peaceful setting surrounded by nature, approximately 40 minutes from central Lisbon and easily accessible from Cascais (25 minutes), Ericeira (20 minutes), and the wider Sintra municipality. Directions and parking information are available on request.
               </p>
 
               <div className="border border-brand-warm-gray rounded-2xl overflow-hidden shadow-sm bg-white">
@@ -197,53 +200,23 @@ export default function ClassesPortugalPage() {
                     </AccordionTrigger>
                     <AccordionContent className="font-body text-brand-black/80 leading-relaxed space-y-4 pb-6 pt-2">
                       <p>
-                        There are three pricing options, and you simply choose the one that fits your current financial
-                        situation — no questions asked. The aim is to keep classes open to everyone while also allowing
-                        those who are able to contribute a little more to do so, supporting students who are financially
-                        less able.
+                        Georgia uses a sliding scale so that everyone can join — simply choose the rate that suits you, no questions asked.
                       </p>
 
-                      <div className="space-y-4">
-                        <div className="bg-gradient-to-r from-brand-orange/5 to-brand-gold/5 rounded-xl p-4 border-l-4 border-brand-orange">
-                          <p className="font-medium text-brand-black mb-2 flex items-center gap-2">
-                            <span className="text-xl">✨</span> Supporter
-                          </p>
-                          <p className="text-sm">
-                            For those who are financially comfortable and wish to contribute more. This tier supports
-                            not just the studio and other students, but also contributes more to my livelihood — helping
-                            ensure I can continue to offer these classes in a dedicated and sustainable way.
-                          </p>
-                        </div>
-
-                        <div className="bg-gradient-to-r from-brand-warm-gray/10 to-brand-warm-gray/5 rounded-xl p-4 border-l-4 border-brand-earth">
-                          <p className="font-medium text-brand-black mb-2 flex items-center gap-2">
-                            <span className="text-xl">🌿</span> Sustainer
-                          </p>
-                          <p className="text-sm">
-                            This is the standard rate that helps cover the essential running costs of the studio and
-                            classes. If this tier works for you financially, it&apos;s a supportive and valued choice.
-                            If you&apos;re in a position to give a little more, please consider choosing the Supporter
-                            rate to help make the classes sustainable for the long term.
-                          </p>
-                        </div>
-
-                        <div className="bg-gradient-to-r from-brand-gold/5 to-brand-gold/10 rounded-xl p-4 border-l-4 border-brand-gold">
-                          <p className="font-medium text-brand-black mb-2 flex items-center gap-2">
-                            <span className="text-xl">💛</span> Supported
-                          </p>
-                          <p className="text-sm">
-                            For those with limited income — students, those between work, low income earners or anyone
-                            going through a financially challenging time. This rate helps keep yoga accessible for all.
-                          </p>
-                        </div>
-                      </div>
-
                       <div className="bg-brand-warm-gray/5 rounded-xl p-5 mt-4">
-                        <p className="font-medium text-brand-black mb-4">Here&apos;s how it works:</p>
-
                         <div className="grid md:grid-cols-3 gap-4">
                           <div className="text-center p-3 bg-white rounded-lg shadow-sm">
-                            <p className="font-semibold text-brand-black text-lg mb-2">4-class packs</p>
+                            <p className="font-semibold text-brand-black text-lg mb-2">Single class</p>
+                            <div className="space-y-1 text-sm">
+                              <p className="text-brand-orange font-medium">€20 – Supporter</p>
+                              <p className="text-brand-earth">€17.50 – Sustainer</p>
+                              <p className="text-brand-black/70">€15 – Supported</p>
+                            </div>
+                          </div>
+
+                          <div className="text-center p-3 bg-white rounded-lg shadow-sm">
+                            <p className="font-semibold text-brand-black text-lg mb-2">4-Class Pack</p>
+                            <p className="text-xs text-brand-black/60 mb-2">(valid 30 days from first use)</p>
                             <div className="space-y-1 text-sm">
                               <p className="text-brand-orange font-medium">€60 – Supporter</p>
                               <p className="text-brand-earth">€50 – Sustainer</p>
@@ -252,28 +225,16 @@ export default function ClassesPortugalPage() {
                           </div>
 
                           <div className="text-center p-3 bg-white rounded-lg shadow-sm">
-                            <p className="font-semibold text-brand-black text-lg mb-2">8-class packs</p>
+                            <p className="font-semibold text-brand-black text-lg mb-2">8-Class Pack</p>
+                            <p className="text-xs text-brand-black/60 mb-2">(valid 30 days from first use)</p>
                             <div className="space-y-1 text-sm">
                               <p className="text-brand-orange font-medium">€80 – Supporter</p>
                               <p className="text-brand-earth">€70 – Sustainer</p>
                               <p className="text-brand-black/70">€60 – Supported</p>
                             </div>
                           </div>
-
-                          <div className="text-center p-3 bg-white rounded-lg shadow-sm">
-                            <p className="font-semibold text-brand-black text-lg mb-2">Drop-in</p>
-                            <div className="space-y-1 text-sm">
-                              <p className="text-brand-orange font-medium">€20 – Supporter</p>
-                              <p className="text-brand-earth">€17.50 – Sustainer</p>
-                              <p className="text-brand-black/70">€15 – Supported</p>
-                            </div>
-                          </div>
                         </div>
                       </div>
-
-                      <p className="font-medium text-brand-black text-center pt-2">
-                        You&apos;re always welcome, no matter what rate you choose.
-                      </p>
                     </AccordionContent>
                   </AccordionItem>
 
@@ -291,9 +252,7 @@ export default function ClassesPortugalPage() {
                       </div>
                     </AccordionTrigger>
                     <AccordionContent className="font-body text-brand-black/80 leading-relaxed pb-6 pt-2">
-                      Georgia teaches both beginners and experienced practitioners, adapting the class to meet each
-                      student&apos;s needs. Whether you&apos;re completely new to yoga or have years of experience,
-                      you&apos;ll find a supportive and challenging practice.
+                      All classes are suitable for complete beginners and general-level practitioners. Georgia adapts each session to the students present, and individual modifications are always available.
                     </AccordionContent>
                   </AccordionItem>
 
@@ -311,9 +270,7 @@ export default function ClassesPortugalPage() {
                       </div>
                     </AccordionTrigger>
                     <AccordionContent className="font-body text-brand-black/80 leading-relaxed pb-6 pt-2">
-                      Props are provided at the studio, but you&apos;re welcome to bring your own mat if you prefer. The
-                      studio is fully equipped with blocks, belts, bolsters, blankets, and other props you may need for
-                      your practice.
+                      No. All mats and props — including blocks, belts, and blankets — are provided at the studio. You are welcome to bring your own mat if you prefer.
                     </AccordionContent>
                   </AccordionItem>
 
@@ -332,9 +289,7 @@ export default function ClassesPortugalPage() {
                     </AccordionTrigger>
                     <AccordionContent className="font-body text-brand-black/80 leading-relaxed pb-6 pt-2">
                       <p className="mb-3">
-                        {
-                          "Studio classes can be booked and paid for directly through Georgia's Momence profile. The booking system is simple and secure, and you'll receive immediate confirmation.\n Private class request are through the contact page."
-                        }
+                        {"Bookings are made through Georgia's online booking system (Momence) or by contacting her directly via WhatsApp. Class sizes are limited to 12 students, so advance booking is essential."}
                       </p>
                       <Button asChild size="sm" className="bg-brand-orange hover:bg-brand-gold text-white">
                         <Link
@@ -362,9 +317,7 @@ export default function ClassesPortugalPage() {
                       </div>
                     </AccordionTrigger>
                     <AccordionContent className="font-body text-brand-black/80 leading-relaxed pb-6 pt-2">
-                      After booking for your first time, you will be sent the specific location of the studio and
-                      arrival details. The studio is located in the peaceful area of Covão, Colares, near Sintra – a
-                      tranquil setting perfect for your yoga practice.
+                      Classes are held in Covão, Colares, near Sintra, Portugal. The studio is approximately 40 minutes from Lisbon, 25 minutes from Cascais, and 20 minutes from Ericeira. Detailed directions are provided on booking.
                     </AccordionContent>
                   </AccordionItem>
                 </Accordion>

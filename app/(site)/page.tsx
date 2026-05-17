@@ -11,6 +11,69 @@ import { HeroSlideshow } from "@/components/hero-slideshow"
 export default function HomePage() {
   const [currentTestimonial, setCurrentTestimonial] = useState(0)
 
+  // Add FAQPage schema for SEO
+  useEffect(() => {
+    const faqSchema = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "What is Iyengar Yoga?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Iyengar Yoga is a form of yoga that emphasises precise alignment, structured sequencing, and the intelligent use of props — such as blocks, belts, and ropes. It is suitable for all ages and abilities, and is particularly valued for its therapeutic applications and its ability to be adapted for individual needs.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Where are yoga classes held in Sintra?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Georgia Marnham teaches Iyengar Yoga classes in Covão, Colares, in the foothills of Sintra, Portugal. The studio is approximately 40 minutes from central Lisbon and easily accessible from Cascais and Ericeira.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Are the classes suitable for beginners?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. All classes are suitable for complete beginners and experienced practitioners alike. Georgia adapts each session to the students present and provides individual modifications throughout.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Can I do online yoga classes with Georgia if I don't live in Portugal?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. Georgia teaches live Iyengar Yoga classes via Zoom, open to students anywhere in the world. Classes are suitable for those with some basic yoga experience, and recordings are also available.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "How do I book a yoga class in Sintra?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Classes can be booked through Georgia's online booking page or by contacting her directly via WhatsApp on +351 933 675 722. Advance booking is essential as class sizes are limited to 12 students.",
+          },
+        },
+      ],
+    }
+
+    const script = document.createElement("script")
+    script.type = "application/ld+json"
+    script.text = JSON.stringify(faqSchema).replace(/</g, "\\u003c")
+    script.id = "faq-schema"
+    document.head.appendChild(script)
+
+    return () => {
+      const existingScript = document.getElementById("faq-schema")
+      if (existingScript) {
+        existingScript.remove()
+      }
+    }
+  }, [])
+
   const testimonials = [
     {
       quote:
@@ -125,6 +188,11 @@ export default function HomePage() {
                 "Her classes emphasise alignment with the use of props, and individual attention to help each student safely develop strength, flexibility, and awareness."
               }
             </p>
+            <p className="text-balance opacity-0 animate-[fadeInUp_0.6s_ease-out_0.6s_forwards]">
+              {
+                "Georgia's studio is based in Colares, in the foothills of Sintra — easily accessible from Cascais, Ericeira, and central Lisbon. She also teaches weekly live classes online via Zoom for students worldwide."
+              }
+            </p>
           </div>
           <div className="mt-12 flex justify-center opacity-0 animate-[fadeInUp_0.6s_ease-out_0.7s_forwards]">
             <Button
@@ -153,7 +221,7 @@ export default function HomePage() {
               <CardHeader>
                 <img
                   src="/georgia-studio-class-in-session.jpg"
-                  alt="Georgia teaching an Iyengar Yoga class in her rustic wooden studio in Colares, Portugal, with students practising restorative poses on green and blue mats, showing the authentic studio atmosphere with exposed beams and traditional rope props"
+                  alt="Georgia Marnham teaching Iyengar Yoga class in her studio in Colares, Sintra, Portugal"
                   className="w-full h-48 object-cover rounded-t-lg"
                 />
                 <CardTitle className="font-heading text-xl text-brand-black">Studio Classes in Portugal</CardTitle>
@@ -451,8 +519,7 @@ export default function HomePage() {
                   What is Iyengar Yoga?
                 </AccordionTrigger>
                 <AccordionContent className="font-body text-brand-black/80 leading-relaxed">
-                  Iyengar Yoga is a precise method of yoga that uses props to support alignment, improve flexibility,
-                  and build strength.
+                  Iyengar Yoga is a form of yoga that emphasises precise alignment, structured sequencing, and the intelligent use of props — such as blocks, belts, and ropes. It is suitable for all ages and abilities, and is particularly valued for its therapeutic applications and its ability to be adapted for individual needs.
                 </AccordionContent>
               </AccordionItem>
 
@@ -461,8 +528,7 @@ export default function HomePage() {
                   Who is Georgia Marnham?
                 </AccordionTrigger>
                 <AccordionContent className="font-body text-brand-black/80 leading-relaxed">
-                  Georgia Marnham is a certified Level 3 Iyengar Yoga teacher with over 25 years of international
-                  teaching experience and more than 35 years of practice.
+                  Georgia Marnham is a Level 3 certified Iyengar Yoga teacher based in Colares, Sintra, Portugal. She has over 25 years of international teaching experience and more than 35 years of personal practice. She has studied at the Ramamani Iyengar Memorial Yoga Institute (RIMYI) in Pune, India, and teaches students of all levels in her studio and online via Zoom.
                 </AccordionContent>
               </AccordionItem>
 
@@ -471,17 +537,16 @@ export default function HomePage() {
                   Do I need experience to join?
                 </AccordionTrigger>
                 <AccordionContent className="font-body text-brand-black/80 leading-relaxed">
-                  No, beginners are welcome. Georgia teaches both beginners and experienced students with individual
-                  feedback and adjustments.
+                  {"No experience is necessary. Georgia's classes in Colares, Sintra are suitable for complete beginners as well as more experienced practitioners. Each student receives individual attention and appropriate modifications."}
                 </AccordionContent>
               </AccordionItem>
 
               <AccordionItem value="online-worldwide" className="border border-brand-warm-gray rounded-lg px-6">
                 <AccordionTrigger className="font-body text-lg text-brand-black hover:text-brand-orange transition-colors">
-                  Can I join online classes if I don't live in Portugal?
+                  {"Can I join online classes if I don't live in Portugal?"}
                 </AccordionTrigger>
                 <AccordionContent className="font-body text-brand-black/80 leading-relaxed">
-                  Yes, online classes are available worldwide via Zoom.
+                  Yes. Georgia teaches live Iyengar Yoga classes via Zoom, open to students anywhere in the world. Classes are suitable for those with some basic yoga experience. Recordings are also available.
                 </AccordionContent>
               </AccordionItem>
 
@@ -490,16 +555,16 @@ export default function HomePage() {
                   How do I book a class?
                 </AccordionTrigger>
                 <AccordionContent className="font-body text-brand-black/80 leading-relaxed">
-                  You can book studio or online classes directly through Georgia's{" "}
+                  {"Classes can be booked directly through Georgia's booking page on "}
                   <Link
                     href="https://momence.com/u/georgia-marnham-TXk2rZ"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-brand-orange hover:text-brand-gold underline underline-offset-4 transition-colors"
                   >
-                    Momence profile
+                    Momence
                   </Link>
-                  .
+                  {", or by contacting Georgia via WhatsApp on +351 933 675 722. Bookings are essential as class sizes are limited to 12 students."}
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
