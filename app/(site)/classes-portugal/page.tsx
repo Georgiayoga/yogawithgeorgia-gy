@@ -138,8 +138,11 @@ export default function ClassesPortugalPage() {
 
             <div className="text-center mb-12">
               <h3 className="font-heading text-2xl text-brand-black mb-4">Location</h3>
-              <p className="font-body text-brand-black/80 mb-6">
+              <p className="font-body text-brand-black/80 mb-4">
                 Classes are held in Covão, Colares, near Sintra, Portugal - a peaceful setting surrounded by nature.
+              </p>
+              <p className="font-body text-brand-black/80 mb-6">
+                The studio is located in Covão, Colares, in the foothills of the Sintra hills — a peaceful setting surrounded by nature, approximately 40 minutes from central Lisbon and easily accessible from Cascais (25 minutes), Ericeira (20 minutes), and the wider Sintra municipality. Directions and parking information are available on request.
               </p>
 
               <div className="border border-brand-warm-gray rounded-2xl overflow-hidden shadow-sm bg-white">
