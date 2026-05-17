@@ -10,9 +10,9 @@ const headingFont = Playfair_Display({ subsets: ["latin"], variable: "--font-hea
 const bodyFont = Source_Sans_3({ subsets: ["latin"], variable: "--font-body" })
 
 export const metadata: Metadata = {
-  title: "Yoga with Georgia | Iyengar Yoga Classes in Portugal & Online | Retreats & Workshops",
+  title: "Yoga with Georgia | Iyengar Yoga Classes in Sintra, Colares & Online",
   description:
-    "Join Iyengar Yoga with Georgia Marnham, a certified teacher with over 25 years of international teaching experience. Offering studio classes in Portugal, live online classes, and yoga retreats across Europe.",
+    "Iyengar Yoga classes in Colares, Sintra — within easy reach of Cascais and Ericeira. Georgia Marnham, Level 3 certified, 25 years of international teaching experience. All levels welcome. Book now.",
   keywords:
     "Iyengar Yoga Portugal, Iyengar Yoga online, Georgia Marnham yoga, Iyengar retreats Europe, Iyengar teacher Portugal, yoga classes Portugal, yoga with Georgia",
 }
