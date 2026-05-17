@@ -5,9 +5,9 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { MapPin, Users, Euro, Calendar, HelpCircle, Package } from "lucide-react"
 
 export const metadata = {
-  title: "Classes in Portugal | Yoga with Georgia",
+  title: "Yoga Classes in Colares, Sintra | Iyengar Yoga with Georgia Marnham",
   description:
-    "Georgia Marnham is a Level 3 Iyengar Yoga teacher with 25 years of international teaching experience, known for her clear, supportive style and personalised approach.",
+    "Weekly Iyengar Yoga classes in Colares, Sintra — suitable for all levels, beginners welcome. Morning and evening sessions. Easy reach from Cascais, Ericeira and Lisbon. Book with Georgia Marnham.",
 }
 
 export default function ClassesPortugalPage() {
