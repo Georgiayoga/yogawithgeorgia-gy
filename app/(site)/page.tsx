@@ -158,7 +158,7 @@ export default function HomePage() {
               <CardHeader>
                 <img
                   src="/georgia-studio-class-in-session.jpg"
-                  alt="Georgia teaching an Iyengar Yoga class in her rustic wooden studio in Colares, Portugal, with students practising restorative poses on green and blue mats, showing the authentic studio atmosphere with exposed beams and traditional rope props"
+                  alt="Georgia Marnham teaching Iyengar Yoga class in her studio in Colares, Sintra, Portugal"
                   className="w-full h-48 object-cover rounded-t-lg"
                 />
                 <CardTitle className="font-heading text-xl text-brand-black">Studio Classes in Portugal</CardTitle>
