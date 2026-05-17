@@ -11,6 +11,69 @@ import { HeroSlideshow } from "@/components/hero-slideshow"
 export default function HomePage() {
   const [currentTestimonial, setCurrentTestimonial] = useState(0)
 
+  // Add FAQPage schema for SEO
+  useEffect(() => {
+    const faqSchema = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "What is Iyengar Yoga?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Iyengar Yoga is a form of yoga that emphasises precise alignment, structured sequencing, and the intelligent use of props — such as blocks, belts, and ropes. It is suitable for all ages and abilities, and is particularly valued for its therapeutic applications and its ability to be adapted for individual needs.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Where are yoga classes held in Sintra?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Georgia Marnham teaches Iyengar Yoga classes in Covão, Colares, in the foothills of Sintra, Portugal. The studio is approximately 40 minutes from central Lisbon and easily accessible from Cascais and Ericeira.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Are the classes suitable for beginners?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. All classes are suitable for complete beginners and experienced practitioners alike. Georgia adapts each session to the students present and provides individual modifications throughout.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Can I do online yoga classes with Georgia if I don't live in Portugal?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. Georgia teaches live Iyengar Yoga classes via Zoom, open to students anywhere in the world. Classes are suitable for those with some basic yoga experience, and recordings are also available.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "How do I book a yoga class in Sintra?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Classes can be booked through Georgia's online booking page or by contacting her directly via WhatsApp on +351 933 675 722. Advance booking is essential as class sizes are limited to 12 students.",
+          },
+        },
+      ],
+    }
+
+    const script = document.createElement("script")
+    script.type = "application/ld+json"
+    script.text = JSON.stringify(faqSchema).replace(/</g, "\\u003c")
+    script.id = "faq-schema"
+    document.head.appendChild(script)
+
+    return () => {
+      const existingScript = document.getElementById("faq-schema")
+      if (existingScript) {
+        existingScript.remove()
+      }
+    }
+  }, [])
+
   const testimonials = [
     {
       quote:

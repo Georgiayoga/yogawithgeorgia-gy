@@ -17,42 +17,42 @@ export default function ClassesPortugalPage() {
     mainEntity: [
       {
         "@type": "Question",
-        name: "How are the classes priced?",
+        name: "How are the yoga classes priced?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "There are three pricing options to choose from based on your financial situation: Supporter (€60/€80/€20), Sustainer (€50/€70/€17.50), and Supported (€40/€60/€15) for 4-class packs, 8-class packs, and drop-in classes respectively.",
+          text: "Georgia uses a sliding scale so that everyone can join. Single class: Supporter €20, Sustainer €17.50, Supported €15. 4-Class Pack (valid 30 days): Supporter €60, Sustainer €50, Supported €40. 8-Class Pack (valid 30 days): Supporter €80, Sustainer €70, Supported €60.",
         },
       },
       {
         "@type": "Question",
-        name: "What level are the classes?",
+        name: "What level are the yoga classes in Colares?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Georgia teaches both beginners and experienced practitioners, adapting the class to meet each student's needs.",
+          text: "All classes are suitable for complete beginners and general-level practitioners. Georgia adapts each session to the students present, and individual modifications are always available.",
         },
       },
       {
         "@type": "Question",
-        name: "Do I need to bring props?",
+        name: "Do I need to bring my own props to class?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Props are provided at the studio, but you're welcome to bring your own mat if you prefer.",
+          text: "No. All mats and props — including blocks, belts, and blankets — are provided at the studio. You are welcome to bring your own mat if you prefer.",
         },
       },
       {
         "@type": "Question",
-        name: "How do I book a class?",
+        name: "How do I book a yoga class in Colares?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Studio classes can be booked and paid for directly through Georgia's Momence profile at https://momence.com/u/georgia-marnham-TXk2rZ.",
+          text: "Bookings are made through Georgia's online booking system (Momence) or by contacting her directly via WhatsApp on +351 933 675 722. Class sizes are limited to 12 students, so advance booking is essential.",
         },
       },
       {
         "@type": "Question",
-        name: "Where is the location?",
+        name: "Where exactly are the yoga classes located?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "After booking for your first time, you will be sent the specific location of the studio and arrival details.",
+          text: "Classes are held in Covão, Colares, near Sintra, Portugal. The studio is approximately 40 minutes from Lisbon, 25 minutes from Cascais, and 20 minutes from Ericeira. Detailed directions are provided on booking.",
         },
       },
     ],
