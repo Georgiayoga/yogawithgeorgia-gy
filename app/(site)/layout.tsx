@@ -22,137 +22,36 @@ export default function SiteLayout({ children }: { children: React.ReactNode }) 
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: "Yoga with Georgia",
-    image: "https://yogawithgeorgia.com/images/logo.png",
-    "@id": "https://yogawithgeorgia.com",
+    alternateName: "Yoga Bahia Centre Colares",
+    description:
+      "Iyengar Yoga classes in Colares, Sintra, Portugal. Weekly morning and evening classes suitable for all levels. Also available online via Zoom. Taught by Georgia Marnham, Level 3 certified Iyengar Yoga teacher with 25 years of international teaching experience.",
     url: "https://yogawithgeorgia.com",
     telephone: "+351933675722",
-    email: "georgia@yogawithgeorgia.com",
+    email: "georgiamarnham@gmail.com",
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Colares, Portugal",
+      streetAddress: "Covão",
+      addressLocality: "Colares",
+      addressRegion: "Sintra",
+      postalCode: "2705",
       addressCountry: "PT",
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: "38.7169",
-      longitude: "-9.1390",
+      latitude: 38.808,
+      longitude: -9.467,
     },
-    sameAs: ["https://www.instagram.com/yogawithgeorgia", "https://momence.com/u/georgia-marnham-TXk2rZ"],
-    founder: {
-      "@type": "Person",
-      name: "Georgia Marnham",
-      description:
-        "Certified Level 3 Iyengar Yoga teacher with over 25 years of international teaching experience and more than 35 years of dedicated practice.",
-      image: "https://yogawithgeorgia.com/georgia-portrait.jpg",
-      knowsAbout: ["Iyengar Yoga", "Yoga Alignment", "Yoga Props", "Yoga Therapy", "Pranayama"],
-      hasCredential: {
-        "@type": "EducationalOccupationalCredential",
-        name: "Level 3 Iyengar Yoga Teacher Certification",
-        credentialCategory: "Professional Certification",
-      },
-    },
-    description:
-      "Iyengar Yoga with Georgia Marnham — certified Level 3 teacher offering studio classes in Portugal, live online classes worldwide, and yoga retreats across Europe and internationally.",
-    knowsAbout: [
-      "Iyengar Yoga",
-      "Yoga Retreats",
-      "Yoga Workshops",
-      "Online Yoga Classes",
-      "Yoga Alignment",
-      "Yoga Props",
-      "Therapeutic Yoga",
-    ],
-    serviceArea: {
-      "@type": "Place",
-      name: "Portugal, Europe, Online Worldwide",
-    },
-    offers: [
-      {
-        "@type": "Service",
-        name: "Studio Yoga Classes in Portugal",
-        description: "Regular Iyengar Yoga classes in Colares, near Sintra, Portugal",
-        url: "https://yogawithgeorgia.com/classes-portugal",
-        provider: {
-          "@type": "Person",
-          name: "Georgia Marnham",
-        },
-      },
-      {
-        "@type": "Service",
-        name: "Online Iyengar Yoga Classes",
-        description: "Live Zoom classes for students in Europe, UK, Americas, and Brazil",
-        url: "https://yogawithgeorgia.com/online",
-        provider: {
-          "@type": "Person",
-          name: "Georgia Marnham",
-        },
-      },
-      {
-        "@type": "Service",
-        name: "Yoga Retreats & Workshops",
-        description:
-          "Immersive Iyengar Yoga retreats and workshops in Portugal, Greece, Sri Lanka, and other international locations",
-        url: "https://yogawithgeorgia.com/retreats",
-        provider: {
-          "@type": "Person",
-          name: "Georgia Marnham",
-        },
-      },
-    ],
+    openingHours: ["Tu 09:30-11:00", "Tu 18:00-19:30", "Th 18:00-19:30", "Sa 09:30-11:00"],
+    priceRange: "££",
+    areaServed: ["Colares", "Sintra", "Cascais", "Ericeira", "Lisbon"],
+    serviceType: "Iyengar Yoga Classes",
     aggregateRating: {
       "@type": "AggregateRating",
-      ratingValue: "5.0",
-      reviewCount: "25",
+      ratingValue: "5",
+      reviewCount: "50",
       bestRating: "5",
-      worstRating: "1",
     },
-  }
-
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "What is Iyengar Yoga?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Iyengar Yoga is a precise method of yoga that uses props to support alignment, improve flexibility, and build strength.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Who is Georgia Marnham?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Georgia Marnham is a certified Level 3 Iyengar Yoga teacher with over 25 years of international teaching experience and more than 35 years of practice.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Do I need experience to join?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "No, beginners are welcome. Georgia teaches both beginners and experienced students with individual feedback and adjustments.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Can I join online classes if I don't live in Portugal?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes, online classes are available worldwide via Zoom.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How do I book a class?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "You can book studio or online classes directly through Georgia's Momence profile at https://momence.com/u/georgia-marnham-TXk2rZ.",
-        },
-      },
-    ],
+    sameAs: ["https://yogabahia.com", "https://www.instagram.com/yogawithgeorgia"],
   }
 
   return (
@@ -162,12 +61,6 @@ export default function SiteLayout({ children }: { children: React.ReactNode }) 
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
-          }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(faqSchema).replace(/</g, "\\u003c"),
           }}
         />
       </head>
