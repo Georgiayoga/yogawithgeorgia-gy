@@ -456,8 +456,7 @@ export default function HomePage() {
                   What is Iyengar Yoga?
                 </AccordionTrigger>
                 <AccordionContent className="font-body text-brand-black/80 leading-relaxed">
-                  Iyengar Yoga is a precise method of yoga that uses props to support alignment, improve flexibility,
-                  and build strength.
+                  Iyengar Yoga is a form of yoga that emphasises precise alignment, structured sequencing, and the intelligent use of props — such as blocks, belts, and ropes. It is suitable for all ages and abilities, and is particularly valued for its therapeutic applications and its ability to be adapted for individual needs.
                 </AccordionContent>
               </AccordionItem>
 
@@ -466,8 +465,7 @@ export default function HomePage() {
                   Who is Georgia Marnham?
                 </AccordionTrigger>
                 <AccordionContent className="font-body text-brand-black/80 leading-relaxed">
-                  Georgia Marnham is a certified Level 3 Iyengar Yoga teacher with over 25 years of international
-                  teaching experience and more than 35 years of practice.
+                  Georgia Marnham is a Level 3 certified Iyengar Yoga teacher based in Colares, Sintra, Portugal. She has over 25 years of international teaching experience and more than 35 years of personal practice. She has studied at the Ramamani Iyengar Memorial Yoga Institute (RIMYI) in Pune, India, and teaches students of all levels in her studio and online via Zoom.
                 </AccordionContent>
               </AccordionItem>
 
@@ -476,17 +474,16 @@ export default function HomePage() {
                   Do I need experience to join?
                 </AccordionTrigger>
                 <AccordionContent className="font-body text-brand-black/80 leading-relaxed">
-                  No, beginners are welcome. Georgia teaches both beginners and experienced students with individual
-                  feedback and adjustments.
+                  {"No experience is necessary. Georgia's classes in Colares, Sintra are suitable for complete beginners as well as more experienced practitioners. Each student receives individual attention and appropriate modifications."}
                 </AccordionContent>
               </AccordionItem>
 
               <AccordionItem value="online-worldwide" className="border border-brand-warm-gray rounded-lg px-6">
                 <AccordionTrigger className="font-body text-lg text-brand-black hover:text-brand-orange transition-colors">
-                  Can I join online classes if I don't live in Portugal?
+                  {"Can I join online classes if I don't live in Portugal?"}
                 </AccordionTrigger>
                 <AccordionContent className="font-body text-brand-black/80 leading-relaxed">
-                  Yes, online classes are available worldwide via Zoom.
+                  Yes. Georgia teaches live Iyengar Yoga classes via Zoom, open to students anywhere in the world. Classes are suitable for those with some basic yoga experience. Recordings are also available.
                 </AccordionContent>
               </AccordionItem>
 
@@ -495,16 +492,16 @@ export default function HomePage() {
                   How do I book a class?
                 </AccordionTrigger>
                 <AccordionContent className="font-body text-brand-black/80 leading-relaxed">
-                  You can book studio or online classes directly through Georgia's{" "}
+                  {"Classes can be booked directly through Georgia's booking page on "}
                   <Link
                     href="https://momence.com/u/georgia-marnham-TXk2rZ"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-brand-orange hover:text-brand-gold underline underline-offset-4 transition-colors"
                   >
-                    Momence profile
+                    Momence
                   </Link>
-                  .
+                  {", or by contacting Georgia via WhatsApp on +351 933 675 722. Bookings are essential as class sizes are limited to 12 students."}
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
