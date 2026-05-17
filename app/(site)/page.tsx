@@ -125,6 +125,11 @@ export default function HomePage() {
                 "Her classes emphasise alignment with the use of props, and individual attention to help each student safely develop strength, flexibility, and awareness."
               }
             </p>
+            <p className="text-balance opacity-0 animate-[fadeInUp_0.6s_ease-out_0.6s_forwards]">
+              {
+                "Georgia's studio is based in Colares, in the foothills of Sintra — easily accessible from Cascais, Ericeira, and central Lisbon. She also teaches weekly live classes online via Zoom for students worldwide."
+              }
+            </p>
           </div>
           <div className="mt-12 flex justify-center opacity-0 animate-[fadeInUp_0.6s_ease-out_0.7s_forwards]">
             <Button
