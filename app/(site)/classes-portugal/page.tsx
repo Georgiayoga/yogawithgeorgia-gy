@@ -98,7 +98,7 @@ export default function ClassesPortugalPage() {
               <Card className="border-brand-warm-gray">
                 <CardContent className="space-y-4 pt-6">
                   <div className="space-y-4">
-                    <h3 className="font-heading text-brand-black text-2xl">Class Schedule – Winter</h3>
+                    <h3 className="font-heading text-brand-black text-2xl">Class Schedule – Summer</h3>
                     <div className="space-y-3">
                       <div className="flex justify-between items-center py-2 border-b border-brand-warm-gray/30">
                         <span className="font-medium font-body text-brand-black">Tuesday morning</span>
