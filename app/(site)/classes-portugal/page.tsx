@@ -125,9 +125,10 @@ export default function ClassesPortugalPage() {
 
                   <div className="bg-brand-warm-gray/10 rounded-lg p-4">
                     <p className="font-body text-sm text-brand-black/70 leading-relaxed">
-                      <strong>Note:</strong> Classes are suitable for all levels. Please arrive 10 minutes early for
-                      your first class. Mats and props are provided, though you are welcome to bring your own mat.
-                      Bookings are essential, and class sizes are limited to 12 students.
+                      <strong>Note:</strong> Please arrive 10 minutes early for your first class. Mats and props are
+                      provided, though you are welcome to bring your own mat. Bookings are essential, and class sizes
+                      are limited to 12 students. Mixed-level classes are suitable for all levels but beginners, older
+                      and stiffer students are encouraged to come to the Wednesday morning class.
                     </p>
                   </div>
 
