@@ -101,23 +101,23 @@ export default function ClassesPortugalPage() {
                     <h3 className="font-heading text-brand-black text-2xl">Class Schedule – Summer</h3>
                     <div className="space-y-3">
                       <div className="flex justify-between items-center py-2 border-b border-brand-warm-gray/30">
-                        <span className="font-medium font-body text-brand-black">Monday morning</span>
+                        <span className="font-medium font-body text-brand-black">Monday morning – mixed-level class</span>
                         <span className="font-body text-brand-black/80">09:00–10:30</span>
                       </div>
                       <div className="flex justify-between items-center py-2 border-b border-brand-warm-gray/30">
-                        <span className="font-medium font-body text-brand-black">Tuesday evening</span>
+                        <span className="font-medium font-body text-brand-black">Tuesday evening – mixed-level class</span>
                         <span className="font-body text-brand-black/80">18:00–19:30</span>
                       </div>
                       <div className="flex justify-between items-center py-2 border-b border-brand-warm-gray/30">
-                        <span className="font-medium font-body text-brand-black">Wednesday morning</span>
+                        <span className="font-medium font-body text-brand-black">Wednesday morning – beginner&apos;s class</span>
                         <span className="font-body text-brand-black/80">09:00–10:30</span>
                       </div>
                       <div className="flex justify-between items-center py-2 border-b border-brand-warm-gray/30">
-                        <span className="font-medium font-body text-brand-black">Thursday evening</span>
+                        <span className="font-medium font-body text-brand-black">Thursday evening – mixed-level class</span>
                         <span className="font-body text-brand-black/80">18:00–19:30</span>
                       </div>
                       <div className="flex justify-between items-center py-2">
-                        <span className="font-medium font-body text-brand-black">Saturday morning</span>
+                        <span className="font-medium font-body text-brand-black">Saturday morning – mixed-level class</span>
                         <span className="font-body text-brand-black/80">09:00–10:30</span>
                       </div>
                     </div>
