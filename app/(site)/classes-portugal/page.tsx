@@ -256,7 +256,22 @@ export default function ClassesPortugalPage() {
                       </div>
                     </AccordionTrigger>
                     <AccordionContent className="font-body text-brand-black/80 leading-relaxed pb-6 pt-2">
-                      All classes are suitable for complete beginners and general-level practitioners. Georgia adapts each session to the students present, and individual modifications are always available.
+                      Classes are offered at three levels:
+                      <br />
+                      <br />
+                      <strong>Beginners</strong> – Suitable for those new to yoga or new to the Iyengar Yoga method, as
+                      well as students who are older, less mobile, or returning to practice after a break. These classes
+                      focus on building a solid foundation through clear instruction and progressive learning.
+                      <br />
+                      <br />
+                      <strong>Mixed-Level</strong> – Suitable for students of all levels, from beginners to more
+                      experienced practitioners. Teaching is adapted to the needs of the individuals present, with
+                      options and support provided where needed.
+                      <br />
+                      <br />
+                      <strong>General</strong> – Suitable for students with at least 12 months of regular Iyengar Yoga
+                      class attendance. These classes assume a familiarity with basic postures, terminology, and the use
+                      of props, allowing for a broader and more in-depth exploration of the practice.
                     </AccordionContent>
                   </AccordionItem>
 
