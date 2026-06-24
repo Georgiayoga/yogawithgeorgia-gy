@@ -109,6 +109,10 @@ export default function ClassesPortugalPage() {
                         <span className="font-body text-brand-black/80">18:00–19:30</span>
                       </div>
                       <div className="flex justify-between items-center py-2 border-b border-brand-warm-gray/30">
+                        <span className="font-medium font-body text-brand-black">Wednesday morning</span>
+                        <span className="font-body text-brand-black/80">09:00–10:30</span>
+                      </div>
+                      <div className="flex justify-between items-center py-2 border-b border-brand-warm-gray/30">
                         <span className="font-medium font-body text-brand-black">Thursday evening</span>
                         <span className="font-body text-brand-black/80">18:00–19:30</span>
                       </div>
