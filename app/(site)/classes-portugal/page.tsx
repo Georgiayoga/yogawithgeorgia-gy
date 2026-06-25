@@ -98,32 +98,40 @@ export default function ClassesPortugalPage() {
               <Card className="border-brand-warm-gray">
                 <CardContent className="space-y-4 pt-6">
                   <div className="space-y-4">
-                    <h3 className="font-heading text-brand-black text-2xl">Class Schedule – Winter</h3>
+                    <h3 className="font-heading text-brand-black text-2xl">Class Schedule – Summer</h3>
                     <div className="space-y-3">
                       <div className="flex justify-between items-center py-2 border-b border-brand-warm-gray/30">
-                        <span className="font-medium font-body text-brand-black">Tuesday morning</span>
-                        <span className="font-body text-brand-black/80">09:30–11:00</span>
+                        <span className="font-medium font-body text-brand-black">Monday morning – mixed-level class</span>
+                        <span className="font-body text-brand-black/80">09:00–10:30</span>
                       </div>
                       <div className="flex justify-between items-center py-2 border-b border-brand-warm-gray/30">
-                        <span className="font-medium font-body text-brand-black">Tuesday evening</span>
+                        <span className="font-medium font-body text-brand-black">Tuesday evening – mixed-level class</span>
                         <span className="font-body text-brand-black/80">18:00–19:30</span>
                       </div>
                       <div className="flex justify-between items-center py-2 border-b border-brand-warm-gray/30">
-                        <span className="font-medium font-body text-brand-black">Thursday evening</span>
+                        <span className="font-medium font-body text-brand-black">Wednesday morning – beginners class</span>
+                        <span className="font-body text-brand-black/80">09:00–10:30</span>
+                      </div>
+                      <div className="flex justify-between items-center py-2 border-b border-brand-warm-gray/30">
+                        <span className="font-medium font-body text-brand-black">Thursday evening – general class</span>
                         <span className="font-body text-brand-black/80">18:00–19:30</span>
                       </div>
                       <div className="flex justify-between items-center py-2">
-                        <span className="font-medium font-body text-brand-black">Saturday morning</span>
-                        <span className="font-body text-brand-black/80">09:30–11:00</span>
+                        <span className="font-medium font-body text-brand-black">Saturday morning – mixed-level class</span>
+                        <span className="font-body text-brand-black/80">09:00–10:30</span>
                       </div>
                     </div>
                   </div>
 
                   <div className="bg-brand-warm-gray/10 rounded-lg p-4">
                     <p className="font-body text-sm text-brand-black/70 leading-relaxed">
-                      <strong>Note:</strong> Classes are suitable for all levels. Please arrive 10 minutes early for
-                      your first class. Mats and props are provided, though you are welcome to bring your own mat.
-                      Bookings are essential, and class sizes are limited to 12 students.
+                      <strong>Note:</strong> Bookings are essential and class sizes are limited. Please arrive 10 minutes
+                      early for your first class. Mats and props are provided, though you are welcome to bring your own
+                      mat.
+                      <br />
+                      <br />
+                      Please refer to the class descriptions in the FAQ section below to determine which class is most
+                      suitable for your level and experience.
                     </p>
                   </div>
 
@@ -138,11 +146,10 @@ export default function ClassesPortugalPage() {
 
             <div className="text-center mb-12">
               <h3 className="font-heading text-2xl text-brand-black mb-4">Location</h3>
-              <p className="font-body text-brand-black/80 mb-4">
-                Classes are held in Covão, Colares, near Sintra, Portugal - a peaceful setting surrounded by nature.
-              </p>
               <p className="font-body text-brand-black/80 mb-6">
-                The studio is located in Covão, Colares, in the foothills of the Sintra hills — a peaceful setting surrounded by nature, approximately 40 minutes from central Lisbon and easily accessible from Cascais (25 minutes), Ericeira (20 minutes), and the wider Sintra municipality. Directions and parking information are available on request.
+                The studio is located in Covão, Colares, in the foothills of the Sintra hills in a peaceful setting
+                surrounded by nature, approximately 40 minutes from central Lisbon and easily accessible from Cascais,
+                Ericeira, and the wider Sintra area. Directions and parking information are available on request.
               </p>
 
               <div className="border border-brand-warm-gray rounded-2xl overflow-hidden shadow-sm bg-white">
@@ -252,7 +259,22 @@ export default function ClassesPortugalPage() {
                       </div>
                     </AccordionTrigger>
                     <AccordionContent className="font-body text-brand-black/80 leading-relaxed pb-6 pt-2">
-                      All classes are suitable for complete beginners and general-level practitioners. Georgia adapts each session to the students present, and individual modifications are always available.
+                      Classes are offered at three levels:
+                      <br />
+                      <br />
+                      <strong>Beginners</strong> – Suitable for those new to yoga or new to the Iyengar Yoga method, as
+                      well as students who are older, less mobile, or returning to practice after a break. These classes
+                      focus on building a solid foundation through clear instruction and progressive learning.
+                      <br />
+                      <br />
+                      <strong>Mixed-Level</strong> – Suitable for students of all levels, from beginners to more
+                      experienced practitioners. Teaching is adapted to the needs of the individuals present, with
+                      options and support provided where needed.
+                      <br />
+                      <br />
+                      <strong>General</strong> – Suitable for students with at least 12 months of regular Iyengar Yoga
+                      class attendance. These classes assume a familiarity with basic postures, terminology, and the use
+                      of props, allowing for a broader and more in-depth exploration of the practice.
                     </AccordionContent>
                   </AccordionItem>
 

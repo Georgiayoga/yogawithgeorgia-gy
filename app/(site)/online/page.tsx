@@ -28,7 +28,7 @@ export default function OnlinePage() {
         name: "Do I need experience to join online classes?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "No, beginners are welcome. Georgia adapts her teaching to support all levels.",
+          text: "Yes. The online classes are suitable for students with some previous experience of Iyengar Yoga. As teaching takes place via Zoom, students should already be familiar with basic postures, terminology, and the use of props. If you are completely new to Iyengar Yoga, please get in touch to discuss the most appropriate way to begin your practice.",
         },
       },
       {
@@ -164,9 +164,13 @@ export default function OnlinePage() {
                       </div>
                     </AccordionTrigger>
                     <AccordionContent className="font-body text-brand-black/80 leading-relaxed pb-6 pt-2">
-                      No, beginners are welcome. Georgia adapts her teaching to support all levels, providing clear
-                      instructions and modifications throughout the class. Whether you're completely new to yoga or have
-                      years of experience, you'll find a supportive and accessible practice.
+                      Yes. The online classes are suitable for students with some previous experience of Iyengar Yoga.
+                      As teaching takes place via Zoom, students should already be familiar with basic postures,
+                      terminology, and the use of props.
+                      <br />
+                      <br />
+                      If you are completely new to Iyengar Yoga, please get in touch to discuss the most appropriate way
+                      to begin your practice.
                     </AccordionContent>
                   </AccordionItem>
 
