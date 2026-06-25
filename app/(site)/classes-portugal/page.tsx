@@ -127,8 +127,11 @@ export default function ClassesPortugalPage() {
                     <p className="font-body text-sm text-brand-black/70 leading-relaxed">
                       <strong>Note:</strong> Bookings are essential and class sizes are limited. Please arrive 10 minutes
                       early for your first class. Mats and props are provided, though you are welcome to bring your own
-                      mat. Mixed-level classes are suitable for all levels. Students who are new to yoga, older, or less
-                      mobile are encouraged to attend the Wednesday morning class.
+                      mat.
+                      <br />
+                      <br />
+                      Please refer to the class descriptions in the FAQ section below to determine which class is most
+                      suitable for your level and experience.
                     </p>
                   </div>
 
