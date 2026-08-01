@@ -49,8 +49,8 @@ export default function ScotlandWorkshopPage() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button asChild size="lg" className="bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-              <a href="mailto:georgiamarnham@gmail.com?subject=Scotland%20Weekend%20Workshop%20Booking">
-                Register Your Place
+              <a href="mailto:georgiamarnham@gmail.com?subject=Scotland%20Workshop%20Waiting%20List">
+                Join the Waiting List
               </a>
             </Button>
             <Button
@@ -206,8 +206,8 @@ export default function ScotlandWorkshopPage() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button asChild size="lg" className="bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-              <a href="mailto:georgiamarnham@gmail.com?subject=Scotland%20Weekend%20Workshop%20Booking">
-                Register Your Place
+              <a href="mailto:georgiamarnham@gmail.com?subject=Scotland%20Workshop%20Waiting%20List">
+                Join the Waiting List
               </a>
             </Button>
             <Button
