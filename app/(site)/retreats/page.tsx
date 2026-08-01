@@ -331,7 +331,7 @@ export default function RetreatsPage() {
                       regular yoga practice.
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-                      <Link href="/contact">Details here</Link>
+                      <Link href="/scotland-workshop">Details here</Link>
                     </Button>
                   </CardContent>
                 </Card>
