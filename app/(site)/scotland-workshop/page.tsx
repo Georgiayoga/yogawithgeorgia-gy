@@ -35,8 +35,9 @@ export default function ScotlandWorkshopPage() {
             <div className="space-y-6 font-body text-lg text-brand-black/90 leading-relaxed">
               <p>
                 Join Georgia Marnham, a Level 3 qualified Iyengar Yoga teacher, for a weekend of in-depth learning in
-                the heart of Perthshire. Over two days you'll explore a variety of asanas through carefully structured
-                sessions designed to deepen your understanding of alignment, precision, and mindful practice.
+                the heart of Perthshire. Over two days you&apos;ll explore a variety of asanas through carefully
+                structured sessions designed to deepen your understanding of alignment, precision, and the benefits
+                gained through sustained, attentive practice.
               </p>
               <p>
                 This workshop is ideally suited to students with a regular yoga practice who wish to refine their
