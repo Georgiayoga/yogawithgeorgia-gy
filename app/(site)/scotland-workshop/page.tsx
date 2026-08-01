@@ -22,6 +22,13 @@ export default function ScotlandWorkshopPage() {
             <p className="font-body text-lg text-brand-orange font-medium">November 14–15, 2026</p>
           </header>
 
+          <div className="mb-12 rounded-lg border border-brand-orange/30 bg-brand-orange/10 px-6 py-4 text-center">
+            <p className="font-body text-base md:text-lg text-brand-black font-medium text-pretty">
+              This workshop is now fully booked. Please email to join the waiting list — places often become available
+              closer to the date.
+            </p>
+          </div>
+
           <div className="mb-12">
             <img
               src="/comrie-weekend-workshop-2026.jpg"
@@ -49,8 +56,8 @@ export default function ScotlandWorkshopPage() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button asChild size="lg" className="bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-              <a href="mailto:georgiamarnham@gmail.com?subject=Scotland%20Weekend%20Workshop%20Booking">
-                Register Your Place
+              <a href="mailto:georgiamarnham@gmail.com?subject=Scotland%20Workshop%20Waiting%20List">
+                Join the Waiting List
               </a>
             </Button>
             <Button
@@ -93,7 +100,7 @@ export default function ScotlandWorkshopPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
-                  <span>Reserve your place with a £50 non-refundable deposit</span>
+                  <span>Fully booked — join the waiting list to be notified of cancellations</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
@@ -206,8 +213,8 @@ export default function ScotlandWorkshopPage() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button asChild size="lg" className="bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-              <a href="mailto:georgiamarnham@gmail.com?subject=Scotland%20Weekend%20Workshop%20Booking">
-                Register Your Place
+              <a href="mailto:georgiamarnham@gmail.com?subject=Scotland%20Workshop%20Waiting%20List">
+                Join the Waiting List
               </a>
             </Button>
             <Button
