@@ -100,7 +100,7 @@ export default function ScotlandWorkshopPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
-                  <span>Reserve your place with a £50 non-refundable deposit</span>
+                  <span>Fully booked — join the waiting list to be notified of cancellations</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
