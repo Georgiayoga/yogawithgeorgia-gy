@@ -22,6 +22,13 @@ export default function ScotlandWorkshopPage() {
             <p className="font-body text-lg text-brand-orange font-medium">November 14–15, 2026</p>
           </header>
 
+          <div className="mb-12 rounded-lg border border-brand-orange/30 bg-brand-orange/10 px-6 py-4 text-center">
+            <p className="font-body text-base md:text-lg text-brand-black font-medium text-pretty">
+              This workshop is now fully booked. Please email to join the waiting list — places often become available
+              closer to the date.
+            </p>
+          </div>
+
           <div className="mb-12">
             <img
               src="/comrie-weekend-workshop-2026.jpg"
