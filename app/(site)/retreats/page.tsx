@@ -93,10 +93,11 @@ export default function RetreatsPage() {
                       }
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-                      <Link href="/uk-retreat">View Details</Link>
+                      <Link href="/contact">Details here</Link>
                     </Button>
                   </CardContent>
                 </Card>
+
 
                 {/* 2. Portugal Retreat Card - September 13-19, 2026 */}
                 <Card className="border-brand-warm-gray overflow-hidden">
@@ -330,7 +331,7 @@ export default function RetreatsPage() {
                       regular yoga practice.
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-                      <Link href="/contact">Book here</Link>
+                      <Link href="/scotland-workshop">Details here</Link>
                     </Button>
                   </CardContent>
                 </Card>
