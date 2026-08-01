@@ -101,10 +101,6 @@ export default function ScotlandWorkshopPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
-                  <span>Tea and coffee provided throughout</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-brand-orange mt-1">•</span>
                   <span>Suitable for students with a regular yoga practice</span>
                 </li>
               </ul>
