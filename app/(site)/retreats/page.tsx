@@ -101,7 +101,7 @@ export default function RetreatsPage() {
                 {/* 2. Menopause - Iyengar Yoga Retreat Card - November 4-8, 2026 */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
-                    src="/portugal-algarve-coast.jpg"
+                    src="/menopause-yoga-retreat-silves-algarve.png"
                     alt="Menopause - Iyengar Yoga Retreat venue in Silves, Algarve"
                     className="w-full h-48 object-cover"
                   />
@@ -115,9 +115,12 @@ export default function RetreatsPage() {
                     </div>
                   </CardHeader>
                   <CardContent className="space-y-4">
-                    <p className="font-body text-brand-black/80 text-sm">Details coming soon.</p>
+                    <p className="font-body text-brand-black/80 text-sm">
+                      A dedicated sanctuary blending tailored Iyengar Yoga with expert medical insight into menopausal
+                      health — a peaceful pause to nurture your body and sustain your vitality through this transition.
+                    </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-                      <Link href="/contact">View Details</Link>
+                      <Link href="/menopause-retreat">View Details</Link>
                     </Button>
                   </CardContent>
                 </Card>
