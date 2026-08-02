@@ -101,8 +101,8 @@ export default function RetreatsPage() {
                 {/* 2. Menopause - Iyengar Yoga Retreat Card - November 4-8, 2026 */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
-                    src="/menopause-yoga-retreat-silves-algarve.png"
-                    alt="Menopause - Iyengar Yoga Retreat venue in Silves, Algarve"
+                    src="/menopause-retreat-pool-algarve.png"
+                    alt="Menopause - Iyengar Yoga Retreat venue with swimming pool in Silves, Algarve"
                     className="w-full h-48 object-cover"
                   />
                   <CardHeader>
