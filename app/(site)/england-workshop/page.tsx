@@ -24,6 +24,13 @@ export default function EnglandWorkshopPage() {
             <p className="font-body text-lg text-brand-orange font-medium">October 10–11, 2026</p>
           </header>
 
+          <div className="mb-12 rounded-lg border border-brand-orange/30 bg-brand-orange/10 px-6 py-4 text-center">
+            <p className="font-body text-base md:text-lg text-brand-black font-medium text-pretty">
+              This workshop is now fully booked. Please email to join the waiting list — places often become available
+              closer to the date.
+            </p>
+          </div>
+
           <div className="mb-12">
             <img
               src="/sidmouth-weekend-workshop-2026.jpg"
@@ -51,8 +58,8 @@ export default function EnglandWorkshopPage() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button asChild size="lg" className="bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-              <a href="mailto:jennyhulin1@gmail.com?subject=England%20Weekend%20Workshop%20Booking">
-                Reserve Your Place
+              <a href="mailto:jennyhulin1@gmail.com?subject=England%20Weekend%20Workshop%20Waiting%20List">
+                Join the Waiting List
               </a>
             </Button>
             <Button
@@ -95,7 +102,7 @@ export default function EnglandWorkshopPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
-                  <span>Bookings are open — reserve your place with Jenny</span>
+                  <span>Fully booked — join the waiting list to be notified of cancellations</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-brand-orange mt-1">•</span>
@@ -132,7 +139,10 @@ export default function EnglandWorkshopPage() {
                       The workshop costs £140 for the full weekend, including two delicious, healthy lunches made by
                       Kara from &quot;Cafe Dish&quot;.
                     </p>
-                    <p>Bookings are open. Final payment is due by 10 September.</p>
+                    <p>
+                      This workshop is now fully booked. Please email to join the waiting list — places often become
+                      available closer to the date. For confirmed places, final payment is due by 10 September.
+                    </p>
                   </div>
                 </AccordionContent>
               </AccordionItem>
@@ -204,8 +214,8 @@ export default function EnglandWorkshopPage() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button asChild size="lg" className="bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-              <a href="mailto:jennyhulin1@gmail.com?subject=England%20Weekend%20Workshop%20Booking">
-                Reserve Your Place
+              <a href="mailto:jennyhulin1@gmail.com?subject=England%20Weekend%20Workshop%20Waiting%20List">
+                Join the Waiting List
               </a>
             </Button>
             <Button
