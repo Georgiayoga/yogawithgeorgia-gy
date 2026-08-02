@@ -179,8 +179,8 @@ export default function RetreatsPage() {
                 {/* 6. UK Retreat Card - July 15-19, 2027 */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
-                    src="/uk-lake-district-yewfield.jpg"
-                    alt="UK Retreat venue in Lake District"
+                    src="/uk-lake-district-fells-tarns.png"
+                    alt="Panoramic view of Lake District fells and tarns from a mountain summit near Windermere"
                     className="w-full h-48 object-cover"
                   />
                   <CardHeader>
