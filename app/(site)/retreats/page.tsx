@@ -125,6 +125,34 @@ export default function RetreatsPage() {
                   </CardContent>
                 </Card>
 
+                {/* Portugal Menopause Retreat Card - November 4-8, 2026 */}
+                <Card className="border-brand-warm-gray overflow-hidden">
+                  <img
+                    src="/menopause-retreat-silves-villa-pool.png"
+                    alt="Portugal Menopause Retreat villa with swimming pool in Silves, Algarve"
+                    className="w-full h-48 object-cover"
+                  />
+                  <CardHeader>
+                    <CardTitle className="font-heading text-xl text-brand-black">Portugal Menopause Retreat</CardTitle>
+                    <div className="font-body text-sm text-brand-black/70">
+                      <p>Silves, Algarve</p>
+                      <p>November 4—8, 2026</p>
+                    </div>
+                  </CardHeader>
+                  <CardContent className="space-y-4">
+                    <p className="font-body text-brand-black/80 text-sm">
+                      {
+                        "A peaceful pause from daily life, dedicated to your well-being. Blending structured Iyengar Yoga with expert medical insight into menopausal health, discover practical ways to nurture your body and sustain your vitality through this transition."
+                      }
+                    </p>
+                    <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
+                      <a href="https://medinmenohealthcare.com/retreats" target="_blank" rel="noopener noreferrer">
+                        View Details
+                      </a>
+                    </Button>
+                  </CardContent>
+                </Card>
+
                 {/* 3. Sri Lanka Retreat Card - Jan 31-Feb 14, 2027 */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
