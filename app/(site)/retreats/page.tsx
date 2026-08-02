@@ -72,34 +72,7 @@ export default function RetreatsPage() {
             <section className="mb-16">
               <h2 className="font-heading text-3xl text-brand-black text-center mb-8">Retreats in 2026 &amp; 2027 </h2>
               <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-                {/* 1. UK Retreat Card - July 16-20, 2026 */}
-                <Card className="border-brand-warm-gray overflow-hidden">
-                  <img
-                    src="/uk-lake-district-yewfield.jpg"
-                    alt="UK Retreat venue in Lake District"
-                    className="w-full h-48 object-cover"
-                  />
-                  <CardHeader>
-                    <CardTitle className="font-heading text-xl text-brand-black">UK Retreat</CardTitle>
-                    <div className="font-body text-sm text-brand-black/70">
-                      <p>Ambleside, Lake District</p>
-                      <p>July 16—20, 2026</p>
-                    </div>
-                  </CardHeader>
-                  <CardContent className="space-y-4">
-                    <p className="font-body text-brand-black/80 text-sm">
-                      {
-                        "Experience the beauty of the Lake District with daily yoga classes and peaceful walks or invigorating hikes through valleys, lakes, and fells — a perfect summer retreat in one of England's most breathtaking landscapes."
-                      }
-                    </p>
-                    <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-                      <Link href="/contact">Details here</Link>
-                    </Button>
-                  </CardContent>
-                </Card>
-
-
-                {/* 2. Portugal Retreat Card - September 13-19, 2026 */}
+                {/* 1. Portugal Retreat Card - September 13-19, 2026 */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
                     src="/praia-do-quinta-do-lago-algarve.jpg"
@@ -231,7 +204,33 @@ export default function RetreatsPage() {
                   </CardContent>
                 </Card>
 
-                {/* 6. Portugal Retreat Card - September 12-18, 2027 */}
+                {/* 6. UK Retreat Card - July 15-19, 2027 */}
+                <Card className="border-brand-warm-gray overflow-hidden">
+                  <img
+                    src="/uk-lake-district-fells-tarns.png"
+                    alt="Panoramic view of Lake District fells and tarns from a mountain summit near Windermere"
+                    className="w-full h-48 object-cover"
+                  />
+                  <CardHeader>
+                    <CardTitle className="font-heading text-xl text-brand-black">UK Retreat</CardTitle>
+                    <div className="font-body text-sm text-brand-black/70">
+                      <p>Ambleside, Lake District</p>
+                      <p>July 15—19, 2027</p>
+                    </div>
+                  </CardHeader>
+                  <CardContent className="space-y-4">
+                    <p className="font-body text-brand-black/80 text-sm">
+                      {
+                        "Experience the beauty of the Lake District with daily yoga classes and peaceful walks or invigorating hikes through valleys, lakes, and fells — a perfect summer retreat in one of England's most breathtaking landscapes."
+                      }
+                    </p>
+                    <div className="w-full rounded-md bg-brand-orange px-4 py-2 text-center font-medium text-white">
+                      Save the Date
+                    </div>
+                  </CardContent>
+                </Card>
+
+                {/* 7. Portugal Retreat Card - September 12-18, 2027 */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
                     src="/portugal-algarve-coast.jpg"
@@ -257,7 +256,7 @@ export default function RetreatsPage() {
                   </CardContent>
                 </Card>
 
-                {/* 7. Sri Lanka Retreat Card - 2028 TBC */}
+                {/* 8. Sri Lanka Retreat Card - 2028 TBC */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
                     src="/sri-lanka-lush-landscape.jpg"
@@ -283,7 +282,7 @@ export default function RetreatsPage() {
                   </CardContent>
                 </Card>
 
-                {/* 8. Azores, Portugal Retreat Card - 2028 TBC */}
+                {/* 9. Azores, Portugal Retreat Card - 2028 TBC */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
                     src="/azores-volcanic-crater.png"
