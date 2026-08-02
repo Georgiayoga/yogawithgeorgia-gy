@@ -101,8 +101,8 @@ export default function RetreatsPage() {
                 {/* Portugal Menopause Retreat Card - November 4-8, 2026 */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
-                    src="/menopause-retreat-silves-villa-pool.png"
-                    alt="Portugal Menopause Retreat villa with swimming pool in Silves, Algarve"
+                    src="/moodz-spa-retreat-aerial-algarve.jpg"
+                    alt="Aerial view of the Moodz Spa retreat villa and pool nestled in the green hills of Silves, Algarve"
                     className="w-full h-48 object-cover"
                   />
                   <CardHeader>
