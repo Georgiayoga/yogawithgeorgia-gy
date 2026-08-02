@@ -256,33 +256,7 @@ export default function RetreatsPage() {
                   </CardContent>
                 </Card>
 
-                {/* 8. Sri Lanka Retreat Card - 2028 TBC */}
-                <Card className="border-brand-warm-gray overflow-hidden">
-                  <img
-                    src="/portugal-algarve-coast.jpg"
-                    alt="Portugal Retreat venue"
-                    className="w-full h-48 object-cover"
-                  />
-                  <CardHeader>
-                    <CardTitle className="font-heading text-xl text-brand-black">Portugal Retreat</CardTitle>
-                    <div className="font-body text-sm text-brand-black/70">
-                      <p>Loulé, Algarve</p>
-                      <p>September 12—18, 2027</p>
-                    </div>
-                  </CardHeader>
-                  <CardContent className="space-y-4">
-                    <p className="font-body text-brand-black/80 text-sm">
-                      {
-                        "Enjoy late-summer in Portugal and come to the lovely Casa Cales, nestled in the hills outside Loulé and just 15 minutes from the coastline of fabulous beaches and sandy coves. A family home converted to peaceful retreat centre surrounded by nature."
-                      }
-                    </p>
-                    <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-                      <Link href="/portugal-retreat">View Details</Link>
-                    </Button>
-                  </CardContent>
-                </Card>
-
-                {/* 9. Azores, Portugal Retreat Card - 2028 TBC */}
+                {/* 8. Azores, Portugal Retreat Card - 2028 TBC */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
                     src="/azores-volcanic-crater.png"
