@@ -337,7 +337,7 @@ export default function RetreatsPage() {
                   </CardContent>
                 </Card>
 
-                {/* Portugal Workshop Card - November 29-30, 2026 */}
+                {/* Portugal Workshop Card - November 28-29, 2026 */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
                     src="/portugal-yoga-studio-ceiling.jpg"
@@ -348,7 +348,7 @@ export default function RetreatsPage() {
                     <CardTitle className="font-heading text-xl text-brand-black">Weekend Workshop - Portugal</CardTitle>
                     <div className="font-body text-sm text-brand-black/70">
                       <p>Loulé, Algarve</p>
-                      <p>November 29—30, 2026</p>
+                      <p>November 28—29, 2026</p>
                     </div>
                   </CardHeader>
                   <CardContent className="space-y-4">
@@ -357,7 +357,7 @@ export default function RetreatsPage() {
                       stunning views.
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-                      <Link href="/contact">Book here</Link>
+                      <Link href="/portugal-workshop">Details here</Link>
                     </Button>
                   </CardContent>
                 </Card>
