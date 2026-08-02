@@ -307,7 +307,7 @@ export default function RetreatsPage() {
                       full-weekend course.
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-                      <Link href="/contact">Book here</Link>
+                      <Link href="/england-workshop">Details here</Link>
                     </Button>
                   </CardContent>
                 </Card>
