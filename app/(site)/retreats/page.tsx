@@ -72,7 +72,7 @@ export default function RetreatsPage() {
             <section className="mb-16">
               <h2 className="font-heading text-3xl text-brand-black text-center mb-8">Retreats in 2026 &amp; 2027 </h2>
               <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-                {/* 1. UK Retreat Card - July 16-20, 2026 */}
+                {/* 1. UK Retreat Card - July 15-19, 2026 */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
                     src="/uk-lake-district-yewfield.jpg"
@@ -83,7 +83,7 @@ export default function RetreatsPage() {
                     <CardTitle className="font-heading text-xl text-brand-black">UK Retreat</CardTitle>
                     <div className="font-body text-sm text-brand-black/70">
                       <p>Ambleside, Lake District</p>
-                      <p>July 16—20, 2026</p>
+                      <p>July 15—19, 2026</p>
                     </div>
                   </CardHeader>
                   <CardContent className="space-y-4">
