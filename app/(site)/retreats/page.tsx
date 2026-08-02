@@ -120,7 +120,9 @@ export default function RetreatsPage() {
                       health — a peaceful pause to nurture your body and sustain your vitality through this transition.
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-                      <Link href="/menopause-retreat">View Details</Link>
+                      <a href="https://medinmenohealthcare.com/retreats" target="_blank" rel="noopener noreferrer">
+                        View Details
+                      </a>
                     </Button>
                   </CardContent>
                 </Card>
