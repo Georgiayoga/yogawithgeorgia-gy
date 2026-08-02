@@ -92,9 +92,9 @@ export default function RetreatsPage() {
                         "Experience the beauty of the Lake District with daily yoga classes and peaceful walks or invigorating hikes through valleys, lakes, and fells — a perfect summer retreat in one of England's most breathtaking landscapes."
                       }
                     </p>
-                    <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-                      <Link href="/contact">Details here</Link>
-                    </Button>
+                    <div className="w-full rounded-md bg-brand-orange px-4 py-2 text-center font-medium text-white">
+                      Save the Date
+                    </div>
                   </CardContent>
                 </Card>
 
