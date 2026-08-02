@@ -98,6 +98,30 @@ export default function RetreatsPage() {
                   </CardContent>
                 </Card>
 
+                {/* 2. Menopause - Iyengar Yoga Retreat Card - November 4-8, 2026 */}
+                <Card className="border-brand-warm-gray overflow-hidden">
+                  <img
+                    src="/portugal-algarve-coast.jpg"
+                    alt="Menopause - Iyengar Yoga Retreat venue in Silves, Algarve"
+                    className="w-full h-48 object-cover"
+                  />
+                  <CardHeader>
+                    <CardTitle className="font-heading text-xl text-brand-black">
+                      Menopause - Iyengar Yoga Retreat
+                    </CardTitle>
+                    <div className="font-body text-sm text-brand-black/70">
+                      <p>Silves, Algarve</p>
+                      <p>November 4—8, 2026</p>
+                    </div>
+                  </CardHeader>
+                  <CardContent className="space-y-4">
+                    <p className="font-body text-brand-black/80 text-sm">Details coming soon.</p>
+                    <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
+                      <Link href="/contact">View Details</Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+
                 {/* 3. Sri Lanka Retreat Card - Jan 31-Feb 14, 2027 */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
@@ -228,33 +252,7 @@ export default function RetreatsPage() {
                   </CardContent>
                 </Card>
 
-                {/* 8. Sri Lanka Retreat Card - 2028 TBC */}
-                <Card className="border-brand-warm-gray overflow-hidden">
-                  <img
-                    src="/sri-lanka-lush-landscape.jpg"
-                    alt="Sri Lanka Retreat venue"
-                    className="w-full h-48 object-cover"
-                  />
-                  <CardHeader>
-                    <CardTitle className="font-heading text-xl text-brand-black">Sri Lanka Retreat</CardTitle>
-                    <div className="font-body text-sm text-brand-black/70">
-                      <p>Ulpotha, Sri Lanka</p>
-                      <p>2028 dates to be confirmed</p>
-                    </div>
-                  </CardHeader>
-                  <CardContent className="space-y-4">
-                    <p className="font-body text-brand-black/80 text-sm">
-                      Considered one of the world&#39;s best yoga centres, Ulpotha, is an Ayurvedic retreat centre,
-                      based on a traditional Sri Lankan farming village which is run by the local Buddhist community.
-                      &quot;It is Heaven on Earth&quot;.
-                    </p>
-                    <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-                      <Link href="/sri-lanka-retreat">View Details</Link>
-                    </Button>
-                  </CardContent>
-                </Card>
-
-                {/* 9. Azores, Portugal Retreat Card - 2028 TBC */}
+                {/* 8. Azores, Portugal Retreat Card - 2028 TBC */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
                     src="/azores-volcanic-crater.png"
