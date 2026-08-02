@@ -98,19 +98,17 @@ export default function RetreatsPage() {
                   </CardContent>
                 </Card>
 
-                {/* 2. Menopause - Iyengar Yoga Retreat Card - November 4-8, 2026 */}
+                {/* Portugal Menopause Retreat Card - November 4-8, 2026 */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
-                    src="/menopause-retreat-pool-algarve.png"
-                    alt="Menopause - Iyengar Yoga Retreat venue with swimming pool in Silves, Algarve"
+                    src="/menopause-retreat-silves-villa-pool.png"
+                    alt="Portugal Menopause Retreat villa with swimming pool in Silves, Algarve"
                     className="w-full h-48 object-cover"
                   />
                   <CardHeader>
-                    <CardTitle className="font-heading text-xl text-brand-black">
-                      Portugal Menopause Retreat
-                    </CardTitle>
+                    <CardTitle className="font-heading text-xl text-brand-black">Menopause Retreat</CardTitle>
                     <div className="font-body text-sm text-brand-black/70">
-                      <p>Silves, Algarve</p>
+                      <p>Silves, Algarve, Portugal</p>
                       <p>November 4—8, 2026</p>
                     </div>
                   </CardHeader>
@@ -209,7 +207,7 @@ export default function RetreatsPage() {
                 {/* 6. UK Retreat Card - July 15-19, 2027 */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
-                    src="/uk-lake-district-fells-tarns.png"
+                    src="/uk-lake-district-buttermere-panorama.png"
                     alt="Panoramic view of Lake District fells and tarns from a mountain summit near Windermere"
                     className="w-full h-48 object-cover"
                   />
@@ -235,6 +233,32 @@ export default function RetreatsPage() {
                 {/* 7. Portugal Retreat Card - September 12-18, 2027 */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
+                    src="/uk-lake-district-fells-tarns.png"
+                    alt="Panoramic view of Lake District fells and tarns from a mountain summit near Windermere"
+                    className="w-full h-48 object-cover"
+                  />
+                  <CardHeader>
+                    <CardTitle className="font-heading text-xl text-brand-black">UK Retreat</CardTitle>
+                    <div className="font-body text-sm text-brand-black/70">
+                      <p>Ambleside, Lake District</p>
+                      <p>July 15—19, 2027</p>
+                    </div>
+                  </CardHeader>
+                  <CardContent className="space-y-4">
+                    <p className="font-body text-brand-black/80 text-sm">
+                      {
+                        "Experience the beauty of the Lake District with daily yoga classes and peaceful walks or invigorating hikes through valleys, lakes, and fells — a perfect summer retreat in one of England's most breathtaking landscapes."
+                      }
+                    </p>
+                    <div className="w-full rounded-md bg-brand-orange px-4 py-2 text-center font-medium text-white">
+                      Save the Date
+                    </div>
+                  </CardContent>
+                </Card>
+
+                {/* 8. Sri Lanka Retreat Card - 2028 TBC */}
+                <Card className="border-brand-warm-gray overflow-hidden">
+                  <img
                     src="/portugal-algarve-coast.jpg"
                     alt="Portugal Retreat venue"
                     className="w-full h-48 object-cover"
@@ -258,7 +282,7 @@ export default function RetreatsPage() {
                   </CardContent>
                 </Card>
 
-                {/* 8. Azores, Portugal Retreat Card - 2028 TBC */}
+                {/* 9. Azores, Portugal Retreat Card - 2028 TBC */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
                     src="/azores-volcanic-crater.png"
