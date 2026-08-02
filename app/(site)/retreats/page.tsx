@@ -107,7 +107,7 @@ export default function RetreatsPage() {
                   />
                   <CardHeader>
                     <CardTitle className="font-heading text-xl text-brand-black">
-                      Menopause - Iyengar Yoga Retreat
+                      Portugal Menopause Retreat
                     </CardTitle>
                     <div className="font-body text-sm text-brand-black/70">
                       <p>Silves, Algarve</p>
@@ -116,8 +116,9 @@ export default function RetreatsPage() {
                   </CardHeader>
                   <CardContent className="space-y-4">
                     <p className="font-body text-brand-black/80 text-sm">
-                      A dedicated sanctuary blending tailored Iyengar Yoga with expert medical insight into menopausal
-                      health — a peaceful pause to nurture your body and sustain your vitality through this transition.
+                      {
+                        "A peaceful pause from daily life, dedicated to your well-being. Blending structured Iyengar Yoga with expert medical insight into menopausal health, discover practical ways to nurture your body and sustain your vitality through this transition."
+                      }
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
                       <a href="https://medinmenohealthcare.com/retreats" target="_blank" rel="noopener noreferrer">
