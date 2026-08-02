@@ -101,8 +101,8 @@ export default function RetreatsPage() {
                 {/* Portugal Menopause Retreat Card - November 4-8, 2026 */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
-                    src="/menopause-retreat-silves-villa-pool.png"
-                    alt="Portugal Menopause Retreat villa with swimming pool in Silves, Algarve"
+                    src="/moodz-spa-retreat-aerial-algarve.jpg"
+                    alt="Aerial view of the Moodz Spa retreat villa and pool nestled in the green hills of Silves, Algarve"
                     className="w-full h-48 object-cover"
                   />
                   <CardHeader>
@@ -307,7 +307,7 @@ export default function RetreatsPage() {
                       full-weekend course.
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-                      <Link href="/contact">Book here</Link>
+                      <Link href="/england-workshop">Details here</Link>
                     </Button>
                   </CardContent>
                 </Card>
@@ -337,7 +337,7 @@ export default function RetreatsPage() {
                   </CardContent>
                 </Card>
 
-                {/* Portugal Workshop Card - November 29-30, 2026 */}
+                {/* Portugal Workshop Card - November 28-29, 2026 */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
                     src="/portugal-yoga-studio-ceiling.jpg"
@@ -348,7 +348,7 @@ export default function RetreatsPage() {
                     <CardTitle className="font-heading text-xl text-brand-black">Weekend Workshop - Portugal</CardTitle>
                     <div className="font-body text-sm text-brand-black/70">
                       <p>Loulé, Algarve</p>
-                      <p>November 29—30, 2026</p>
+                      <p>November 28—29, 2026</p>
                     </div>
                   </CardHeader>
                   <CardContent className="space-y-4">
@@ -357,7 +357,7 @@ export default function RetreatsPage() {
                       stunning views.
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-                      <Link href="/contact">Book here</Link>
+                      <Link href="/portugal-workshop">Details here</Link>
                     </Button>
                   </CardContent>
                 </Card>
