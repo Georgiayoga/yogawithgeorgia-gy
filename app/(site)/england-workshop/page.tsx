@@ -187,7 +187,6 @@ export default function EnglandWorkshopPage() {
                   <ul className="space-y-2 ml-4">
                     <li>• Comfortable clothing for yoga practice</li>
                     <li>• Your yoga props including a mat, belts, blankets, bricks and blocks</li>
-                    <li>• A reusable water bottle</li>
                     <li>• Notebook and pen if you like to take notes</li>
                   </ul>
                 </AccordionContent>

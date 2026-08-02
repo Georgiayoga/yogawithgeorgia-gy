@@ -186,7 +186,6 @@ export default function ScotlandWorkshopPage() {
                     <li>• Your own lunch for the Saturday break (tea and coffee provided)</li>
                     <li>• Comfortable clothing for yoga practice</li>
                     <li>• Your yoga props including a mat, belts, blankets, bricks and blocks</li>
-                    <li>• A reusable water bottle</li>
                     <li>• Notebook and pen if you like to take notes</li>
                   </ul>
                 </AccordionContent>

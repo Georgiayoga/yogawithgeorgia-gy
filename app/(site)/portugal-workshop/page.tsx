@@ -170,7 +170,6 @@ export default function PortugalWorkshopPage() {
                   <ul className="space-y-2 ml-4">
                     <li>• Your own lunch for the Saturday break (tea and coffee provided)</li>
                     <li>• Comfortable clothing for yoga practice</li>
-                    <li>• A reusable water bottle</li>
                     <li>• Notebook and pen if you like to take notes</li>
                   </ul>
                 </AccordionContent>
