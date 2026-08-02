@@ -106,9 +106,9 @@ export default function RetreatsPage() {
                     className="w-full h-48 object-cover"
                   />
                   <CardHeader>
-                    <CardTitle className="font-heading text-xl text-brand-black">Portugal Menopause Retreat</CardTitle>
+                    <CardTitle className="font-heading text-xl text-brand-black">Menopause Retreat</CardTitle>
                     <div className="font-body text-sm text-brand-black/70">
-                      <p>Silves, Algarve</p>
+                      <p>Silves, Algarve, Portugal</p>
                       <p>November 4—8, 2026</p>
                     </div>
                   </CardHeader>
