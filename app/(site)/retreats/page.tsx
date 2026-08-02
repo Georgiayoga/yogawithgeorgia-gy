@@ -72,34 +72,7 @@ export default function RetreatsPage() {
             <section className="mb-16">
               <h2 className="font-heading text-3xl text-brand-black text-center mb-8">Retreats in 2026 &amp; 2027 </h2>
               <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-                {/* 1. UK Retreat Card - July 16-20, 2026 */}
-                <Card className="border-brand-warm-gray overflow-hidden">
-                  <img
-                    src="/uk-lake-district-yewfield.jpg"
-                    alt="UK Retreat venue in Lake District"
-                    className="w-full h-48 object-cover"
-                  />
-                  <CardHeader>
-                    <CardTitle className="font-heading text-xl text-brand-black">UK Retreat</CardTitle>
-                    <div className="font-body text-sm text-brand-black/70">
-                      <p>Ambleside, Lake District</p>
-                      <p>July 16—20, 2026</p>
-                    </div>
-                  </CardHeader>
-                  <CardContent className="space-y-4">
-                    <p className="font-body text-brand-black/80 text-sm">
-                      {
-                        "Experience the beauty of the Lake District with daily yoga classes and peaceful walks or invigorating hikes through valleys, lakes, and fells — a perfect summer retreat in one of England's most breathtaking landscapes."
-                      }
-                    </p>
-                    <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-                      <Link href="/contact">Details here</Link>
-                    </Button>
-                  </CardContent>
-                </Card>
-
-
-                {/* 2. Portugal Retreat Card - September 13-19, 2026 */}
+                {/* 1. Portugal Retreat Card - September 13-19, 2026 */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
                     src="/praia-do-quinta-do-lago-algarve.jpg"
@@ -121,6 +94,36 @@ export default function RetreatsPage() {
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
                       <Link href="/portugal-september-retreat">View Details</Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+
+                {/* 2. Menopause - Iyengar Yoga Retreat Card - November 4-8, 2026 */}
+                <Card className="border-brand-warm-gray overflow-hidden">
+                  <img
+                    src="/menopause-retreat-pool-algarve.png"
+                    alt="Menopause - Iyengar Yoga Retreat venue with swimming pool in Silves, Algarve"
+                    className="w-full h-48 object-cover"
+                  />
+                  <CardHeader>
+                    <CardTitle className="font-heading text-xl text-brand-black">
+                      Portugal Menopause Retreat
+                    </CardTitle>
+                    <div className="font-body text-sm text-brand-black/70">
+                      <p>Silves, Algarve</p>
+                      <p>November 4—8, 2026</p>
+                    </div>
+                  </CardHeader>
+                  <CardContent className="space-y-4">
+                    <p className="font-body text-brand-black/80 text-sm">
+                      {
+                        "A peaceful pause from daily life, dedicated to your well-being. Blending structured Iyengar Yoga with expert medical insight into menopausal health, discover practical ways to nurture your body and sustain your vitality through this transition."
+                      }
+                    </p>
+                    <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
+                      <a href="https://medinmenohealthcare.com/retreats" target="_blank" rel="noopener noreferrer">
+                        View Details
+                      </a>
                     </Button>
                   </CardContent>
                 </Card>
@@ -203,7 +206,33 @@ export default function RetreatsPage() {
                   </CardContent>
                 </Card>
 
-                {/* 6. Portugal Retreat Card - September 12-18, 2027 */}
+                {/* 6. UK Retreat Card - July 15-19, 2027 */}
+                <Card className="border-brand-warm-gray overflow-hidden">
+                  <img
+                    src="/uk-lake-district-fells-tarns.png"
+                    alt="Panoramic view of Lake District fells and tarns from a mountain summit near Windermere"
+                    className="w-full h-48 object-cover"
+                  />
+                  <CardHeader>
+                    <CardTitle className="font-heading text-xl text-brand-black">UK Retreat</CardTitle>
+                    <div className="font-body text-sm text-brand-black/70">
+                      <p>Ambleside, Lake District</p>
+                      <p>July 15—19, 2027</p>
+                    </div>
+                  </CardHeader>
+                  <CardContent className="space-y-4">
+                    <p className="font-body text-brand-black/80 text-sm">
+                      {
+                        "Experience the beauty of the Lake District with daily yoga classes and peaceful walks or invigorating hikes through valleys, lakes, and fells — a perfect summer retreat in one of England's most breathtaking landscapes."
+                      }
+                    </p>
+                    <div className="w-full rounded-md bg-brand-orange px-4 py-2 text-center font-medium text-white">
+                      Save the Date
+                    </div>
+                  </CardContent>
+                </Card>
+
+                {/* 7. Portugal Retreat Card - September 12-18, 2027 */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
                     src="/portugal-algarve-coast.jpg"
@@ -225,32 +254,6 @@ export default function RetreatsPage() {
                     </p>
                     <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
                       <Link href="/portugal-retreat">View Details</Link>
-                    </Button>
-                  </CardContent>
-                </Card>
-
-                {/* 7. Sri Lanka Retreat Card - 2028 TBC */}
-                <Card className="border-brand-warm-gray overflow-hidden">
-                  <img
-                    src="/sri-lanka-lush-landscape.jpg"
-                    alt="Sri Lanka Retreat venue"
-                    className="w-full h-48 object-cover"
-                  />
-                  <CardHeader>
-                    <CardTitle className="font-heading text-xl text-brand-black">Sri Lanka Retreat</CardTitle>
-                    <div className="font-body text-sm text-brand-black/70">
-                      <p>Ulpotha, Sri Lanka</p>
-                      <p>2028 dates to be confirmed</p>
-                    </div>
-                  </CardHeader>
-                  <CardContent className="space-y-4">
-                    <p className="font-body text-brand-black/80 text-sm">
-                      Considered one of the world&#39;s best yoga centres, Ulpotha, is an Ayurvedic retreat centre,
-                      based on a traditional Sri Lankan farming village which is run by the local Buddhist community.
-                      &quot;It is Heaven on Earth&quot;.
-                    </p>
-                    <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-                      <Link href="/sri-lanka-retreat">View Details</Link>
                     </Button>
                   </CardContent>
                 </Card>
