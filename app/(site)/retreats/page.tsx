@@ -72,7 +72,7 @@ export default function RetreatsPage() {
             <section className="mb-16">
               <h2 className="font-heading text-3xl text-brand-black text-center mb-8">Retreats in 2026 &amp; 2027 </h2>
               <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-                {/* 1. Portugal Retreat Card - September 19-25, 2026 */}
+                {/* 1. Portugal Retreat Card - September 13-19, 2026 */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
                     src="/praia-do-quinta-do-lago-algarve.jpg"
@@ -83,7 +83,7 @@ export default function RetreatsPage() {
                     <CardTitle className="font-heading text-xl text-brand-black">Portugal Retreat</CardTitle>
                     <div className="font-body text-sm text-brand-black/70">
                       <p>Loulé, Algarve</p>
-                      <p>September 19—25, 2026</p>
+                      <p>September 13—19, 2026</p>
                     </div>
                   </CardHeader>
                   <CardContent className="space-y-4">
@@ -230,7 +230,7 @@ export default function RetreatsPage() {
                   </CardContent>
                 </Card>
 
-                {/* 7. Portugal Retreat Card - September 12-18, 2027 */}
+                {/* 7. Portugal Retreat Card - September 19-25, 2027 */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
                     src="/portugal-algarve-coast.jpg"
@@ -241,7 +241,7 @@ export default function RetreatsPage() {
                     <CardTitle className="font-heading text-xl text-brand-black">Portugal Retreat</CardTitle>
                     <div className="font-body text-sm text-brand-black/70">
                       <p>Loulé, Algarve</p>
-                      <p>September 12—18, 2027</p>
+                      <p>September 19—25, 2027</p>
                     </div>
                   </CardHeader>
                   <CardContent className="space-y-4">
