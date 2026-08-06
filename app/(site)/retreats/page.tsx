@@ -230,7 +230,7 @@ export default function RetreatsPage() {
                   </CardContent>
                 </Card>
 
-                {/* 7. Portugal Retreat Card - September 12-18, 2027 */}
+                {/* 7. Portugal Retreat Card - September 19-25, 2027 */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
                     src="/portugal-algarve-coast.jpg"
@@ -241,7 +241,7 @@ export default function RetreatsPage() {
                     <CardTitle className="font-heading text-xl text-brand-black">Portugal Retreat</CardTitle>
                     <div className="font-body text-sm text-brand-black/70">
                       <p>Loulé, Algarve</p>
-                      <p>September 12—18, 2027</p>
+                      <p>September 19—25, 2027</p>
                     </div>
                   </CardHeader>
                   <CardContent className="space-y-4">

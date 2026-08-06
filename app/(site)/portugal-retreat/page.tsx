@@ -3,11 +3,11 @@ import { Button } from "@/components/ui/button"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 
 export const metadata = {
-  title: "Portugal Retreat 2026 | Yoga with Georgia",
+  title: "Portugal Retreat 2027 | Yoga with Georgia",
   description:
-    "Join Georgia for a week-long Iyengar Yoga retreat at Casa Cales in the Algarve, Portugal, April 2026. Experience daily yoga practice in a beautiful hillside setting near stunning beaches.",
+    "Join Georgia for a week-long Iyengar Yoga retreat at Casa Cales in the Algarve, Portugal, September 2027. Experience daily yoga practice in a beautiful hillside setting near stunning beaches.",
   keywords:
-    "Portugal yoga retreat, Algarve retreat, Casa Cales, Iyengar yoga Portugal, yoga retreat 2026, Georgia Marnham retreat, Loulé retreat",
+    "Portugal yoga retreat, Algarve retreat, Casa Cales, Iyengar yoga Portugal, yoga retreat 2027, Georgia Marnham retreat, Loulé retreat",
 }
 
 export default function PortugalRetreatPage() {
@@ -17,9 +17,9 @@ export default function PortugalRetreatPage() {
         <div className="max-w-4xl mx-auto">
           {/* Hero Section */}
           <header className="text-center mb-12">
-            <h1 className="font-heading text-4xl md:text-5xl text-brand-black mb-4">Portugal Retreat 2026</h1>
+            <h1 className="font-heading text-4xl md:text-5xl text-brand-black mb-4">Portugal Retreat 2027</h1>
             <p className="font-body text-xl text-brand-black/80 mb-2">Casa Cales, Loulé, Algarve</p>
-            <p className="font-body text-lg text-brand-orange font-medium">April 26 – May 2, 2026</p>
+            <p className="font-body text-lg text-brand-orange font-medium">September 19 – 25, 2027</p>
           </header>
 
           <div className="mb-12">
@@ -150,7 +150,7 @@ export default function PortugalRetreatPage() {
               </p>
               <p>
                 Meals are prepared using fresh, local ingredients, with a focus on healthy Mediterranean and vegetarian
-                cuisine. The Algarve's excellent climate in April—warm sunny days and pleasant evenings—makes this an
+                cuisine. The Algarve's excellent climate in September—warm sunny days and pleasant evenings—makes this an
                 ideal time to visit.
               </p>
             </div>
@@ -199,8 +199,8 @@ export default function PortugalRetreatPage() {
               <div className="bg-brand-warm-gray/10 rounded-lg p-6">
                 <h3 className="font-heading text-xl text-brand-black mb-3">🌞 Perfect Climate</h3>
                 <p>
-                  April in the Algarve offers ideal weather—warm, sunny days averaging 20-24°C, perfect for both yoga
-                  practice and outdoor exploration without the summer crowds.
+                  September in the Algarve offers ideal weather—warm, sunny days averaging 24-28°C, perfect for both yoga
+                  practice and outdoor exploration as the summer crowds ease.
                 </p>
               </div>
               <div className="bg-brand-warm-gray/10 rounded-lg p-6">
