@@ -7,7 +7,7 @@
   "@id": "https://yogawithgeorgia.com",
   "url": "https://yogawithgeorgia.com",
   "telephone": "+351933675722",
-  "email": "georgia@yogawithgeorgia.com",
+  "email": "info@yogawithgeorgia.com",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Portugal",
