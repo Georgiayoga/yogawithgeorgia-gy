@@ -355,7 +355,7 @@ export default function TestimonialsClientPage() {
     image: "https://yogawithgeorgia.com/images/logo.png",
     url: "https://yogawithgeorgia.com",
     telephone: "+351933675722",
-    email: "georgia@yogawithgeorgia.com",
+    email: "info@yogawithgeorgia.com",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Colares, Portugal",

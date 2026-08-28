@@ -33,10 +33,10 @@ export default function SiteFooter() {
               <div className="flex items-center gap-3">
                 <Mail className="size-4 text-brand-earth flex-shrink-0" />
                 <a
-                  href="mailto:georgia@yogawithgeorgia.com"
+                  href="mailto:info@yogawithgeorgia.com"
                   className="hover:text-brand-black hover:underline underline-offset-4 decoration-brand-gold transition-colors"
                 >
-                  georgiamarnham@gmail.com
+                  info@yogawithgeorgia.com
                 </a>
               </div>
               <div className="flex items-center gap-3">

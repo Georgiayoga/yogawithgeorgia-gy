@@ -39,7 +39,7 @@ export default function ContactPage() {
                 <h3 className="font-heading text-xl text-brand-black mb-4">Direct Contact</h3>
                 <div className="space-y-3 font-body text-brand-black/80">
                   <div>
-                    <strong>Email:</strong> georgiamarnham@gmail.com
+                    <strong>Email:</strong> info@yogawithgeorgia.com
                   </div>
                   <div>
                     <strong>WhatsApp:</strong> +351 933 675 722
