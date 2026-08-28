@@ -49,7 +49,7 @@ export default function PortugalWorkshopPage() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button asChild size="lg" className="bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-              <a href="mailto:georgiamarnham@gmail.com?subject=Portugal%20Weekend%20Workshop%20Booking">
+              <a href="mailto:georgia@yogawithgeorgia.com?subject=Portugal%20Weekend%20Workshop%20Booking">
                 Register for the Workshop
               </a>
             </Button>
@@ -155,8 +155,8 @@ export default function PortugalWorkshopPage() {
                     <ul className="space-y-1 ml-4">
                       <li>
                         • Georgia:{" "}
-                        <a href="mailto:georgiamarnham@gmail.com" className="text-brand-orange underline">
-                          georgiamarnham@gmail.com
+              <a href="mailto:georgia@yogawithgeorgia.com" className="text-brand-orange underline">
+                georgia@yogawithgeorgia.com
                         </a>
                       </li>
                     </ul>
@@ -196,7 +196,7 @@ export default function PortugalWorkshopPage() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button asChild size="lg" className="bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-              <a href="mailto:georgiamarnham@gmail.com?subject=Portugal%20Weekend%20Workshop%20Booking">
+              <a href="mailto:georgia@yogawithgeorgia.com?subject=Portugal%20Weekend%20Workshop%20Booking">
                 Register for the Workshop
               </a>
             </Button>

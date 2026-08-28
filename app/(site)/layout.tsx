@@ -27,7 +27,7 @@ export default function SiteLayout({ children }: { children: React.ReactNode }) 
       "Iyengar Yoga classes in Colares, Sintra, Portugal. Weekly morning and evening classes suitable for all levels. Also available online via Zoom. Taught by Georgia Marnham, Level 3 certified Iyengar Yoga teacher with 25 years of international teaching experience.",
     url: "https://yogawithgeorgia.com",
     telephone: "+351933675722",
-    email: "georgiamarnham@gmail.com",
+    email: "georgia@yogawithgeorgia.com",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Covão",

@@ -56,7 +56,7 @@ export default function ScotlandWorkshopPage() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button asChild size="lg" className="bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-              <a href="mailto:georgiamarnham@gmail.com?subject=Scotland%20Workshop%20Waiting%20List">
+              <a href="mailto:georgia@yogawithgeorgia.com?subject=Scotland%20Workshop%20Waiting%20List">
                 Join the Waiting List
               </a>
             </Button>
@@ -164,8 +164,8 @@ export default function ScotlandWorkshopPage() {
                     <ul className="space-y-1 ml-4">
                       <li>
                         • Georgia:{" "}
-                        <a href="mailto:georgiamarnham@gmail.com" className="text-brand-orange underline">
-                          georgiamarnham@gmail.com
+              <a href="mailto:georgia@yogawithgeorgia.com" className="text-brand-orange underline">
+                georgia@yogawithgeorgia.com
                         </a>
                       </li>
                       <li>
@@ -212,7 +212,7 @@ export default function ScotlandWorkshopPage() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button asChild size="lg" className="bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-              <a href="mailto:georgiamarnham@gmail.com?subject=Scotland%20Workshop%20Waiting%20List">
+              <a href="mailto:georgia@yogawithgeorgia.com?subject=Scotland%20Workshop%20Waiting%20List">
                 Join the Waiting List
               </a>
             </Button>
