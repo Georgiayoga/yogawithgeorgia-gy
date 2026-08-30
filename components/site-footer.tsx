@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Mail, Phone, MapPin, MessageCircle } from "lucide-react"
+import { Mail, MapPin } from "lucide-react"
 
 export default function SiteFooter() {
   return (
@@ -10,26 +10,6 @@ export default function SiteFooter() {
           <div>
             <h3 className="font-heading text-lg text-brand-black mb-4">Contact Georgia</h3>
             <div className="space-y-3 text-sm font-body text-brand-black/80">
-              <div className="flex items-center gap-3">
-                <MessageCircle className="size-4 text-brand-earth flex-shrink-0" />
-                <a
-                  href="https://wa.me/351933675722"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-brand-black hover:underline underline-offset-4 decoration-brand-gold transition-colors"
-                >
-                  WhatsApp: +351 933 675 722
-                </a>
-              </div>
-              <div className="flex items-center gap-3">
-                <Phone className="size-4 text-brand-earth flex-shrink-0" />
-                <a
-                  href="tel:+351933675722"
-                  className="hover:text-brand-black hover:underline underline-offset-4 decoration-brand-gold transition-colors"
-                >
-                  Phone: +351 933 675 722
-                </a>
-              </div>
               <div className="flex items-center gap-3">
                 <Mail className="size-4 text-brand-earth flex-shrink-0" />
                 <a
