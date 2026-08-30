@@ -42,9 +42,6 @@ export default function ContactPage() {
                     <strong>Email:</strong> info@yogawithgeorgia.com
                   </div>
                   <div>
-                    <strong>WhatsApp:</strong> +351 933 675 722
-                  </div>
-                  <div>
                     <strong>Location:</strong> Colares, Portugal
                   </div>
                 </div>
