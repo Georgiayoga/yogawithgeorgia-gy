@@ -1,13 +1,8 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Playfair_Display, Source_Sans_3 } from "next/font/google"
-import { cn } from "@/lib/utils"
 import SiteHeader from "@/components/site-header"
 import SiteFooter from "@/components/site-footer"
 import ScrollToTop from "@/components/scroll-to-top"
-
-const headingFont = Playfair_Display({ subsets: ["latin"], variable: "--font-heading" })
-const bodyFont = Source_Sans_3({ subsets: ["latin"], variable: "--font-body" })
 
 export const metadata: Metadata = {
   title: "Yoga with Georgia | Iyengar Yoga Classes in Sintra, Colares & Online",
@@ -55,29 +50,25 @@ export default function SiteLayout({ children }: { children: React.ReactNode }) 
   }
 
   return (
-    <html lang="en">
-      <head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
-          }}
-        />
-      </head>
-      <body className={cn("min-h-dvh bg-white text-brand-black antialiased", headingFont.variable, bodyFont.variable)}>
-        <a
-          href="#content"
-          className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:bg-white focus:px-3 focus:py-1 focus:ring"
-        >
-          Skip to content
-        </a>
-        <ScrollToTop />
-        <SiteHeader />
-        <main id="content" className="flex-1">
-          {children}
-        </main>
-        <SiteFooter />
-      </body>
-    </html>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
+        }}
+      />
+      <a
+        href="#content"
+        className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:bg-white focus:px-3 focus:py-1 focus:ring"
+      >
+        Skip to content
+      </a>
+      <ScrollToTop />
+      <SiteHeader />
+      <main id="content" className="flex-1">
+        {children}
+      </main>
+      <SiteFooter />
+    </>
   )
 }
