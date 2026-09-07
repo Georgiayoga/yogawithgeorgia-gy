@@ -48,7 +48,7 @@ export default function PortugalRetreatPage() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button asChild size="lg" className="bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-              <a href="https://forms.gle/UKp2fjHSwCYi2Yj58" target="_blank" rel="noopener noreferrer">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfdy-3PiC16mAV8RoGJrzkNiK1TVi2w6_Ijcyq4k0vVQgOylA/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer">
                 Book Your Place
               </a>
             </Button>
@@ -323,7 +323,7 @@ export default function PortugalRetreatPage() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button asChild size="lg" className="bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-              <a href="https://forms.gle/UKp2fjHSwCYi2Yj58" target="_blank" rel="noopener noreferrer">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfdy-3PiC16mAV8RoGJrzkNiK1TVi2w6_Ijcyq4k0vVQgOylA/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer">
                 Book Your Place
               </a>
             </Button>
