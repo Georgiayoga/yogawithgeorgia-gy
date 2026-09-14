@@ -102,7 +102,7 @@ export default function ClassesPortugalPage() {
                     <div className="space-y-3">
                       <div className="flex justify-between items-center py-2 border-b border-brand-warm-gray/30">
                         <span className="font-medium font-body text-brand-black">Monday morning – mixed-level class</span>
-                        <span className="font-body text-brand-black/80">09:00–10:30</span>
+                        <span className="font-body text-brand-black/80">09:30–11:00</span>
                       </div>
                       <div className="flex justify-between items-center py-2 border-b border-brand-warm-gray/30">
                         <span className="font-medium font-body text-brand-black">Tuesday evening – mixed-level class</span>
@@ -110,7 +110,7 @@ export default function ClassesPortugalPage() {
                       </div>
                       <div className="flex justify-between items-center py-2 border-b border-brand-warm-gray/30">
                         <span className="font-medium font-body text-brand-black">Wednesday morning – level 1</span>
-                        <span className="font-body text-brand-black/80">09:00–10:30</span>
+                        <span className="font-body text-brand-black/80">09:30–11:00</span>
                       </div>
                       <div className="flex justify-between items-center py-2 border-b border-brand-warm-gray/30">
                         <span className="font-medium font-body text-brand-black">Thursday evening – level 2</span>
@@ -118,7 +118,7 @@ export default function ClassesPortugalPage() {
                       </div>
                       <div className="flex justify-between items-center py-2">
                         <span className="font-medium font-body text-brand-black">Saturday morning – mixed-level class</span>
-                        <span className="font-body text-brand-black/80">09:00–10:30</span>
+                        <span className="font-body text-brand-black/80">09:30–11:00</span>
                       </div>
                     </div>
                   </div>
