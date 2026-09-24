@@ -71,33 +71,7 @@ export default function RetreatsPage() {
 
             <section className="mb-16">
               <h2 className="font-heading text-3xl text-brand-black text-center mb-8">Retreats in 2026 &amp; 2027 </h2>
-              <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-                {/* 1. Portugal Retreat Card - September 13-19, 2026 */}
-                <Card className="border-brand-warm-gray overflow-hidden">
-                  <img
-                    src="/praia-do-quinta-do-lago-algarve.jpg"
-                    alt="Portugal September Retreat venue"
-                    className="w-full h-48 object-cover"
-                  />
-                  <CardHeader>
-                    <CardTitle className="font-heading text-xl text-brand-black">Portugal Retreat</CardTitle>
-                    <div className="font-body text-sm text-brand-black/70">
-                      <p>Loulé, Algarve</p>
-                      <p>September 13—19, 2026</p>
-                    </div>
-                  </CardHeader>
-                  <CardContent className="space-y-4">
-                    <p className="font-body text-brand-black/80 text-sm">
-                      {
-                        "Join us once again at the much-loved Casa Cales near the market town of Loulé, surrounded by the beauty of the Algarve coast, for a rejuvenating week of yoga and relaxation. The perfect end-of-summer getaway."
-                      }
-                    </p>
-                    <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-                      <Link href="/portugal-september-retreat">View Details</Link>
-                    </Button>
-                  </CardContent>
-                </Card>
-
+              <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                 {/* Portugal Menopause Retreat Card - November 4-8, 2026 */}
                 <Card className="border-brand-warm-gray overflow-hidden">
                   <img
@@ -256,31 +230,6 @@ export default function RetreatsPage() {
                   </CardContent>
                 </Card>
 
-                {/* 8. Azores, Portugal Retreat Card - 2028 TBC */}
-                <Card className="border-brand-warm-gray overflow-hidden">
-                  <img
-                    src="/azores-volcanic-crater.png"
-                    alt="Azores, Portugal Retreat - aerial view of volcanic crater with lush green fields"
-                    className="w-full h-48 object-cover"
-                  />
-                  <CardHeader>
-                    <CardTitle className="font-heading text-xl text-brand-black">Azores, Portugal</CardTitle>
-                    <div className="font-body text-sm text-brand-black/70">
-                      <p>Teceira Island</p>
-                      <p>2028 Dates to be confirmed</p>
-                    </div>
-                  </CardHeader>
-                  <CardContent className="space-y-4">
-                    <p className="font-body text-brand-black/80 text-sm">
-                      {
-                        "Surrounded by ocean views and volcanic landscapes, practise yoga amidst nature's elements. Savour locally sourced plant-based meals, explore coastal trails and natural pools, and unwind in this peaceful eco-retreat."
-                      }
-                    </p>
-                    <Button asChild className="w-full bg-brand-orange hover:bg-brand-gold text-white transition-colors">
-                      <Link href="/azores-portugal-retreat">Details to come</Link>
-                    </Button>
-                  </CardContent>
-                </Card>
               </div>
             </section>
 
